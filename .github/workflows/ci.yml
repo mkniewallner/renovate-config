@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.ref || github.head_ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-renovate-config:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - env:
+          RENOVATE_CONFIG_FILE: default.json
+        run: npx -p renovate renovate-config-validator
