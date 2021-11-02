@@ -1,0 +1,67 @@
+{
+  "extends": [
+    "config:base",
+    ":enablePreCommit"
+  ],
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "matchDepTypes": ["dev-dependencies"],
+      "labels": ["dev-dependencies"]
+    },
+    {
+      "matchLanguages": ["python"],
+      "addLabels": ["python"]
+    },
+    {
+      "matchLanguages": ["javascript"],
+      "addLabels": ["javascript"]
+    },
+    {
+      "matchManagers": ["dockerfile", "docker-compose"],
+      "addLabels": ["docker"]
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "addLabels": ["github-actions"]
+    },
+    {
+      "matchManagers": ["circleci"],
+      "addLabels": ["circleci"]
+    },
+    {
+      "matchLanguages": ["python"],
+      "matchPackageNames": ["black"],
+      "ignoreUnstable": false
+    },
+    {
+      "matchManagers": ["pre-commit"],
+      "matchPackageNames": ["psf/black"],
+      "ignoreUnstable": false
+    }
+  ],
+  "prHourlyLimit": 0,
+  "ignorePaths": [],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "regexManagers": [
+    {
+      "description": "Update GitHub workflows",
+      "fileMatch": ["^.+\\.ya?ml$"],
+      "matchStrings": [
+        "\\s*: \"(?<currentValue>.+?)\" # renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z-]+?))?\\s"
+      ],
+      "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
+    },
+    {
+      "description": "Update Dockerfile versions",
+      "fileMatch": ["(^|/|\\.)Dockerfile$", "(^|/)Dockerfile\\.[^/]*$"],
+      "matchStrings": [
+        "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z-]+?))?\\s(?:ENV|ARG) .+?_VERSION=(?<currentValue>.+?)\\s"
+      ],
+      "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
+    }
+  ]
+}
+
