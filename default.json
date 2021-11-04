@@ -4,6 +4,9 @@
     ":enablePreCommit",
     ":maintainLockFilesWeekly",
     ":prHourlyLimitNone",
+    ":rebaseStalePrs",
+    ":semanticCommitScope(deps)",
+    ":semanticCommits",
     "regexManagers:dockerfileVersions"
   ],
   "labels": ["dependencies"],
