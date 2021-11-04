@@ -1,7 +1,8 @@
 {
   "extends": [
     "config:base",
-    ":enablePreCommit"
+    ":enablePreCommit",
+    "regexManagers:dockerfileVersions"
   ],
   "labels": ["dependencies"],
   "packageRules": [
@@ -47,20 +48,12 @@
   },
   "regexManagers": [
     {
-      "description": "Update GitHub workflows",
+      "description": "Update YAML files",
       "fileMatch": ["^.+\\.ya?ml$"],
       "matchStrings": [
         "\\s*: \"(?<currentValue>.+?)\" # renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z-]+?))?\\s"
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
-    },
-    {
-      "description": "Update Dockerfile versions",
-      "fileMatch": ["(^|/|\\.)Dockerfile$", "(^|/)Dockerfile\\.[^/]*$"],
-      "matchStrings": [
-        "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z-]+?))?\\s(?:ENV|ARG) .+?_VERSION=(?<currentValue>.+?)\\s"
-      ],
-      "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
     }
   ]
 }
