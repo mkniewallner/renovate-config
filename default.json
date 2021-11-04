@@ -2,6 +2,11 @@
   "extends": [
     "config:base",
     ":enablePreCommit",
+    ":maintainLockFilesWeekly",
+    ":prHourlyLimitNone",
+    ":rebaseStalePrs",
+    ":semanticCommitScope(deps)",
+    ":semanticCommits",
     "regexManagers:dockerfileVersions"
   ],
   "labels": ["dependencies"],
@@ -41,17 +46,13 @@
       "ignoreUnstable": false
     }
   ],
-  "prHourlyLimit": 0,
   "ignorePaths": [],
-  "lockFileMaintenance": {
-    "enabled": true
-  },
   "regexManagers": [
     {
       "description": "Update YAML files",
       "fileMatch": ["^.+\\.ya?ml$"],
       "matchStrings": [
-        "\\s*: \"(?<currentValue>.+?)\" # renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z-]+?))?\\s"
+        "\\s*: \"?(?<currentValue>.+?)\"? # renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z-]+?))?\\s"
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     }
