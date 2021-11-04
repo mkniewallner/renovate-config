@@ -2,6 +2,8 @@
   "extends": [
     "config:base",
     ":enablePreCommit",
+    ":maintainLockFilesWeekly",
+    ":prHourlyLimitNone",
     "regexManagers:dockerfileVersions"
   ],
   "labels": ["dependencies"],
@@ -41,11 +43,7 @@
       "ignoreUnstable": false
     }
   ],
-  "prHourlyLimit": 0,
   "ignorePaths": [],
-  "lockFileMaintenance": {
-    "enabled": true
-  },
   "regexManagers": [
     {
       "description": "Update YAML files",
