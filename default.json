@@ -52,7 +52,7 @@
       "description": "Update YAML files",
       "fileMatch": ["^.+\\.ya?ml$"],
       "matchStrings": [
-        "\\s*: \"(?<currentValue>.+?)\" # renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z-]+?))?\\s"
+        "\\s*: \"?(?<currentValue>.+?)\"? # renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z-]+?))?\\s"
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     }
