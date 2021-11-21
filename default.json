@@ -34,16 +34,6 @@
     {
       "matchManagers": ["circleci"],
       "addLabels": ["circleci"]
-    },
-    {
-      "matchLanguages": ["python"],
-      "matchPackageNames": ["black"],
-      "ignoreUnstable": false
-    },
-    {
-      "matchManagers": ["pre-commit"],
-      "matchPackageNames": ["psf/black"],
-      "ignoreUnstable": false
     }
   ],
   "regexManagers": [
