@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should find YAML dependencies 1`] = `
+Object {
+  "deps": Array [
+    Object {
+      "currentValue": "3.10.0",
+      "datasource": "docker",
+      "depName": "python",
+      "replaceString": ": \\"3.10.0\\" # renovate: datasource=docker depName=python versioning=docker
+",
+      "versioning": "docker",
+    },
+    Object {
+      "currentValue": "3.10.0",
+      "datasource": "docker",
+      "depName": "python",
+      "replaceString": ": \\"3.10.0\\"  #renovate: datasource=docker depName=python versioning=docker
+",
+      "versioning": "docker",
+    },
+    Object {
+      "currentValue": "1.1.11",
+      "datasource": "pypi",
+      "depName": "poetry",
+      "replaceString": ": \\"1.1.11\\"   #   renovate: datasource=pypi depName=poetry
+",
+      "versioning": "semver",
+    },
+  ],
+  "matchStrings": Array [
+    "\\\\s*: \\"?(?<currentValue>.+?)\\"?[[:blank:]]+#[[:blank:]]*renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z\\\\d-]+?))?\\\\s",
+  ],
+  "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
+}
+`;
+
+exports[`should find pre-commit dependencies 1`] = `
+Object {
+  "datasourceTemplate": "pypi",
+  "deps": Array [
+    Object {
+      "currentValue": "==21.9.1",
+      "datasource": "pypi",
+      "depName": "flake8-bugbear",
+      "replaceString": "\\"flake8-bugbear==21.9.1\\"  # renovate: pre-commit-python-dependency
+",
+    },
+    Object {
+      "currentValue": "==0.14.1",
+      "datasource": "pypi",
+      "depName": "flake8-simplify",
+      "replaceString": "\\"flake8-simplify==0.14.1\\" #renovate: pre-commit-python-dependency
+",
+    },
+  ],
+  "matchStrings": Array [
+    "\\"(?<depName>[\\\\w-]+)(?<currentValue>.+?)\\"[[:blank:]]+#[[:blank:]]*renovate: pre-commit-python-dependency\\\\s",
+  ],
+}
+`;
