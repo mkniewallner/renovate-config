@@ -46,7 +46,6 @@
       "ignoreUnstable": false
     }
   ],
-  "ignorePaths": [],
   "regexManagers": [
     {
       "description": "Update YAML files",
