@@ -1,7 +1,8 @@
-name: CI
+name: Validate Renovate configuration
 
 on:
   pull_request:
+    paths: [default.json]
   push:
     branches: [main]
 
@@ -10,12 +11,10 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  style:
+  validate-renovate-config:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: "17.1.0"
-      - run: yarn install
-      - run: yarn style .
+      - env:
+          RENOVATE_CONFIG_FILE: default.json
+        run: npx -p renovate renovate-config-validator
