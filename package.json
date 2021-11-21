@@ -6,12 +6,16 @@
   "license": "UNLICENSED",
   "scripts": {
     "prepare": "husky install",
-    "style": "prettier -c"
+    "style": "prettier -c",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "devDependencies": {
     "husky": "7.0.4",
+    "jest": "27.3.1",
     "lint-staged": "12.1.1",
-    "prettier": "2.4.1"
+    "prettier": "2.4.1",
+    "re2": "1.16.0",
+    "renovate": "29.14.1"
   },
   "engines": {
     "node": ">=13.0"
