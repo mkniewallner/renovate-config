@@ -52,9 +52,17 @@
       "description": "Update YAML files",
       "fileMatch": ["^.+\\.ya?ml$"],
       "matchStrings": [
-        "\\s*: \"?(?<currentValue>.+?)\"? # renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z\\d-]+?))?\\s"
+        "\\s*: \"?(?<currentValue>.+?)\"?[[:blank:]]+#[[:blank:]]*renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z\\d-]+?))?\\s"
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
+    },
+    {
+      "description": "Update pre-commit Python additional dependencies",
+      "fileMatch": ["^.pre-commit-config.yaml$"],
+      "matchStrings": [
+        "\"(?<depName>[\\w-]+)(?<currentValue>.+?)\"[[:blank:]]+#[[:blank:]]*renovate: pre-commit-python-dependency\\s"
+      ],
+      "datasourceTemplate": "pypi"
     }
   ]
 }
