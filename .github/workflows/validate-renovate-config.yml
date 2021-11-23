@@ -4,7 +4,7 @@ on:
   pull_request:
     paths: [default.json, renovate.json]
   push:
-    branches: [main]
+    branches: [main, renovate/**]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref || github.head_ref }}
