@@ -2,7 +2,7 @@ name: Validate Renovate configuration
 
 on:
   pull_request:
-    paths: [default.json]
+    paths: [default.json, renovate.json]
   push:
     branches: [main]
 
