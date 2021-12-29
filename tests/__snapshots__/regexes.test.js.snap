@@ -35,6 +35,38 @@ Object {
 }
 `;
 
+exports[`should find dependencies in pyproject.toml 1`] = `
+Object {
+  "datasourceTemplate": "pypi",
+  "deps": Array [
+    Object {
+      "currentValue": "==21.3.0",
+      "datasource": "pypi",
+      "depName": "argon2-cffi",
+      "replaceString": "\\"argon2-cffi==21.3.0\\",  # renovate: pep440-python-dependency
+",
+    },
+    Object {
+      "currentValue": " == 1.2.1",
+      "datasource": "pypi",
+      "depName": "arrow",
+      "replaceString": "\\"arrow == 1.2.1\\", #renovate: pep440-python-dependency
+",
+    },
+    Object {
+      "currentValue": " >= 0.16.0",
+      "datasource": "pypi",
+      "depName": "uvloop",
+      "replaceString": "\\"uvloop >= 0.16.0\\", #renovate: pep440-python-dependency
+",
+    },
+  ],
+  "matchStrings": Array [
+    "\\"(?<depName>[\\\\w-]+)(?<currentValue>.+?)\\",?[[:blank:]]+#[[:blank:]]*renovate: pep440-python-dependency\\\\s",
+  ],
+}
+`;
+
 exports[`should find pre-commit dependencies 1`] = `
 Object {
   "datasourceTemplate": "pypi",
@@ -55,7 +87,7 @@ Object {
     },
   ],
   "matchStrings": Array [
-    "\\"(?<depName>[\\\\w-]+)(?<currentValue>.+?)\\"[[:blank:]]+#[[:blank:]]*renovate: pep440-python-dependency\\\\s",
+    "\\"(?<depName>[\\\\w-]+)(?<currentValue>.+?)\\",?[[:blank:]]+#[[:blank:]]*renovate: pep440-python-dependency\\\\s",
   ],
 }
 `;
