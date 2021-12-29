@@ -49,7 +49,7 @@
       "description": "Update pre-commit Python additional dependencies",
       "fileMatch": ["^.pre-commit-config.yaml$"],
       "matchStrings": [
-        "\"(?<depName>[\\w-]+)(?<currentValue>.+?)\"[[:blank:]]+#[[:blank:]]*renovate: pre-commit-python-dependency\\s"
+        "\"(?<depName>[\\w-]+)(?<currentValue>.+?)\"[[:blank:]]+#[[:blank:]]*renovate: pep440-python-dependency\\s"
       ],
       "datasourceTemplate": "pypi"
     }
