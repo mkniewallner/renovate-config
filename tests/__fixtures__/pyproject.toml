@@ -1,0 +1,7 @@
+[project]
+dependencies = [
+    "argon2-cffi==21.3.0",  # renovate: pep440-python-dependency
+    "arrow == 1.2.1", #renovate: pep440-python-dependency
+    "uvloop >= 0.16.0", #renovate: pep440-python-dependency
+]
+requires-python = ">=3.10"

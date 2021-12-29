@@ -24,3 +24,15 @@ it("should find pre-commit dependencies", () => {
 
   expect(res).toMatchSnapshot();
 });
+
+it("should find dependencies in pyproject.toml", () => {
+  const fileName = "pyproject.toml";
+
+  const res = extractPackageFile(
+    loadFixture(fileName),
+    fileName,
+    loadRenovateConfiguration()["regexManagers"][1]
+  );
+
+  expect(res).toMatchSnapshot();
+});
