@@ -46,8 +46,8 @@
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     },
     {
-      "description": "Update pre-commit Python additional dependencies",
-      "fileMatch": ["^.pre-commit-config.yaml$"],
+      "description": "Update PEP 440 Python dependencies",
+      "fileMatch": ["^.pre-commit-config.yaml|pyproject.toml$"],
       "matchStrings": [
         "\"(?<depName>[\\w-]+)(?<currentValue>.+?)\",?[[:blank:]]+#[[:blank:]]*renovate: pep440-python-dependency\\s"
       ],
