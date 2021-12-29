@@ -43,19 +43,19 @@ Object {
       "currentValue": "==21.9.1",
       "datasource": "pypi",
       "depName": "flake8-bugbear",
-      "replaceString": "\\"flake8-bugbear==21.9.1\\"  # renovate: pre-commit-python-dependency
+      "replaceString": "\\"flake8-bugbear==21.9.1\\"  # renovate: pep440-python-dependency
 ",
     },
     Object {
       "currentValue": "==0.14.1",
       "datasource": "pypi",
       "depName": "flake8-simplify",
-      "replaceString": "\\"flake8-simplify==0.14.1\\" #renovate: pre-commit-python-dependency
+      "replaceString": "\\"flake8-simplify==0.14.1\\" #renovate: pep440-python-dependency
 ",
     },
   ],
   "matchStrings": Array [
-    "\\"(?<depName>[\\\\w-]+)(?<currentValue>.+?)\\"[[:blank:]]+#[[:blank:]]*renovate: pre-commit-python-dependency\\\\s",
+    "\\"(?<depName>[\\\\w-]+)(?<currentValue>.+?)\\"[[:blank:]]+#[[:blank:]]*renovate: pep440-python-dependency\\\\s",
   ],
 }
 `;
