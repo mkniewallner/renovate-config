@@ -15,7 +15,7 @@
     "lint-staged": "12.1.5",
     "prettier": "2.5.1",
     "re2": "1.17.2",
-    "renovate": "31.14.1"
+    "renovate": "31.15.0"
   },
   "engines": {
     "node": ">=13.0"
