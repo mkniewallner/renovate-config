@@ -12,7 +12,7 @@
   "devDependencies": {
     "husky": "7.0.4",
     "jest": "27.4.7",
-    "lint-staged": "12.3.0",
+    "lint-staged": "12.3.1",
     "prettier": "2.5.1",
     "re2": "1.17.3",
     "renovate": "31.45.0"
