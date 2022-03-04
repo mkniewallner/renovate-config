@@ -1,4 +1,4 @@
-import { extractPackageFile } from "renovate/dist/manager/regex";
+import { extractPackageFile } from "renovate/dist/modules/manager/regex";
 import { loadFixture, loadRenovateConfiguration } from "./utils";
 
 it("should find YAML dependencies", () => {

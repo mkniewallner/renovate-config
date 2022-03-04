@@ -29,7 +29,7 @@ Object {
     },
   ],
   "matchStrings": Array [
-    "\\\\s*: \\"?(?<currentValue>.+?)\\"?[[:blank:]]+#[[:blank:]]*renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z\\\\d-]+?))?\\\\s",
+    "\\\\s*: \\"?(?<currentValue>.+?)\\"?[[:blank:]]+#[[:blank:]]*renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: packageName=(?<packageName>.+?))?(?: versioning=(?<versioning>[a-z\\\\d-]+?))?\\\\s",
   ],
   "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
 }
