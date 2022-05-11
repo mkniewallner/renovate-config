@@ -19,7 +19,7 @@ jobs:
           version: "7.0.1" # renovate: datasource=npm depName=pnpm versioning=npm
       - uses: actions/setup-node@v3
         with:
-          node-version: "18.1.0" # renovate: datasource=docker depName=node versioning=docker
+          node-version: "18.1.0" # renovate: datasource=node depName=node versioning=node
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
       - run: pnpm style .
@@ -33,7 +33,7 @@ jobs:
           version: "7.0.1" # renovate: datasource=npm depName=pnpm versioning=npm
       - uses: actions/setup-node@v3
         with:
-          node-version: "18.1.0" # renovate: datasource=docker depName=node versioning=docker
+          node-version: "18.1.0" # renovate: datasource=node depName=node versioning=node
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
       - run: pnpm test
