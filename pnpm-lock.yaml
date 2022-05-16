@@ -6,7 +6,7 @@ specifiers:
   lint-staged: 12.4.1
   prettier: 2.6.2
   re2: 1.17.4
-  renovate: 32.52.2
+  renovate: 32.57.0
 
 devDependencies:
   husky: 8.0.1
@@ -14,7 +14,7 @@ devDependencies:
   lint-staged: 12.4.1
   prettier: 2.6.2
   re2: 1.17.4
-  renovate: 32.52.2
+  renovate: 32.57.0
 
 packages:
 
@@ -1353,15 +1353,15 @@ packages:
       '@seald-io/nedb': 3.0.0
     dev: true
 
-  /@jamiemagee/osv-offline/1.2.5:
-    resolution: {integrity: sha512-qKqJXsVdvKVRzL2mWrwhLz/uJ8w3Y4OEhSCLsqYY52lPaizNEX350uzNc/HVpYox9xoOUqwALZcTcpXxEJuENA==}
+  /@jamiemagee/osv-offline/1.2.6:
+    resolution: {integrity: sha512-PPIKlgCzHbKKtg4uzkwMeS9UjylFK4FMuQXeXDuPiAgJRj9Aphw+9US7a4kf0yaxgebHjOFCex7WG08MMx0hnw==}
     dependencies:
       '@jamiemagee/osv-offline-db': 1.1.4
       '@octokit/rest': 18.12.0
       adm-zip: 0.5.9
       fs-extra: 10.0.0
       got: 11.8.3
-      luxon: 2.3.2
+      luxon: 2.4.0
     transitivePeerDependencies:
       - encoding
     dev: true
@@ -2313,7 +2313,7 @@ packages:
     dev: true
 
   /any-promise/1.3.0:
-    resolution: {integrity: sha1-q8av7tzqUugJzcA3au0845Y10X8=}
+    resolution: {integrity: sha512-7UvmKalWRt1wgjL1RrGxoSJW/0QZFIegpeGvZG9kjp8vrRu55XTHbwnqq2GpXm9uLbcuhxm3IqX9OB4MZR1b2A==}
     dev: true
 
   /anymatch/3.1.2:
@@ -2352,12 +2352,12 @@ packages:
     dev: true
 
   /arrify/1.0.1:
-    resolution: {integrity: sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=}
+    resolution: {integrity: sha512-3CYzex9M9FGQjCGMGyi6/31c8GJbgb0qGyrx5HWxPd0aCwh4cB2YjMb2Xf9UuoogrMrlO9cTqnB5rI5GHZTcUA==}
     engines: {node: '>=0.10.0'}
     dev: true
 
   /asap/2.0.6:
-    resolution: {integrity: sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=}
+    resolution: {integrity: sha512-BSHWgDSAiKs50o2Re8ppvp3seVHXSRM44cdSsT9FfNEUUZLOGWVCsiWaRPWM1Znn+mqZ1OfVZ3z3DWEzSp7hRA==}
     dev: true
 
   /asn1.js/5.4.1:
@@ -2463,7 +2463,7 @@ packages:
     dev: true
 
   /backslash/0.2.0:
-    resolution: {integrity: sha1-bDwfzn5+cUzPwQ/XTw9zQQZ3N18=}
+    resolution: {integrity: sha512-Avs+8FUZ1HF/VFP4YWwHQZSGzRPm37ukU1JQYQWijuHhtXdOuAzcZ8PcAzfIw898a8PyBzdn+RtnKA6MzW0X2A==}
     dev: true
 
   /bail/1.0.5:
@@ -2483,7 +2483,7 @@ packages:
     dev: true
 
   /boolbase/1.0.0:
-    resolution: {integrity: sha1-aN/1++YMUes3cl6p4+0xDcwed24=}
+    resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
     dev: true
 
   /boolean/3.2.0:
@@ -2533,7 +2533,7 @@ packages:
     dev: true
 
   /buffer-crc32/0.2.13:
-    resolution: {integrity: sha1-DTM+PwDqxQqhRUq9MO+MKl2ackI=}
+    resolution: {integrity: sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==}
     dev: true
 
   /buffer-from/1.1.2:
@@ -4794,8 +4794,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /luxon/2.3.2:
-    resolution: {integrity: sha512-MlAQQVMFhGk4WUA6gpfsy0QycnKP0+NlCBJRVRNPxxSIbjrCbQ65nrpJD3FVyJNZLuJ0uoqL57ye6BmDYgHaSw==}
+  /luxon/2.4.0:
+    resolution: {integrity: sha512-w+NAwWOUL5hO0SgwOHsMBAmZ15SoknmQXhSO0hIbJCAmPKSsGeK8MlmhYh2w6Iib38IxN2M+/ooXWLbeis7GuA==}
     engines: {node: '>=12'}
     dev: true
 
@@ -5752,8 +5752,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.52.2:
-    resolution: {integrity: sha512-3bcCC++5nUoHnVL4Y74/k/JlV8yxJ0iVfBjbUQwU8MGU+/fJNnRlK9onlL0AWtvhd+czIkOuFfRtjkBU/dVb6w==}
+  /renovate/32.57.0:
+    resolution: {integrity: sha512-VspP9kYyCKJMWdvS63wAbHjbKPaynpE6Fnz0byhrczfn90z472UepazO0li6yZDnz9vceSEjPrZiMYiIE3WGwA==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5763,7 +5763,7 @@ packages:
       '@breejs/later': 4.1.0
       '@cheap-glitch/mi-cron': 1.0.1
       '@iarna/toml': 2.2.5
-      '@jamiemagee/osv-offline': 1.2.5
+      '@jamiemagee/osv-offline': 1.2.6
       '@renovatebot/pep440': 2.1.1
       '@renovatebot/ruby-semver': 1.1.3
       '@sindresorhus/is': 4.6.0
@@ -5807,7 +5807,7 @@ packages:
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
       json5: 2.2.1
-      luxon: 2.3.2
+      luxon: 2.4.0
       markdown-it: 13.0.1
       markdown-table: 2.0.0
       marshal: 0.5.4
