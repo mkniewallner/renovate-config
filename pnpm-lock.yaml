@@ -6,7 +6,7 @@ specifiers:
   lint-staged: 12.4.1
   prettier: 2.6.2
   re2: 1.17.4
-  renovate: 32.64.9
+  renovate: 32.65.0
 
 devDependencies:
   husky: 8.0.1
@@ -14,7 +14,7 @@ devDependencies:
   lint-staged: 12.4.1
   prettier: 2.6.2
   re2: 1.17.4
-  renovate: 32.64.9
+  renovate: 32.65.0
 
 packages:
 
@@ -5752,8 +5752,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.64.9:
-    resolution: {integrity: sha512-W0zaVo6NJGEh44kaDemtoHkSnGwdg+KuEnzkjSNfrgaT6LSbeOT7vUMlrSCx/qdEyEC8SQQUMjPjqQXpsU/v5A==}
+  /renovate/32.65.0:
+    resolution: {integrity: sha512-Wvlme1dYqbibmQT8nswHOKvmo6Vkx258GLpmk6kct7F4/ym6hOvP2E8OUpDhD+1bpeJIJ/WX5PJF+ibr8rmFkw==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
