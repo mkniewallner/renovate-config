@@ -6,7 +6,7 @@ specifiers:
   lint-staged: 12.4.2
   prettier: 2.6.2
   re2: 1.17.4
-  renovate: 32.65.0
+  renovate: 32.66.1
 
 devDependencies:
   husky: 8.0.1
@@ -14,7 +14,7 @@ devDependencies:
   lint-staged: 12.4.2
   prettier: 2.6.2
   re2: 1.17.4
-  renovate: 32.65.0
+  renovate: 32.66.1
 
 packages:
 
@@ -2583,8 +2583,8 @@ packages:
       - bluebird
     dev: true
 
-  /cacache/16.0.7:
-    resolution: {integrity: sha512-a4zfQpp5vm4Ipdvbj+ZrPonikRhm6WBEd4zT1Yc1DXsmAxrPgDwWBLF/u/wTVXSFPIgOJ1U3ghSa2Xm4s3h28w==}
+  /cacache/16.1.0:
+    resolution: {integrity: sha512-Pk4aQkwCW82A4jGKFvcGkQFqZcMspfP9YWq9Pr87/ldDvlWf718zeI6KWCdKt/jeihu6BytHRUicJPB1K2k8EQ==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
     dependencies:
       '@npmcli/fs': 2.1.0
@@ -5752,8 +5752,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.65.0:
-    resolution: {integrity: sha512-Wvlme1dYqbibmQT8nswHOKvmo6Vkx258GLpmk6kct7F4/ym6hOvP2E8OUpDhD+1bpeJIJ/WX5PJF+ibr8rmFkw==}
+  /renovate/32.66.1:
+    resolution: {integrity: sha512-vbOQHGu41RMFifHQe/B+whgwNJ5wF1/yx+eAEWD2TUSpIjL1xY3dyMTkzw5eAdCLRpfRozSn5ulXK8A9it4auw==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5772,7 +5772,7 @@ packages:
       auth-header: 1.0.0
       azure-devops-node-api: 11.1.1
       bunyan: 1.8.15
-      cacache: 16.0.7
+      cacache: 16.1.0
       chalk: 4.1.2
       changelog-filename-regex: 2.0.1
       clean-git-ref: 2.0.1
