@@ -6,7 +6,7 @@ specifiers:
   lint-staged: 12.4.1
   prettier: 2.6.2
   re2: 1.17.4
-  renovate: 32.64.8
+  renovate: 32.64.9
 
 devDependencies:
   husky: 8.0.1
@@ -14,7 +14,7 @@ devDependencies:
   lint-staged: 12.4.1
   prettier: 2.6.2
   re2: 1.17.4
-  renovate: 32.64.8
+  renovate: 32.64.9
 
 packages:
 
@@ -3574,7 +3574,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 5.0.1
+      minimatch: 5.1.0
       once: 1.4.0
       path-is-absolute: 1.0.1
     dev: true
@@ -5013,8 +5013,8 @@ packages:
       brace-expansion: 1.1.11
     dev: true
 
-  /minimatch/5.0.1:
-    resolution: {integrity: sha512-nLDxIFRyhDblz3qMuq+SoRZED4+miJ/G+tdDrjkkkRnjAsBexeGpgjLEQ0blJy7rHhR2b93rhQY4SvyWu9v03g==}
+  /minimatch/5.1.0:
+    resolution: {integrity: sha512-9TPBGGak4nHfGZsPBohm9AWg6NoT7QTCehS3BIJABslyZbzxfV78QM2Y6+i741OPZIafFAaiiEMh5OyIrJPgtg==}
     engines: {node: '>=10'}
     dependencies:
       brace-expansion: 2.0.1
@@ -5752,8 +5752,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.64.8:
-    resolution: {integrity: sha512-x7IHvy96N7LxZrtN9sRVIaWlELk45gCrkP4cOcvFDe9nh/PEo/k2lJcunyhonbmgvEeGfNfzxUBZrlmBAiwNeA==}
+  /renovate/32.64.9:
+    resolution: {integrity: sha512-W0zaVo6NJGEh44kaDemtoHkSnGwdg+KuEnzkjSNfrgaT6LSbeOT7vUMlrSCx/qdEyEC8SQQUMjPjqQXpsU/v5A==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5811,7 +5811,7 @@ packages:
       markdown-it: 13.0.1
       markdown-table: 2.0.0
       marshal: 0.5.4
-      minimatch: 5.0.1
+      minimatch: 5.1.0
       moo: 0.5.1
       nanoid: 3.3.4
       node-html-parser: 5.3.3
