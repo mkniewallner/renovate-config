@@ -6,7 +6,7 @@ specifiers:
   lint-staged: 12.4.3
   prettier: 2.6.2
   re2: 1.17.4
-  renovate: 32.68.1
+  renovate: 32.68.2
 
 devDependencies:
   husky: 8.0.1
@@ -14,7 +14,7 @@ devDependencies:
   lint-staged: 12.4.3
   prettier: 2.6.2
   re2: 1.17.4
-  renovate: 32.68.1
+  renovate: 32.68.2
 
 packages:
 
@@ -4074,7 +4074,7 @@ packages:
     dev: true
 
   /isarray/1.0.0:
-    resolution: {integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=}
+    resolution: {integrity: sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==}
     dev: true
 
   /isexe/2.0.0:
@@ -4625,7 +4625,7 @@ packages:
     dev: true
 
   /json-stringify-safe/5.0.1:
-    resolution: {integrity: sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=}
+    resolution: {integrity: sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==}
     dev: true
 
   /json5/2.2.1:
@@ -4670,7 +4670,7 @@ packages:
     dev: true
 
   /lie/3.1.1:
-    resolution: {integrity: sha1-mkNrLMd0bKWd56QfpGmz77dr2H4=}
+    resolution: {integrity: sha512-RiNhHysUjhrDQntfYSfY4MU24coXXdEOgw9WGcKHNeEwffDYbF//u87M1EWaMGzuFoSbqW0C9C6lEEhDOAswfw==}
     dependencies:
       immediate: 3.0.6
     dev: true
@@ -5752,8 +5752,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.68.1:
-    resolution: {integrity: sha512-LZDnhdmYtfV/qCwM8VyRWUfC08ymU8B3ErsrkraXRs2E+19vRwm+qNmirRuWgoz4NQ2bvCFZ3H0IRohlJhSY9w==}
+  /renovate/32.68.2:
+    resolution: {integrity: sha512-FVs0v9QIm3olcotZsqxRCfhUmaTQ8giQeivCUGxkSgkBt80wyCpFly190jRwtVAFYE+KKthHksACFyLtUg2XNw==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
