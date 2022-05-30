@@ -6,7 +6,7 @@ specifiers:
   lint-staged: 12.4.3
   prettier: 2.6.2
   re2: 1.17.4
-  renovate: 32.68.2
+  renovate: 32.68.3
 
 devDependencies:
   husky: 8.0.1
@@ -14,7 +14,7 @@ devDependencies:
   lint-staged: 12.4.3
   prettier: 2.6.2
   re2: 1.17.4
-  renovate: 32.68.2
+  renovate: 32.68.3
 
 packages:
 
@@ -4838,7 +4838,7 @@ packages:
     dev: true
 
   /map-obj/1.0.1:
-    resolution: {integrity: sha1-2TPOuSBdgr3PSIb2dCvcK03qFG0=}
+    resolution: {integrity: sha512-7N/q3lyZ+LVCp7PzuxrJr4KMbBE2hW7BT7YNia330OFxIf4d3r5zVpicP2650l7CPN6RM9zOJRl3NGpqSiw3Eg==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -4920,7 +4920,7 @@ packages:
     dev: true
 
   /mdurl/1.0.1:
-    resolution: {integrity: sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=}
+    resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==}
     dev: true
 
   /meow/7.1.1:
@@ -5752,8 +5752,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.68.2:
-    resolution: {integrity: sha512-FVs0v9QIm3olcotZsqxRCfhUmaTQ8giQeivCUGxkSgkBt80wyCpFly190jRwtVAFYE+KKthHksACFyLtUg2XNw==}
+  /renovate/32.68.3:
+    resolution: {integrity: sha512-DyrNC+FQKjn6lU5RkhMODYfuS9ajyT3640mt1+URQuPWdGkMwnV/UGV3HrytskMIIw6pYVjxmtUeaeWmR8TlVg==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
