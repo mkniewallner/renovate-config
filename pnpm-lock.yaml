@@ -6,7 +6,7 @@ specifiers:
   lint-staged: 13.0.1
   prettier: 2.6.2
   re2: 1.17.4
-  renovate: 32.83.0
+  renovate: 32.83.1
 
 devDependencies:
   husky: 8.0.1
@@ -14,7 +14,7 @@ devDependencies:
   lint-staged: 13.0.1
   prettier: 2.6.2
   re2: 1.17.4
-  renovate: 32.83.0
+  renovate: 32.83.1
 
 packages:
 
@@ -5785,8 +5785,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.83.0:
-    resolution: {integrity: sha512-uTl4NZcJuwU23ZTtBE2gSH/wbzQMfmRWEwPOYPtPZWz02dBfesjNC6dbWiv8nkZEcE5mfu2jV4etCl8zZpirGw==}
+  /renovate/32.83.1:
+    resolution: {integrity: sha512-vC+vEthiI7KkAEMAp7T/x1BpOqsfsknDmuOZDF11hPEkSR1QxX58wp3jNPtSsXxSCQZeBfvJCRJ6A0RiVbgARw==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -6478,7 +6478,7 @@ packages:
     dev: true
 
   /traverse/0.6.6:
-    resolution: {integrity: sha1-y99WD9e5r2MlAv7UD5GMFX6pcTc=}
+    resolution: {integrity: sha512-kdf4JKs8lbARxWdp7RKdNzoJBhGUcIalSYibuGyHJbmk40pOysQ0+QPvlkCOICOivDWU2IJo2rkrxyTK2AH4fw==}
     dev: true
 
   /treeify/1.1.0:
@@ -6648,7 +6648,7 @@ packages:
     dev: true
 
   /util-deprecate/1.0.2:
-    resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
+    resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
   /util/0.12.4:
