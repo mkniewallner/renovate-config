@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   husky: 8.0.1
   jest: 28.1.1
-  lint-staged: 13.0.1
+  lint-staged: 13.0.2
   prettier: 2.7.1
   re2: 1.17.7
   renovate: 32.89.0
@@ -11,7 +11,7 @@ specifiers:
 devDependencies:
   husky: 8.0.1
   jest: 28.1.1
-  lint-staged: 13.0.1
+  lint-staged: 13.0.2
   prettier: 2.7.1
   re2: 1.17.7
   renovate: 32.89.0
@@ -4720,8 +4720,8 @@ packages:
       uc.micro: 1.0.6
     dev: true
 
-  /lint-staged/13.0.1:
-    resolution: {integrity: sha512-Ykaf4QTi0a02BF7cnq7JIPGOJxH4TkNMWhSlJdH9wOekd0X+gog47Jfh/0L31DqZe5AiydLGC7LkPqpaNm+Kvg==}
+  /lint-staged/13.0.2:
+    resolution: {integrity: sha512-qQLfLTh9z34eMzfEHENC+QBskZfxjomrf+snF3xJ4BzilORbD989NLqQ00ughsF/A+PT41e87+WsMFabf9++pQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -6535,7 +6535,7 @@ packages:
     dev: true
 
   /through/2.3.8:
-    resolution: {integrity: sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=}
+    resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
     dev: true
 
   /through2-concurrent/2.0.0:
