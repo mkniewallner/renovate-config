@@ -4,7 +4,7 @@ specifiers:
   husky: 8.0.1
   jest: 28.1.1
   lint-staged: 13.0.1
-  prettier: 2.7.0
+  prettier: 2.7.1
   re2: 1.17.7
   renovate: 32.88.0
 
@@ -12,7 +12,7 @@ devDependencies:
   husky: 8.0.1
   jest: 28.1.1
   lint-staged: 13.0.1
-  prettier: 2.7.0
+  prettier: 2.7.1
   re2: 1.17.7
   renovate: 32.88.0
 
@@ -5620,8 +5620,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier/2.7.0:
-    resolution: {integrity: sha512-nwoX4GMFgxoPC6diHvSwmK/4yU8FFH3V8XWtLQrbj4IBsK2pkYhG4kf/ljF/haaZ/aii+wNJqISrCDPgxGWDVQ==}
+  /prettier/2.7.1:
+    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
