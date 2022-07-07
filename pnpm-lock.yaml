@@ -6,7 +6,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.107.0
+  renovate: 32.107.1
 
 devDependencies:
   husky: 8.0.1
@@ -14,7 +14,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.107.0
+  renovate: 32.107.1
 
 packages:
 
@@ -1823,16 +1823,16 @@ packages:
       write-yaml-file: 4.2.0
     dev: true
 
-  /@redis/bloom/1.0.2_@redis+client@1.1.0:
+  /@redis/bloom/1.0.2_@redis+client@1.1.1:
     resolution: {integrity: sha512-EBw7Ag1hPgFzdznK2PBblc1kdlj5B5Cw3XwI9/oG7tSn85/HKy3X9xHy/8tm/eNXJYHLXHJL/pkwBpFMVVefkw==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.1.0
+      '@redis/client': 1.1.1
     dev: true
 
-  /@redis/client/1.1.0:
-    resolution: {integrity: sha512-xO9JDIgzsZYDl3EvFhl6LC52DP3q3GCMUer8zHgKV6qSYsq1zB+pZs9+T80VgcRogrlRYhi4ZlfX6A+bHiBAgA==}
+  /@redis/client/1.1.1:
+    resolution: {integrity: sha512-IGGyazghVYuqsXv7/AxzMS0HmCPj0JRQX4l0XZ52BdJTUv2lNSnPgfWEE65HnC2gZCEO7STyaJbNultn1i0Y3g==}
     engines: {node: '>=14'}
     dependencies:
       cluster-key-slot: 1.1.0
@@ -1840,36 +1840,36 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /@redis/graph/1.0.1_@redis+client@1.1.0:
+  /@redis/graph/1.0.1_@redis+client@1.1.1:
     resolution: {integrity: sha512-oDE4myMCJOCVKYMygEMWuriBgqlS5FqdWerikMoJxzmmTUErnTRRgmIDa2VcgytACZMFqpAOWDzops4DOlnkfQ==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.1.0
+      '@redis/client': 1.1.1
     dev: true
 
-  /@redis/json/1.0.3_@redis+client@1.1.0:
+  /@redis/json/1.0.3_@redis+client@1.1.1:
     resolution: {integrity: sha512-4X0Qv0BzD9Zlb0edkUoau5c1bInWSICqXAGrpwEltkncUwcxJIGEcVryZhLgb0p/3PkKaLIWkjhHRtLe9yiA7Q==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.1.0
+      '@redis/client': 1.1.1
     dev: true
 
-  /@redis/search/1.0.6_@redis+client@1.1.0:
+  /@redis/search/1.0.6_@redis+client@1.1.1:
     resolution: {integrity: sha512-pP+ZQRis5P21SD6fjyCeLcQdps+LuTzp2wdUbzxEmNhleighDDTD5ck8+cYof+WLec4csZX7ks+BuoMw0RaZrA==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.1.0
+      '@redis/client': 1.1.1
     dev: true
 
-  /@redis/time-series/1.0.3_@redis+client@1.1.0:
+  /@redis/time-series/1.0.3_@redis+client@1.1.1:
     resolution: {integrity: sha512-OFp0q4SGrTH0Mruf6oFsHGea58u8vS/iI5+NpYdicaM+7BgqBZH8FFvNZ8rYYLrUO/QRqMq72NpXmxLVNcdmjA==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.1.0
+      '@redis/client': 1.1.1
     dev: true
 
   /@renovatebot/pep440/2.1.3:
@@ -5698,15 +5698,15 @@ packages:
       strip-indent: 3.0.0
     dev: true
 
-  /redis/4.1.0:
-    resolution: {integrity: sha512-5hvJ8wbzpCCiuN1ges6tx2SAh2XXCY0ayresBmu40/SGusWHFW86TAlIPpbimMX2DFHOX7RN34G2XlPA1Z43zg==}
+  /redis/4.1.1:
+    resolution: {integrity: sha512-vVLYD0RMiDH4YQ1dtmtNU0RX5MAsvEA35Wj+4ZhrSNZXtGK87ktQ0lmI3O3Qn/omoIW456wfOUanqI/RNxagLw==}
     dependencies:
-      '@redis/bloom': 1.0.2_@redis+client@1.1.0
-      '@redis/client': 1.1.0
-      '@redis/graph': 1.0.1_@redis+client@1.1.0
-      '@redis/json': 1.0.3_@redis+client@1.1.0
-      '@redis/search': 1.0.6_@redis+client@1.1.0
-      '@redis/time-series': 1.0.3_@redis+client@1.1.0
+      '@redis/bloom': 1.0.2_@redis+client@1.1.1
+      '@redis/client': 1.1.1
+      '@redis/graph': 1.0.1_@redis+client@1.1.1
+      '@redis/json': 1.0.3_@redis+client@1.1.1
+      '@redis/search': 1.0.6_@redis+client@1.1.1
+      '@redis/time-series': 1.0.3_@redis+client@1.1.1
     dev: true
 
   /regexp-to-ast/0.5.0:
@@ -5754,8 +5754,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.107.0:
-    resolution: {integrity: sha512-5yXf5YpBKztCOpVs6iDddyw/v6lx9RVChkU82VsV7BIFyw50lEgyJfnvLJxRFneyyCIADYB1m+DjYY6ASctFUw==}
+  /renovate/32.107.1:
+    resolution: {integrity: sha512-CWxmyhzEfDBTJWZWGX2e923dgAcEIjvo7NPlchdhA7qKxeihE3S8GBlgRfj/mpHMFYREE6wEexF13vyx36JcKg==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5823,7 +5823,7 @@ packages:
       p-map: 4.0.0
       p-queue: 6.6.2
       parse-link-header: 2.0.0
-      redis: 4.1.0
+      redis: 4.1.1
       remark: 13.0.0
       remark-github: 10.1.0
       semver: 7.3.7
