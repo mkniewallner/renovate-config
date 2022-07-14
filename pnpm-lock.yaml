@@ -6,7 +6,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.112.0
+  renovate: 32.115.0
 
 devDependencies:
   husky: 8.0.1
@@ -14,7 +14,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.112.0
+  renovate: 32.115.0
 
 packages:
 
@@ -5731,8 +5731,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.112.0:
-    resolution: {integrity: sha512-H6fVUDgWGi5maCws9w80P4Cm8zapy4rz+foELD8DJ1NyVb7pBD7qN5aogFDisAozhIFOroPH6Ed8OqiiCcC3jA==}
+  /renovate/32.115.0:
+    resolution: {integrity: sha512-d2wdhlzrRHMfXRDXgCMdI6+v+wAcH83lmLfvyqYgBmxU+hr7Paa7wT9mQAWtTyzWO/Cu3Uqbr5+cTinxm2x46w==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5800,6 +5800,7 @@ packages:
       p-map: 4.0.0
       p-queue: 6.6.2
       parse-link-header: 2.0.0
+      prettier: 2.7.1
       redis: 4.2.0
       remark: 13.0.0
       remark-github: 10.1.0
