@@ -6,7 +6,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.115.0
+  renovate: 32.117.1
 
 devDependencies:
   husky: 8.0.1
@@ -14,7 +14,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.115.0
+  renovate: 32.117.1
 
 packages:
 
@@ -2379,8 +2379,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /azure-devops-node-api/11.1.1:
-    resolution: {integrity: sha512-XDG91XzLZ15reP12s3jFkKS8oiagSICjnLwxEYieme4+4h3ZveFOFRA4iYIG40RyHXsiI0mefFYYMFIJbMpWcg==}
+  /azure-devops-node-api/11.2.0:
+    resolution: {integrity: sha512-XdiGPhrpaT5J8wdERRKs5g8E0Zy1pvOYTli7z9E8nmOn3YGp4FhtjhrOyFmX/8veWCwdI69mCHKJw6l+4J/bHA==}
     dependencies:
       tunnel: 0.0.6
       typed-rest-client: 1.8.6
@@ -5731,8 +5731,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.115.0:
-    resolution: {integrity: sha512-d2wdhlzrRHMfXRDXgCMdI6+v+wAcH83lmLfvyqYgBmxU+hr7Paa7wT9mQAWtTyzWO/Cu3Uqbr5+cTinxm2x46w==}
+  /renovate/32.117.1:
+    resolution: {integrity: sha512-04PqZsJRaQfvdiS6UeW9daR2Gpy7oZyywH5JMB4kG76ebK/jZf/B1gj+rQBaPIulVrS832ALNmlQTwpS5MTrtA==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5750,7 +5750,7 @@ packages:
       '@yarnpkg/core': 3.1.0
       '@yarnpkg/parsers': 2.5.1
       auth-header: 1.0.0
-      azure-devops-node-api: 11.1.1
+      azure-devops-node-api: 11.2.0
       bunyan: 1.8.15
       cacache: 16.1.1
       chalk: 4.1.2
