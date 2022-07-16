@@ -6,7 +6,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.117.2
+  renovate: 32.117.3
 
 devDependencies:
   husky: 8.0.1
@@ -14,7 +14,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.117.2
+  renovate: 32.117.3
 
 packages:
 
@@ -4767,6 +4767,11 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
+  /luxon/2.5.0:
+    resolution: {integrity: sha512-IDkEPB80Rb6gCAU+FEib0t4FeJ4uVOuX1CQ9GsvU3O+JAGIgu0J7sf1OarXKaKDygTZIoJyU6YdZzTFRu+YR0A==}
+    engines: {node: '>=12'}
+    dev: true
+
   /make-dir/3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
     engines: {node: '>=8'}
@@ -5731,8 +5736,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.117.2:
-    resolution: {integrity: sha512-2cdP98VdsDVo4c87VGdsLDcpQWB8NjMEYyGL5eP9HhCPZKG/m4hDfD+uX/JXU9Dw26j67MptdnA9hzRLrZU82Q==}
+  /renovate/32.117.3:
+    resolution: {integrity: sha512-hDLyoX7MoLYwSuZptub4e7dV18Mw8kI8gGOx07Bl1zEcZ7qe4vXjf289lV76QfukX+iQOHh6cB6YxXQY4i6tkg==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5787,7 +5792,7 @@ packages:
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
       json5: 2.2.1
-      luxon: 2.4.0
+      luxon: 2.5.0
       markdown-it: 13.0.1
       markdown-table: 2.0.0
       marshal: 0.5.4
