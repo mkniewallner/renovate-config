@@ -6,7 +6,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.119.0
+  renovate: 32.119.1
 
 devDependencies:
   husky: 8.0.1
@@ -14,7 +14,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.119.0
+  renovate: 32.119.1
 
 packages:
 
@@ -2967,8 +2967,8 @@ packages:
     resolution: {integrity: sha512-xmHIy4F3scKVwMsQ4WnVaS8bHOx0DmVwRywosKhaILI0ywMDWPtBSku2HNxRvF7jtwDRsoEwYQSfbxj8b7RlJQ==}
     dev: true
 
-  /dequal/2.0.2:
-    resolution: {integrity: sha512-q9K8BlJVxK7hQYqa6XISGmBZbtQQWVXSrRrWreHC94rMt1QL/Impruc+7p2CYSYuVIUr+YCt6hjrs1kkdJRTug==}
+  /dequal/2.0.3:
+    resolution: {integrity: sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==}
     engines: {node: '>=6'}
     dev: true
 
@@ -5731,8 +5731,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.119.0:
-    resolution: {integrity: sha512-zwhMoY/8IOOSo2eYYdZhNj7conz538Mhs011R91JjTQwHf5tJhLlmDrt1Kbo5Y45ygEUd1pVQvHt1nz+8JeZZg==}
+  /renovate/32.119.1:
+    resolution: {integrity: sha512-X7lM7dsnj3WqaprHAqlYNLsRRb/v6tzhp5gOi/1OOQndeTl0xlIoMvHaBN2/OlryZFort2I3LSazE85s3W5SiQ==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5761,7 +5761,7 @@ packages:
       crypto-random-string: 3.3.1
       deepmerge: 4.2.2
       delay: 5.0.0
-      dequal: 2.0.2
+      dequal: 2.0.3
       detect-indent: 6.1.0
       editorconfig: 0.15.3
       email-addresses: 5.0.0
