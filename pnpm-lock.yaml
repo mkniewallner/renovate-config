@@ -6,7 +6,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.122.1
+  renovate: 32.122.2
 
 devDependencies:
   husky: 8.0.1
@@ -14,7 +14,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.122.1
+  renovate: 32.122.2
 
 packages:
 
@@ -5731,8 +5731,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.122.1:
-    resolution: {integrity: sha512-AwUeFfaHZKH4uLfaSLEg7bqbutCMKNOs1Uj6hg8bhZHNdPBWKnrb7lUyKhxQKF7rPPLT7p1lUUXp8UUKo2gqtA==}
+  /renovate/32.122.2:
+    resolution: {integrity: sha512-meraSJ4ccgDIzBSX/y6ZUlU/DsCOemMFtJ3IO47YlkXhvfmZiacV97NMleG/BOwCgxSTEFrnuqzkpRyCPOI/Ww==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5815,7 +5815,7 @@ packages:
       upath: 2.0.1
       url-join: 4.0.1
       validate-npm-package-name: 4.0.0
-      xmldoc: 1.1.4
+      xmldoc: 1.2.0
     optionalDependencies:
       re2: 1.17.7
     transitivePeerDependencies:
@@ -6737,8 +6737,8 @@ packages:
       write-file-atomic: 3.0.3
     dev: true
 
-  /xmldoc/1.1.4:
-    resolution: {integrity: sha512-rQshsBGR5s7pUNENTEncpI2LTCuzicri0DyE4SCV5XmS0q81JS8j1iPijP0Q5c4WLGbKh3W92hlOwY6N9ssW1w==}
+  /xmldoc/1.2.0:
+    resolution: {integrity: sha512-2eN8QhjBsMW2uVj7JHLHkMytpvGHLHxKXBy4J3fAT/HujsEtM6yU84iGjpESYGHg6XwK0Vu4l+KgqQ2dv2cCqg==}
     dependencies:
       sax: 1.2.4
     dev: true
