@@ -6,7 +6,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.141.0
+  renovate: 32.143.1
 
 devDependencies:
   husky: 8.0.1
@@ -14,7 +14,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.141.0
+  renovate: 32.143.1
 
 packages:
 
@@ -1799,8 +1799,8 @@ packages:
       graceful-fs: 4.2.10
     dev: true
 
-  /@pnpm/read-project-manifest/3.0.6:
-    resolution: {integrity: sha512-nKFODeo/K7kLSLXMJcGywANaiyL9JlLQHKG3SWJaAjkP3QBgYWqqXhGWx8ZPsk5z9k0RL0gPEpt3wod8FAbTPg==}
+  /@pnpm/read-project-manifest/3.0.7:
+    resolution: {integrity: sha512-BTCU1l37K2VUGmSo70m6ocaQASPZaTzBgP0RtDloDR8rCb+y7AjOLOjEb+Qs6z9BbhryLWGARlfT5YOaEdca7w==}
     engines: {node: '>=14.6'}
     dependencies:
       '@pnpm/error': 3.0.1
@@ -3333,11 +3333,11 @@ packages:
       to-regex-range: 5.0.1
     dev: true
 
-  /find-packages/9.0.6:
-    resolution: {integrity: sha512-D4IhAYrTKeg/FgcjVCpgCYrnTCKOzyNfqktYETB3ttk21kmjxSSK+bTqoAOIyKy88o0cmMfbohtAZt69mf848A==}
+  /find-packages/9.0.7:
+    resolution: {integrity: sha512-u0WPAaqn4GcWzy7p4Q1GNgOlmk66skMBxUmrTB/iBE7GuRAUi3dIyJAroQHAXAmajLwtsukHcBOkXZ7Es6fi5w==}
     engines: {node: '>=14.6'}
     dependencies:
-      '@pnpm/read-project-manifest': 3.0.6
+      '@pnpm/read-project-manifest': 3.0.7
       '@pnpm/types': 8.4.0
       fast-glob: 3.2.11
       p-filter: 2.1.0
@@ -5750,8 +5750,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.141.0:
-    resolution: {integrity: sha512-ITeZKJe3hYyawQbCcDpRhxz/W9bnzbtKMK+YNGMAoAFKjmoTt7nYp/YB1YRz3cpuOqCkONgJENRM8Ox8FCVLfQ==}
+  /renovate/32.143.1:
+    resolution: {integrity: sha512-D8ZCVDJO5s9hZ3W216Nd+vXYScZB4PbcIfsm7BLKbfpSlmuxt2AnEeUslhiClP21jyiwnlz5FMgTRKHaSiLQ4g==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5789,7 +5789,7 @@ packages:
       emojibase-regex: 6.0.1
       extract-zip: 2.0.1
       fast-safe-stringify: 2.1.1
-      find-packages: 9.0.6
+      find-packages: 9.0.7
       find-up: 5.0.0
       fs-extra: 10.1.0
       git-url-parse: 12.0.0
