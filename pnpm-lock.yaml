@@ -6,7 +6,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.192.3
+  renovate: 32.194.0
 
 devDependencies:
   husky: 8.0.1
@@ -14,7 +14,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.192.3
+  renovate: 32.194.0
 
 packages:
 
@@ -5272,8 +5272,8 @@ packages:
       - supports-color
     dev: true
 
-  /node-html-parser/5.4.1:
-    resolution: {integrity: sha512-xy/O2wOEBJsIRLs4avwa1lVY7tIpXXOoHHUJLa0GvnoPPqMG1hgBVl1tNI3GHOwRktTVZy+Y6rjghk4B9/NLyg==}
+  /node-html-parser/5.4.2:
+    resolution: {integrity: sha512-RaBPP3+51hPne/OolXxcz89iYvQvKOydaqoePpOgXcrOKZhjVIzmpKZz+Hd/RBO2/zN2q6CNJhQzucVz+u3Jyw==}
     dependencies:
       css-select: 4.3.0
       he: 1.2.0
@@ -5407,8 +5407,8 @@ packages:
       mimic-fn: 4.0.0
     dev: true
 
-  /openpgp/5.4.0:
-    resolution: {integrity: sha512-XgQnK8SYy4Ycg9BDvrXTE4foMwME/+1EfGZWZirUU2VPzU1X3xx094fChjbP10+gUJifAcoWTsT2zAbdhFUxyg==}
+  /openpgp/5.5.0:
+    resolution: {integrity: sha512-SpwcJnxrK9Y0HRM6KxSFqkAEOSWEabCH/c8dII/+y2e5f6KvuDG5ZE7JXaPBaVJNE4VUZZeTphxXDoZD0KOHrw==}
     engines: {node: '>= 8.0.0'}
     dependencies:
       asn1.js: 5.4.1
@@ -5839,8 +5839,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.192.3:
-    resolution: {integrity: sha512-m6aBPAYnTcSq8xf+JUSIeBCUM3LZAhL4MhBUD1wx3wK6i2lXbXQog3gzMsBIMPW5nuO7Fi3hTOE4Aj0L+LZf9Q==}
+  /renovate/32.194.0:
+    resolution: {integrity: sha512-8v28v2Jvq/zNznhQeYPiHsUd4tPTMnCXbfaErY72YMQlCMtijfziChS+2A1YHAgQjuNsa5RU/Uet+f9RNKotjQ==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5905,8 +5905,8 @@ packages:
       minimatch: 5.1.0
       moo: 0.5.1
       nanoid: 3.3.4
-      node-html-parser: 5.4.1
-      openpgp: 5.4.0
+      node-html-parser: 5.4.2
+      openpgp: 5.5.0
       p-all: 3.0.0
       p-map: 4.0.0
       p-queue: 6.6.2
