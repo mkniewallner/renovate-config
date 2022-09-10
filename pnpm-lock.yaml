@@ -6,7 +6,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.194.3
+  renovate: 32.194.4
 
 devDependencies:
   husky: 8.0.1
@@ -14,7 +14,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.194.3
+  renovate: 32.194.4
 
 packages:
 
@@ -3675,8 +3675,8 @@ packages:
       slash: 3.0.0
     dev: true
 
-  /good-enough-parser/1.1.18:
-    resolution: {integrity: sha512-qn0UlqAp6r9ZBuGzT3dTOrqDR43NCm2HAoqCKuMoEbp8H6zy55JGlDxdGWVBnpIydwSjx9tqSSlKlaBSDqkUFA==}
+  /good-enough-parser/1.1.19:
+    resolution: {integrity: sha512-O1sdiXjZocP8gFYi5yMJ1kNGTJi9aV563Pjvo6UwOln3+IE+l6bshHqlKYdEM63Pof1KIqPCPKhNzkDPxNoFpw==}
     dependencies:
       '@thi.ng/zipper': 1.0.3
       '@types/moo': 0.5.5
@@ -5839,8 +5839,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.194.3:
-    resolution: {integrity: sha512-FzJinQ2bO7Pt5BCgEwjh9123+rJnmT2lmyaxhlNgseLJnYGv0PGQkvqA0f1UXAUcdcOMVrSRSG6chVxqqoU8Tg==}
+  /renovate/32.194.4:
+    resolution: {integrity: sha512-FJYgu4AzxECZ/b17oCv+WBRb7jvzU2z+xdc0BMQOz4Ox+AwG2ph5cuynKM4rzvku/ZavDv4S2QBqxJkxP4S6hw==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5887,7 +5887,7 @@ packages:
       git-url-parse: 12.0.0
       github-url-from-git: 1.5.0
       global-agent: 3.0.0
-      good-enough-parser: 1.1.18
+      good-enough-parser: 1.1.19
       got: 11.8.5
       graph-data-structure: 2.0.0
       handlebars: 4.7.7
