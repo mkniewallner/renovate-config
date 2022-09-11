@@ -2,7 +2,7 @@ name: Validate Renovate configuration
 
 on:
   pull_request:
-    paths: [default.json, renovate.json]
+    paths: [default.json5, renovate.json5]
   push:
     branches: [main, renovate/**]
 
@@ -19,5 +19,6 @@ jobs:
         with:
           node-version: "18.1.0" # renovate: datasource=node depName=node versioning=node
       - env:
-          RENOVATE_CONFIG_FILE: default.json
+          # Despite only passing `default.json5`, `renovate.json5` is also auto-detected and validated.
+          RENOVATE_CONFIG_FILE: default.json5
         run: npx -p renovate renovate-config-validator
