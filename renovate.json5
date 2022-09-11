@@ -1,0 +1,8 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    "local>mkniewallner/renovate-config:default.json5",
+    ":automergeBranch",
+    ":automergeMinor",
+  ],
+}

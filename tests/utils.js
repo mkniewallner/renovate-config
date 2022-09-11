@@ -1,7 +1,8 @@
 import { readFileSync } from "fs";
+import JSON5 from "json5";
 
-export function loadRenovateConfiguration(filePath = "default.json") {
-  return JSON.parse(readFileSync(filePath, "utf8"));
+export function loadRenovateConfiguration(filePath = "default.json5") {
+  return JSON5.parse(readFileSync(filePath, "utf8"));
 }
 
 export function loadFixture(filePath) {
