@@ -7,7 +7,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.195.1
+  renovate: 32.195.3
 
 devDependencies:
   husky: 8.0.1
@@ -16,7 +16,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.195.1
+  renovate: 32.195.3
 
 packages:
 
@@ -1959,8 +1959,8 @@ packages:
       '@redis/client': 1.3.0
     dev: true
 
-  /@redis/json/1.0.3_@redis+client@1.3.0:
-    resolution: {integrity: sha512-4X0Qv0BzD9Zlb0edkUoau5c1bInWSICqXAGrpwEltkncUwcxJIGEcVryZhLgb0p/3PkKaLIWkjhHRtLe9yiA7Q==}
+  /@redis/json/1.0.4_@redis+client@1.3.0:
+    resolution: {integrity: sha512-LUZE2Gdrhg0Rx7AN+cZkb1e6HjoSKaeeW8rYnt89Tly13GBI5eP4CwDVr+MY8BAYfCg4/N15OUrtLoona9uSgw==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
@@ -5785,13 +5785,13 @@ packages:
       strip-indent: 3.0.0
     dev: true
 
-  /redis/4.3.0:
-    resolution: {integrity: sha512-RXRUor0iU1vizu4viHoUyLpe1ZO/RngZp0V9DyXBHTI+7tC7rEz6Wzn4Sv9v0tTJeqGAzdJ+q5YVbNKKQ5hX9A==}
+  /redis/4.3.1:
+    resolution: {integrity: sha512-cM7yFU5CA6zyCF7N/+SSTcSJQSRMEKN0k0Whhu6J7n9mmXRoXugfWDBo5iOzGwABmsWKSwGPTU5J4Bxbl+0mrA==}
     dependencies:
       '@redis/bloom': 1.0.2_@redis+client@1.3.0
       '@redis/client': 1.3.0
       '@redis/graph': 1.0.1_@redis+client@1.3.0
-      '@redis/json': 1.0.3_@redis+client@1.3.0
+      '@redis/json': 1.0.4_@redis+client@1.3.0
       '@redis/search': 1.1.0_@redis+client@1.3.0
       '@redis/time-series': 1.0.3_@redis+client@1.3.0
     dev: true
@@ -5841,8 +5841,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.195.1:
-    resolution: {integrity: sha512-4q8p70fqt+wOusON/muj/Go+hM0sPjtwWfk5/Mr7y21x1pZSMWbg5vWSPu7b2SwJqoh2SCQpN34cvs7W2IBhJw==}
+  /renovate/32.195.3:
+    resolution: {integrity: sha512-N+sE29Qe1TYyJ3pBVOCw965iOwPF2ES/ZbvvOZ4OqwaogBZHRGA2FlIWtk3/BYq/M9kOPJJZ5+P2tDEyWgY/TQ==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5915,7 +5915,7 @@ packages:
       parse-link-header: 2.0.0
       prettier: 2.7.1
       quick-lru: 5.1.1
-      redis: 4.3.0
+      redis: 4.3.1
       remark: 13.0.0
       remark-github: 10.1.0
       safe-stable-stringify: 2.3.1
