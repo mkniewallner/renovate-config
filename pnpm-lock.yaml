@@ -7,7 +7,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.202.1
+  renovate: 32.202.3
 
 devDependencies:
   husky: 8.0.1
@@ -16,7 +16,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.202.1
+  renovate: 32.202.3
 
 packages:
 
@@ -3590,8 +3590,8 @@ packages:
       parse-url: 8.1.0
     dev: true
 
-  /git-url-parse/13.0.0:
-    resolution: {integrity: sha512-X1kozCqKL82dMrCLi4vie9SHDC+QugKskAMs4VUbIkhURKg5yDwxDmf6Ixg73J+/xVgK5TXKhzn8a94nHJHpnA==}
+  /git-url-parse/13.1.0:
+    resolution: {integrity: sha512-5FvPJP/70WkIprlUZ33bm4UAaFdjcLkJLpWft1BeZKqwR0uhhNGoKwlUaPtVb4LxCSQ++erHapRak9kWGj+FCA==}
     dependencies:
       git-up: 7.0.0
     dev: true
@@ -5833,8 +5833,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.202.1:
-    resolution: {integrity: sha512-3VMtYZZ6LSQ1ibhkoms5cMGv8OLxErAkTbdpBG0JY+wc2Sk3RClv8OrH5Jq0OgCQxQQ80EQEZCc9zhKVNaqj3Q==}
+  /renovate/32.202.3:
+    resolution: {integrity: sha512-sRf46Kqfgpf1iQOQivFQtpx7jBA3oerRj9DeN5omdTnlfrL1tW7VeHBHUNeaH31u2ir6IuOxYj3EHZ0FujORZg==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5878,7 +5878,7 @@ packages:
       find-packages: 9.0.9
       find-up: 5.0.0
       fs-extra: 10.1.0
-      git-url-parse: 13.0.0
+      git-url-parse: 13.1.0
       github-url-from-git: 1.5.0
       global-agent: 3.0.0
       good-enough-parser: 1.1.19
