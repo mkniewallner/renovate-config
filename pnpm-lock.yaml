@@ -7,7 +7,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.202.3
+  renovate: 32.202.4
 
 devDependencies:
   husky: 8.0.1
@@ -16,7 +16,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.202.3
+  renovate: 32.202.4
 
 packages:
 
@@ -5833,8 +5833,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.202.3:
-    resolution: {integrity: sha512-sRf46Kqfgpf1iQOQivFQtpx7jBA3oerRj9DeN5omdTnlfrL1tW7VeHBHUNeaH31u2ir6IuOxYj3EHZ0FujORZg==}
+  /renovate/32.202.4:
+    resolution: {integrity: sha512-iFKgQIR2r2/DBTPR/Hfvx7rAntkwsq9uh5RixHzl7Hzld060YwiNnFvhApfQuKHz9eovb/7ky/NuI/H9sQ7pNw==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5910,7 +5910,7 @@ packages:
       redis: 4.3.1
       remark: 13.0.0
       remark-github: 10.1.0
-      safe-stable-stringify: 2.3.1
+      safe-stable-stringify: 2.4.0
       semver: 7.3.7
       semver-stable: 3.0.0
       semver-utils: 1.1.4
@@ -6054,8 +6054,8 @@ packages:
     dev: true
     optional: true
 
-  /safe-stable-stringify/2.3.1:
-    resolution: {integrity: sha512-kYBSfT+troD9cDA85VDnHZ1rpHC50O0g1e6WlGHVCz/g+JS+9WKLj+XwFYyR8UbrZN8ll9HUpDAAddY58MGisg==}
+  /safe-stable-stringify/2.4.0:
+    resolution: {integrity: sha512-eehKHKpab6E741ud7ZIMcXhKcP6TSIezPkNZhy5U8xC6+VvrRdUA2tMgxGxaGl4cz7c2Ew5+mg5+wNB16KQqrA==}
     engines: {node: '>=10'}
     dev: true
 
