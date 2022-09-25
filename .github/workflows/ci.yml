@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  style:
+  lint:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
@@ -22,7 +22,8 @@ jobs:
           node-version: "18.1.0" # renovate: datasource=node depName=node versioning=node
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
-      - run: pnpm style .
+      - run: pnpm lint .
+      - run: pnpm type-check
 
   tests:
     runs-on: ubuntu-22.04
