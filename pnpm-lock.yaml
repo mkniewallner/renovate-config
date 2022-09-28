@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.204.5
+  renovate: 32.208.1
   ts-jest: 29.0.2
   typescript: 4.8.4
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.204.5
+  renovate: 32.208.1
   ts-jest: 29.0.2_sk7fw534pijdtzydtgvxo45zj4
   typescript: 4.8.4
 
@@ -6874,8 +6874,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.204.5:
-    resolution: {integrity: sha512-ick0yHW/124hiAV5G6gjs6u+aTYfU6UrOecGWFET7vudG9O8bKixB+QI2Cl6QVS5djYxx4ybOBdUP31aEIWRlA==}
+  /renovate/32.208.1:
+    resolution: {integrity: sha512-9xH9YwtHISTdZsCaUnvsaBsbLM4r6QZ3SyvdMp8ozhWJ5/PBL3jWxVnMe/89/xxbOvhL70hSXrREYMxxVg2L3A==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -6964,6 +6964,7 @@ packages:
       url-join: 4.0.1
       validate-npm-package-name: 4.0.0
       xmldoc: 1.2.0
+      zod: 3.19.1
     optionalDependencies:
       re2: 1.17.7
     transitivePeerDependencies:
@@ -8039,6 +8040,10 @@ packages:
   /yocto-queue/0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
+    dev: true
+
+  /zod/3.19.1:
+    resolution: {integrity: sha512-LYjZsEDhCdYET9ikFu6dVPGp2YH9DegXjdJToSzD9rO6fy4qiRYFoyEYwps88OseJlPyl2NOe2iJuhEhL7IpEA==}
     dev: true
 
   /zwitch/1.0.5:
