@@ -48,7 +48,7 @@
     },
     {
       description: "Update PEP 440 Python dependencies",
-      fileMatch: ["^.pre-commit-config.yaml|pyproject.toml$"],
+      fileMatch: ["^(\\.pre-commit-config\\.yaml|pyproject\\.toml)$"],
       matchStrings: [
         '"(?<depName>[\\w-]+)(?<currentValue>.+?)",?[[:blank:]]+#[[:blank:]]*renovate: pep440-python-dependency\\s',
       ],

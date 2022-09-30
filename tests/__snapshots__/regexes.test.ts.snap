@@ -1,41 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should find YAML dependencies 1`] = `
+exports[`Update PEP 440 Python dependencies find dependencies in \`.pre-commit-config.yaml\` 1`] = `
 {
+  "datasourceTemplate": "pypi",
   "deps": [
     {
-      "currentValue": "3.10.0",
-      "datasource": "docker",
-      "depName": "python",
-      "replaceString": ": "3.10.0" # renovate: datasource=docker depName=python versioning=docker
-",
-      "versioning": "docker",
-    },
-    {
-      "currentValue": "3.10.0",
-      "datasource": "docker",
-      "depName": "python",
-      "replaceString": ": "3.10.0"  #renovate: datasource=docker depName=python versioning=docker
-",
-      "versioning": "docker",
-    },
-    {
-      "currentValue": "1.1.11",
+      "currentValue": "==21.9.1",
       "datasource": "pypi",
-      "depName": "poetry",
-      "replaceString": ": "1.1.11"   #   renovate: datasource=pypi depName=poetry
+      "depName": "flake8-bugbear",
+      "replaceString": ""flake8-bugbear==21.9.1"  # renovate: pep440-python-dependency
 ",
-      "versioning": "semver",
+    },
+    {
+      "currentValue": "==0.14.1",
+      "datasource": "pypi",
+      "depName": "flake8-simplify",
+      "replaceString": ""flake8-simplify==0.14.1" #renovate: pep440-python-dependency
+",
     },
   ],
   "matchStrings": [
-    "\\s*: "?(?<currentValue>.+?)"?[[:blank:]]+#[[:blank:]]*renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: packageName=(?<packageName>.+?))?(?: versioning=(?<versioning>[a-z\\d-]+?))?\\s",
+    ""(?<depName>[\\w-]+)(?<currentValue>.+?)",?[[:blank:]]+#[[:blank:]]*renovate: pep440-python-dependency\\s",
   ],
-  "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
 }
 `;
 
-exports[`should find dependencies in pyproject.toml 1`] = `
+exports[`Update PEP 440 Python dependencies find dependencies in \`pyproject.toml\` 1`] = `
 {
   "datasourceTemplate": "pypi",
   "deps": [
@@ -67,27 +57,37 @@ exports[`should find dependencies in pyproject.toml 1`] = `
 }
 `;
 
-exports[`should find pre-commit dependencies 1`] = `
+exports[`Update YAML files find dependencies in \`ci.yml\` 1`] = `
 {
-  "datasourceTemplate": "pypi",
   "deps": [
     {
-      "currentValue": "==21.9.1",
-      "datasource": "pypi",
-      "depName": "flake8-bugbear",
-      "replaceString": ""flake8-bugbear==21.9.1"  # renovate: pep440-python-dependency
+      "currentValue": "3.10.0",
+      "datasource": "docker",
+      "depName": "python",
+      "replaceString": ": "3.10.0" # renovate: datasource=docker depName=python versioning=docker
 ",
+      "versioning": "docker",
     },
     {
-      "currentValue": "==0.14.1",
-      "datasource": "pypi",
-      "depName": "flake8-simplify",
-      "replaceString": ""flake8-simplify==0.14.1" #renovate: pep440-python-dependency
+      "currentValue": "3.10.0",
+      "datasource": "docker",
+      "depName": "python",
+      "replaceString": ": "3.10.0"  #renovate: datasource=docker depName=python versioning=docker
 ",
+      "versioning": "docker",
+    },
+    {
+      "currentValue": "1.1.11",
+      "datasource": "pypi",
+      "depName": "poetry",
+      "replaceString": ": "1.1.11"   #   renovate: datasource=pypi depName=poetry
+",
+      "versioning": "semver",
     },
   ],
   "matchStrings": [
-    ""(?<depName>[\\w-]+)(?<currentValue>.+?)",?[[:blank:]]+#[[:blank:]]*renovate: pep440-python-dependency\\s",
+    "\\s*: "?(?<currentValue>.+?)"?[[:blank:]]+#[[:blank:]]*renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: packageName=(?<packageName>.+?))?(?: versioning=(?<versioning>[a-z\\d-]+?))?\\s",
   ],
+  "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
 }
 `;
