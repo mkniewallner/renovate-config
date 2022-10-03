@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.213.0
+  renovate: 32.213.2
   ts-jest: 29.0.3
   typescript: 4.8.4
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.213.0
+  renovate: 32.213.2
   ts-jest: 29.0.3_ngpiwekeidlyeurmq5tqxcklpu
   typescript: 4.8.4
 
@@ -2885,13 +2885,13 @@ packages:
       '@seald-io/nedb': 3.1.0
     dev: true
 
-  /@renovatebot/osv-offline/1.0.3:
-    resolution: {integrity: sha512-A2sHlb3ZoNP5JzD3t64Mre90K6AhzsvdEpW9Avw4alnmODJ0NOBlxwHT5IOYkqxpC1BbEVvAmqfJiJplsly3Wg==}
+  /@renovatebot/osv-offline/1.0.4:
+    resolution: {integrity: sha512-n/+OynRMRgMee0NS/9dGp7ZYy28f3DOYYtjYPgz0boJl6JDK5pHkhFqaejapsR6nDw+vcMjdrkvUbO/XZ6fEeg==}
     dependencies:
       '@octokit/rest': 19.0.4
       '@renovatebot/osv-offline-db': 1.0.1
       adm-zip: 0.5.9
-      fs-extra: 10.0.0
+      fs-extra: 10.1.0
       got: 11.8.5
       luxon: 3.0.4
     transitivePeerDependencies:
@@ -4455,15 +4455,6 @@ packages:
 
   /foreach/2.0.6:
     resolution: {integrity: sha512-k6GAGDyqLe9JaebCsFCoudPPWfihKu8pylYXRlqP1J7ms39iPoTtk2fviNglIeQEwdh0bQeKJ01ZPyuyQvKzwg==}
-    dev: true
-
-  /fs-extra/10.0.0:
-    resolution: {integrity: sha512-C5owb14u9eJwizKGdchcDUQeFtlSHHthBk8pbX9Vc1PFZrLombudjDnNns88aYslCyF6IY5SUw3Roz6xShcEIQ==}
-    engines: {node: '>=12'}
-    dependencies:
-      graceful-fs: 4.2.10
-      jsonfile: 6.1.0
-      universalify: 2.0.0
     dev: true
 
   /fs-extra/10.1.0:
@@ -6945,8 +6936,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.213.0:
-    resolution: {integrity: sha512-dLdiS6rZAAofgblGzkNQJXDEANdMb3ENtxVBAJt3dI2Gs0OOIaMPx12fUBIC0LMxOVM24L4rmmVYBLPgNHs4Qw==}
+  /renovate/32.213.2:
+    resolution: {integrity: sha512-fm2/qGsb1l1qDx6nZyatQdDaTM+K8gnXrspVEI7rWwcrdbZpZq44jJYvmHW/9gHb1RyRlulN1z3OebBXQSA1qw==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -6957,7 +6948,7 @@ packages:
       '@breejs/later': 4.1.0
       '@cheap-glitch/mi-cron': 1.0.1
       '@iarna/toml': 2.2.5
-      '@renovatebot/osv-offline': 1.0.3
+      '@renovatebot/osv-offline': 1.0.4
       '@renovatebot/pep440': 2.1.5
       '@renovatebot/ruby-semver': 1.1.6
       '@sindresorhus/is': 4.6.0
