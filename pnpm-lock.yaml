@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.219.0
+  renovate: 32.221.1
   ts-jest: 29.0.3
   typescript: 4.8.4
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 32.219.0
+  renovate: 32.221.1
   ts-jest: 29.0.3_ngpiwekeidlyeurmq5tqxcklpu
   typescript: 4.8.4
 
@@ -4150,8 +4150,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /emoji-regex/10.1.0:
-    resolution: {integrity: sha512-xAEnNCT3w2Tg6MA7ly6QqYJvEoY1tm9iIjJ3yMKK9JPlWuRHAMoe5iETwQnx3M9TVbFMfsrBgWKR+IsmswwNjg==}
+  /emoji-regex/10.2.1:
+    resolution: {integrity: sha512-97g6QgOk8zlDRdgq1WxwgTMgEWGVAQvB5Fdpgc1MkNy56la5SKP9GsMXKDOdqwn90/41a8yPwIGk1Y6WVbeMQA==}
     dev: true
 
   /emoji-regex/8.0.0:
@@ -6884,8 +6884,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.219.0:
-    resolution: {integrity: sha512-71YChlFqqefx5+QfMvm8luRcj7g+7Pk3ZK5VbFOwA27A4OnfHOInZTviqBdyFCUrdZWH3RcJoZhsdSb1HBOL3g==}
+  /renovate/32.221.1:
+    resolution: {integrity: sha512-/NjdrlFrHKnhQ6JZ4vc1n976XF3j1NQQaJKeadWNqTPmVDAKZ3qjdokz5ont+j34JVwmaWNAUXelyM+SrS1/3g==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -6922,7 +6922,7 @@ packages:
       detect-indent: 6.1.0
       editorconfig: 0.15.3
       email-addresses: 5.0.0
-      emoji-regex: 10.1.0
+      emoji-regex: 10.2.1
       emojibase: 6.1.0
       emojibase-regex: 6.0.1
       extract-zip: 2.0.1
