@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
         with:
-          version: "7.13.3" # renovate: datasource=npm depName=pnpm versioning=npm
+          version: "7.13.4" # renovate: datasource=npm depName=pnpm versioning=npm
       - uses: actions/setup-node@v3
         with:
           node-version: "18.1.0" # renovate: datasource=node depName=node versioning=node
@@ -31,7 +31,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
         with:
-          version: "7.13.3" # renovate: datasource=npm depName=pnpm versioning=npm
+          version: "7.13.4" # renovate: datasource=npm depName=pnpm versioning=npm
       - uses: actions/setup-node@v3
         with:
           node-version: "18.1.0" # renovate: datasource=node depName=node versioning=node
