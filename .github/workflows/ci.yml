@@ -19,7 +19,7 @@ jobs:
           version: "7.14.2" # renovate: datasource=npm depName=pnpm versioning=npm
       - uses: actions/setup-node@v3
         with:
-          node-version: "18.12.0" # renovate: datasource=node depName=node versioning=node
+          node-version: "18.12.1" # renovate: datasource=node depName=node versioning=node
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
       - run: pnpm lint .
@@ -34,7 +34,7 @@ jobs:
           version: "7.14.2" # renovate: datasource=npm depName=pnpm versioning=npm
       - uses: actions/setup-node@v3
         with:
-          node-version: "18.12.0" # renovate: datasource=node depName=node versioning=node
+          node-version: "18.12.1" # renovate: datasource=node depName=node versioning=node
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
       - run: pnpm test
