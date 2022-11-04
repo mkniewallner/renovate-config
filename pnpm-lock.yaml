@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 34.17.1
+  renovate: 34.18.0
   ts-jest: 29.0.3
   typescript: 4.8.4
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 34.17.1
+  renovate: 34.18.0
   ts-jest: 29.0.3_zhtuaulwu4t7uklkd45vzjjgru
   typescript: 4.8.4
 
@@ -2734,6 +2734,7 @@ packages:
   /@npmcli/move-file/2.0.0:
     resolution: {integrity: sha512-UR6D5f4KEGWJV6BGPH3Qb2EtgH+t+1XQ1Tt85c7qicN6cezzuHPdZwwAxqZr4JLtnQu0LZsTza/5gmNmSl8XLg==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
+    deprecated: This functionality has been moved to @npmcli/fs
     dependencies:
       mkdirp: 1.0.4
       rimraf: 3.0.2
@@ -2742,6 +2743,7 @@ packages:
   /@npmcli/move-file/3.0.0:
     resolution: {integrity: sha512-mOUBUIXsqAQBfn87vGIjBAve6JmD9PkP9Vdq2SayDqQh2Ol60hnXaBSvT4V6IQiho1otw6SipnVV1fulvOiyKQ==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+    deprecated: This functionality has been moved to @npmcli/fs
     dependencies:
       mkdirp: 1.0.4
       rimraf: 3.0.2
@@ -7233,8 +7235,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.17.1:
-    resolution: {integrity: sha512-L3nmx0oqsfUiWqlCzmLARsvc9BGo0pRz9dpTcUUvusfmpZZ5d+63/1QHYiOu0HuHPLLMZUZj4+QXjilr5MpIKQ==}
+  /renovate/34.18.0:
+    resolution: {integrity: sha512-ygqqUUYuhcfWml2ueFyYoCXKCgIwMGZ0Xpefnr8qXYXorK2FLMvokDhMdm37QqqXFZnlqx25JahGJfVpvVMzWA==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
