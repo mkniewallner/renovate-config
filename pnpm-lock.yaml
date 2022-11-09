@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 34.21.3
+  renovate: 34.21.4
   ts-jest: 29.0.3
   typescript: 4.8.4
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 34.21.3
+  renovate: 34.21.4
   ts-jest: 29.0.3_wksslu2w24lynedjnfnuxme4ii
   typescript: 4.8.4
 
@@ -2940,9 +2940,9 @@ packages:
       '@opentelemetry/sdk-trace-base': 1.7.0_@opentelemetry+api@1.2.0
     dev: true
 
-  /@opentelemetry/instrumentation-bunyan/0.30.0_@opentelemetry+api@1.2.0:
-    resolution: {integrity: sha512-7U4w5QA/i60AQ0LhX5AQH6L/pdE8UEhrDRGn0P7EcWUtKgHCaza6yroTsCaz7abXma7ha8SNx6IHIbAQGSYOBA==}
-    engines: {node: '>=8.12.0'}
+  /@opentelemetry/instrumentation-bunyan/0.30.1_@opentelemetry+api@1.2.0:
+    resolution: {integrity: sha512-IoOJ5wEQlUixfk5YyjKPBoc28nQwn7GuhBwsATKb5Bss2LXkXeWu4p/GxrDN4tPnrCMFtLlmeXhxbGsdx73hAQ==}
+    engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': ^1.0.0
     dependencies:
@@ -7299,8 +7299,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.21.3:
-    resolution: {integrity: sha512-4GBh1yd0qeeIfxU/Dl+YqRMSSBZ8A+K28TVXG0GthwBQUa/ETglNSnEtUDck+VqYiVZt4FC19VYYqXwS7o2PKw==}
+  /renovate/34.21.4:
+    resolution: {integrity: sha512-d835izPZgBJ065L6nu5ENaYDEHhqAuuD8FsDXEWOMIlJgOTMBxShjiEqf2M7bal2nI7nUHrXsTej1wCThsoUkQ==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7317,7 +7317,7 @@ packages:
       '@opentelemetry/context-async-hooks': 1.7.0_@opentelemetry+api@1.2.0
       '@opentelemetry/exporter-trace-otlp-http': 0.33.0_@opentelemetry+api@1.2.0
       '@opentelemetry/instrumentation': 0.33.0_@opentelemetry+api@1.2.0
-      '@opentelemetry/instrumentation-bunyan': 0.30.0_@opentelemetry+api@1.2.0
+      '@opentelemetry/instrumentation-bunyan': 0.30.1_@opentelemetry+api@1.2.0
       '@opentelemetry/instrumentation-http': 0.33.0_@opentelemetry+api@1.2.0
       '@opentelemetry/resources': 1.7.0_@opentelemetry+api@1.2.0
       '@opentelemetry/sdk-trace-base': 1.7.0_@opentelemetry+api@1.2.0
