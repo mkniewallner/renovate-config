@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 34.28.0
+  renovate: 34.29.1
   ts-jest: 29.0.3
   typescript: 4.8.4
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   re2: 1.17.7
-  renovate: 34.28.0
+  renovate: 34.29.1
   ts-jest: 29.0.3_wksslu2w24lynedjnfnuxme4ii
   typescript: 4.8.4
 
@@ -7222,8 +7222,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.28.0:
-    resolution: {integrity: sha512-kcUolQWoAUyhFBpyBb6yRaBOAltDmBj6HLYrpB5uD4uLhjlwRIAQNKL6UMiK1R/45c6/7TV42E5s14aaS8sF5g==}
+  /renovate/34.29.1:
+    resolution: {integrity: sha512-TG7YP3jOYtH4Ty34595C7ta6RVRa9naJI3oCBr9frizkm3LESsdK9CMnIB3jjFWQKXCpqzUja4USs/DJYl3M+A==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7313,12 +7313,12 @@ packages:
       redis: 4.5.0
       remark: 13.0.0
       remark-github: 10.1.0
-      safe-stable-stringify: 2.4.0
+      safe-stable-stringify: 2.4.1
       semver: 7.3.8
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 2.1.2
-      simple-git: 3.14.1
+      simple-git: 3.15.0
       slugify: 1.6.5
       traverse: 0.6.7
       tslib: 2.4.1
@@ -7469,8 +7469,8 @@ packages:
     dev: true
     optional: true
 
-  /safe-stable-stringify/2.4.0:
-    resolution: {integrity: sha512-eehKHKpab6E741ud7ZIMcXhKcP6TSIezPkNZhy5U8xC6+VvrRdUA2tMgxGxaGl4cz7c2Ew5+mg5+wNB16KQqrA==}
+  /safe-stable-stringify/2.4.1:
+    resolution: {integrity: sha512-dVHE6bMtS/bnL2mwualjc6IxEv1F+OCUpA46pKUj6F8uDbUM0jCCulPqRNPSnWwGNKx5etqMjZYdXtrm5KJZGA==}
     engines: {node: '>=10'}
     dev: true
 
@@ -7566,8 +7566,8 @@ packages:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
 
-  /simple-git/3.14.1:
-    resolution: {integrity: sha512-1ThF4PamK9wBORVGMK9HK5si4zoGS2GpRO7tkAFObA4FZv6dKaCVHLQT+8zlgiBm6K2h+wEU9yOaFCu/SR3OyA==}
+  /simple-git/3.15.0:
+    resolution: {integrity: sha512-FiWoMPlcYHQ+ApRihUsGjC/ZmIlWj62S6MBCwOunczvXcLQt+9ZdrysDrR6QVepkRQfEAaBXrN2QtJKrN6zbtg==}
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
