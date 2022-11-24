@@ -12,7 +12,7 @@ specifiers:
   json5: 2.2.1
   lint-staged: 13.0.3
   prettier: 2.8.0
-  re2: 1.17.7
+  re2: 1.17.8
   renovate: 34.32.0
   ts-jest: 29.0.3
   typescript: 4.8.4
@@ -29,7 +29,7 @@ devDependencies:
   json5: 2.2.1
   lint-staged: 13.0.3
   prettier: 2.8.0
-  re2: 1.17.7
+  re2: 1.17.8
   renovate: 34.32.0
   ts-jest: 29.0.3_wksslu2w24lynedjnfnuxme4ii
   typescript: 4.8.4
@@ -4453,7 +4453,7 @@ packages:
     engines: {node: '>=0.10'}
     requiresBuild: true
     dependencies:
-      nan: 2.16.0
+      nan: 2.17.0
     dev: true
     optional: true
 
@@ -6552,8 +6552,8 @@ packages:
     dev: true
     optional: true
 
-  /nan/2.16.0:
-    resolution: {integrity: sha512-UdAqHyFngu7TfQKsCBgAA6pWDkT8MAO7d0jyOecVhN5354xbLqdn8mV9Tat9gepAupm0bt2DbeaSC8vS52MuFA==}
+  /nan/2.17.0:
+    resolution: {integrity: sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==}
     dev: true
 
   /nanoid/3.3.4:
@@ -6593,8 +6593,8 @@ packages:
       whatwg-url: 5.0.0
     dev: true
 
-  /node-gyp/9.0.0:
-    resolution: {integrity: sha512-Ma6p4s+XCTPxCuAMrOA/IJRmVy16R8Sdhtwl4PrCr7IBlj4cPawF0vg/l7nOT1jPbuNS7lIRJpBSvVsXwEZuzw==}
+  /node-gyp/9.3.0:
+    resolution: {integrity: sha512-A6rJWfXFz7TQNjpldJ915WFb1LnhO4lIve3ANPbWreuEoLoKlFT3sxIepPBkLhM27crW8YmN+pjlgbasH6cH/Q==}
     engines: {node: ^12.22 || ^14.13 || >=16}
     hasBin: true
     dependencies:
@@ -6602,7 +6602,7 @@ packages:
       glob: 7.2.0
       graceful-fs: 4.2.10
       make-fetch-happen: 10.1.7
-      nopt: 5.0.0
+      nopt: 6.0.0
       npmlog: 6.0.2
       rimraf: 3.0.2
       semver: 7.3.8
@@ -6636,9 +6636,9 @@ packages:
       is: 3.3.0
     dev: true
 
-  /nopt/5.0.0:
-    resolution: {integrity: sha512-Tbj67rffqceeLpcRXrT7vKAN8CwfPeIBgM7E6iBkmKLV7bEMwpGgYLGv0jACUsECaa/vuxP0IjEont6umdMgtQ==}
-    engines: {node: '>=6'}
+  /nopt/6.0.0:
+    resolution: {integrity: sha512-ZwLpbTgdhuZUnZzjd7nb1ZV+4DoiC6/sfiVKok72ym/4Tlf+DFdlHYmT2JPmcNNWV6Pi3SDf1kT+A4r9RTuT9g==}
+    engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
     hasBin: true
     dependencies:
       abbrev: 1.1.1
@@ -7061,8 +7061,21 @@ packages:
     requiresBuild: true
     dependencies:
       install-artifact-from-github: 1.3.1
-      nan: 2.16.0
-      node-gyp: 9.0.0
+      nan: 2.17.0
+      node-gyp: 9.3.0
+    transitivePeerDependencies:
+      - bluebird
+      - supports-color
+    dev: true
+    optional: true
+
+  /re2/1.17.8:
+    resolution: {integrity: sha512-KM5zYGb1BlPPU8xLq9kkxwMq2wntoluIbjELcPSRS32hxgJqked3ahmtzu6vY1SMqjxHfutStF2b3KuRjcJHHg==}
+    requiresBuild: true
+    dependencies:
+      install-artifact-from-github: 1.3.1
+      nan: 2.17.0
+      node-gyp: 9.3.0
     transitivePeerDependencies:
       - bluebird
       - supports-color
