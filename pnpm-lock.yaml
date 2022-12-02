@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.0.4
   prettier: 2.8.0
   re2: 1.17.8
-  renovate: 34.47.1
+  renovate: 34.48.0
   ts-jest: 29.0.3
   typescript: 4.9.3
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.0.4
   prettier: 2.8.0
   re2: 1.17.8
-  renovate: 34.47.1
+  renovate: 34.48.0
   ts-jest: 29.0.3_6e7mqrelncvn5j57uonhn3ff4i
   typescript: 4.9.3
 
@@ -4702,6 +4702,15 @@ packages:
       universalify: 2.0.0
     dev: true
 
+  /fs-extra/11.1.0:
+    resolution: {integrity: sha512-0rcTq621PD5jM/e0a3EJoGC/1TC5ZBCERW82LQuwfGnCa1V8w7dpYH1yNu+SLb6E5dkeCBzKEyLGlFrnr+dUyw==}
+    engines: {node: '>=14.14'}
+    dependencies:
+      graceful-fs: 4.2.10
+      jsonfile: 6.1.0
+      universalify: 2.0.0
+    dev: true
+
   /fs-minipass/2.1.0:
     resolution: {integrity: sha512-V/JgOLFCS+R6Vcq0slCuaeWEdNC3ouDlJMNIsacH2VtALiu9mV4LPrHc5cDl8k5aw6J8jwgWWpiTo5RYhmIzvg==}
     engines: {node: '>= 8'}
@@ -7021,8 +7030,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.47.1:
-    resolution: {integrity: sha512-NqZAAmZQRD3gY2Viq/m8W2tjxOZUJYnwC7N9XN09dGqo2j7Em1kmCsSoGnkK9kHliTFoaOT4pWO2YIQfhgcOkA==}
+  /renovate/34.48.0:
+    resolution: {integrity: sha512-oU0c+69kQuEuE75dU2EJmwWa2uop8j6aS27hzwLo8thETQPzjID5Ml3khPuJQCpJm4W6T6JwBqf8q3qOe10Neg==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7078,7 +7087,7 @@ packages:
       extract-zip: 2.0.1
       find-packages: 10.0.2
       find-up: 5.0.0
-      fs-extra: 10.1.0
+      fs-extra: 11.1.0
       git-url-parse: 13.1.0
       github-url-from-git: 1.5.0
       global-agent: 3.0.0
