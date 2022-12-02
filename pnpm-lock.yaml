@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.0.4
   prettier: 2.8.0
   re2: 1.17.8
-  renovate: 34.47.0
+  renovate: 34.47.1
   ts-jest: 29.0.3
   typescript: 4.9.3
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.0.4
   prettier: 2.8.0
   re2: 1.17.8
-  renovate: 34.47.0
+  renovate: 34.47.1
   ts-jest: 29.0.3_6e7mqrelncvn5j57uonhn3ff4i
   typescript: 4.9.3
 
@@ -3103,16 +3103,16 @@ packages:
       write-yaml-file: 4.2.0
     dev: true
 
-  /@redis/bloom/1.1.0_@redis+client@1.4.0:
+  /@redis/bloom/1.1.0_@redis+client@1.4.2:
     resolution: {integrity: sha512-9QovlxmpRtvxVbN0UBcv8WfdSMudNZZTFqCsnBszcQXqaZb/TVe30ScgGEO7u1EAIacTPAo7/oCYjYAxiHLanQ==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.4.0
+      '@redis/client': 1.4.2
     dev: true
 
-  /@redis/client/1.4.0:
-    resolution: {integrity: sha512-1gEj1AkyXPlkcC/9/T5xpDcQF8ntERURjLBgEWMTdUZqe181zfI9BY3jc2OzjTLkvZh5GV7VT4ktoJG2fV2ufw==}
+  /@redis/client/1.4.2:
+    resolution: {integrity: sha512-oUdEjE0I7JS5AyaAjkD3aOXn9NhO7XKyPyXEyrgFDu++VrVBHUPnV6dgEya9TcMuj5nIJRuCzCm8ZP+c9zCHPw==}
     engines: {node: '>=14'}
     dependencies:
       cluster-key-slot: 1.1.1
@@ -3120,36 +3120,36 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /@redis/graph/1.1.0_@redis+client@1.4.0:
+  /@redis/graph/1.1.0_@redis+client@1.4.2:
     resolution: {integrity: sha512-16yZWngxyXPd+MJxeSr0dqh2AIOi8j9yXKcKCwVaKDbH3HTuETpDVPcLujhFYVPtYrngSco31BUcSa9TH31Gqg==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.4.0
+      '@redis/client': 1.4.2
     dev: true
 
-  /@redis/json/1.0.4_@redis+client@1.4.0:
+  /@redis/json/1.0.4_@redis+client@1.4.2:
     resolution: {integrity: sha512-LUZE2Gdrhg0Rx7AN+cZkb1e6HjoSKaeeW8rYnt89Tly13GBI5eP4CwDVr+MY8BAYfCg4/N15OUrtLoona9uSgw==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.4.0
+      '@redis/client': 1.4.2
     dev: true
 
-  /@redis/search/1.1.0_@redis+client@1.4.0:
+  /@redis/search/1.1.0_@redis+client@1.4.2:
     resolution: {integrity: sha512-NyFZEVnxIJEybpy+YskjgOJRNsfTYqaPbK/Buv6W2kmFNaRk85JiqjJZA5QkRmWvGbyQYwoO5QfDi2wHskKrQQ==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.4.0
+      '@redis/client': 1.4.2
     dev: true
 
-  /@redis/time-series/1.0.4_@redis+client@1.4.0:
+  /@redis/time-series/1.0.4_@redis+client@1.4.2:
     resolution: {integrity: sha512-ThUIgo2U/g7cCuZavucQTQzA9g9JbDDY2f64u3AbAoz/8vE2lt2U37LamDUVChhaDA3IRT9R6VvJwqnUfTJzng==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.4.0
+      '@redis/client': 1.4.2
     dev: true
 
   /@renovatebot/osv-offline-db/1.0.1:
@@ -6930,15 +6930,15 @@ packages:
       strip-indent: 3.0.0
     dev: true
 
-  /redis/4.5.0:
-    resolution: {integrity: sha512-oZGAmOKG+RPnHo0UxM5GGjJ0dBd/Vi4fs3MYwM1p2baDoXC0wpm0yOdpxVS9K+0hM84ycdysp2eHg2xGoQ4FEw==}
+  /redis/4.5.1:
+    resolution: {integrity: sha512-oxXSoIqMJCQVBTfxP6BNTCtDMyh9G6Vi5wjdPdV/sRKkufyZslDqCScSGcOr6XGR/reAWZefz7E4leM31RgdBA==}
     dependencies:
-      '@redis/bloom': 1.1.0_@redis+client@1.4.0
-      '@redis/client': 1.4.0
-      '@redis/graph': 1.1.0_@redis+client@1.4.0
-      '@redis/json': 1.0.4_@redis+client@1.4.0
-      '@redis/search': 1.1.0_@redis+client@1.4.0
-      '@redis/time-series': 1.0.4_@redis+client@1.4.0
+      '@redis/bloom': 1.1.0_@redis+client@1.4.2
+      '@redis/client': 1.4.2
+      '@redis/graph': 1.1.0_@redis+client@1.4.2
+      '@redis/json': 1.0.4_@redis+client@1.4.2
+      '@redis/search': 1.1.0_@redis+client@1.4.2
+      '@redis/time-series': 1.0.4_@redis+client@1.4.2
     dev: true
 
   /regenerate-unicode-properties/10.1.0:
@@ -7021,8 +7021,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.47.0:
-    resolution: {integrity: sha512-dttLOADPTRk1s28iIqA9+v4g+u2IwoBxXBxli69ZM6QIWqWcjFQmu0myQUMF93jrrCDj5y2NsDFQ3RcBprEu/w==}
+  /renovate/34.47.1:
+    resolution: {integrity: sha512-NqZAAmZQRD3gY2Viq/m8W2tjxOZUJYnwC7N9XN09dGqo2j7Em1kmCsSoGnkK9kHliTFoaOT4pWO2YIQfhgcOkA==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7109,7 +7109,7 @@ packages:
       parse-link-header: 2.0.0
       prettier: 2.8.0
       quick-lru: 5.1.1
-      redis: 4.5.0
+      redis: 4.5.1
       remark: 13.0.0
       remark-github: 10.1.0
       safe-stable-stringify: 2.4.1
