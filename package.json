@@ -25,7 +25,7 @@
     "re2": "1.17.8",
     "renovate": "34.50.3",
     "ts-jest": "29.0.3",
-    "typescript": "4.9.3"
+    "typescript": "4.9.4"
   },
   "engines": {
     "node": ">=13.0"
