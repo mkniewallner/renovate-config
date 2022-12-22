@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.1.0
   prettier: 2.8.1
   re2: 1.18.0
-  renovate: 34.70.0
+  renovate: 34.70.4
   ts-jest: 29.0.3
   typescript: 4.9.4
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.1.0
   prettier: 2.8.1
   re2: 1.18.0
-  renovate: 34.70.0
+  renovate: 34.70.4
   ts-jest: 29.0.3_zg5tan7fctl4mw36eolb7mi43u
   typescript: 4.9.4
 
@@ -3281,8 +3281,8 @@ packages:
       - encoding
     dev: true
 
-  /@renovatebot/pep440/2.1.5:
-    resolution: {integrity: sha512-5KqCemtyjR7e98uHadFQUylRpoILYTopJGVaEbs+/WHfB14pJKGPGIkCUN1Zl6fYh+D0Qh7JAXsZ+fRVeSVNZg==}
+  /@renovatebot/pep440/2.1.6:
+    resolution: {integrity: sha512-DpH0LvlRt4sDDTwVNEoen9ZaExigbBm2PPwOCBUqBSXxFGM0Ms9flzhdTRJLnmgdYLUcLcQ8zjyy+S1EnDFPnw==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     dev: true
 
@@ -4048,12 +4048,12 @@ packages:
       - bluebird
     dev: true
 
-  /cacache/17.0.3:
-    resolution: {integrity: sha512-pwsIK/grdM0cHpfVaNFxMdzElBtLJGsVPE+JnxqXP1l40O01Z1mfDE8MbRTuwomGq/UwEtGisOylutOEVJxEqg==}
+  /cacache/17.0.4:
+    resolution: {integrity: sha512-Z/nL3gU+zTUjz5pCA5vVjYM8pmaw2kxM7JEiE0fv3w77Wj+sFbi70CrBruUWH0uNcEdvLDixFpgA2JM4F4DBjA==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
       '@npmcli/fs': 3.1.0
-      fs-minipass: 2.1.0
+      fs-minipass: 3.0.0
       glob: 8.0.3
       lru-cache: 7.14.1
       minipass: 4.0.0
@@ -4824,6 +4824,13 @@ packages:
     engines: {node: '>= 8'}
     dependencies:
       minipass: 3.3.6
+    dev: true
+
+  /fs-minipass/3.0.0:
+    resolution: {integrity: sha512-EUojgQaSPy6sxcqcZgQv6TVF6jiKvurji3AxhAivs/Ep4O1UpS8TusaxpybfFHZ2skRhLqzk6WR8nqNYIMMDeA==}
+    engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+    dependencies:
+      minipass: 4.0.0
     dev: true
 
   /fs.realpath/1.0.0:
@@ -7164,8 +7171,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.70.0:
-    resolution: {integrity: sha512-LgunZF/K8zmBGBAcHjHKmCLcxSmetHcMf/7SlkFm4bHlyUOtaTaAl/hsyMI41g3L8IZ6mMmMc8nBo7WeJGb39Q==}
+  /renovate/34.70.4:
+    resolution: {integrity: sha512-TpqUVfu0qiPVSiKmJPEt8UCjuKXdX3FKDPyKMqaPGgECqyDTnGkjXzpYcf8igAnCbWEAxP6iVHxCpN33RLwLgA==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7189,7 +7196,7 @@ packages:
       '@opentelemetry/sdk-trace-node': 1.8.0_@opentelemetry+api@1.3.0
       '@opentelemetry/semantic-conventions': 1.8.0
       '@renovatebot/osv-offline': 1.0.8
-      '@renovatebot/pep440': 2.1.5
+      '@renovatebot/pep440': 2.1.6
       '@renovatebot/ruby-semver': 1.1.7
       '@sindresorhus/is': 4.6.0
       '@types/tmp': 0.2.3
@@ -7201,7 +7208,7 @@ packages:
       aws4: 1.11.0
       azure-devops-node-api: 11.2.0
       bunyan: 1.8.15
-      cacache: 17.0.3
+      cacache: 17.0.4
       cacheable-lookup: 5.0.4
       chalk: 4.1.2
       changelog-filename-regex: 2.0.1
