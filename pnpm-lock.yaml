@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.1.0
   prettier: 2.8.1
   re2: 1.18.0
-  renovate: 34.70.4
+  renovate: 34.72.1
   ts-jest: 29.0.3
   typescript: 4.9.4
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.1.0
   prettier: 2.8.1
   re2: 1.18.0
-  renovate: 34.70.4
+  renovate: 34.72.1
   ts-jest: 29.0.3_zg5tan7fctl4mw36eolb7mi43u
   typescript: 4.9.4
 
@@ -5966,12 +5966,6 @@ packages:
     resolution: {integrity: sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==}
     dev: true
 
-  /json5/2.2.1:
-    resolution: {integrity: sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==}
-    engines: {node: '>=6'}
-    hasBin: true
-    dev: true
-
   /json5/2.2.2:
     resolution: {integrity: sha512-46Tk9JiOL2z7ytNQWFLpj99RZkVgeHf87yGQKsIkaPz1qSH9UczKH1rO7K3wgRselo0tYMUNfecYpm/p1vC7tQ==}
     engines: {node: '>=6'}
@@ -7171,8 +7165,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.70.4:
-    resolution: {integrity: sha512-TpqUVfu0qiPVSiKmJPEt8UCjuKXdX3FKDPyKMqaPGgECqyDTnGkjXzpYcf8igAnCbWEAxP6iVHxCpN33RLwLgA==}
+  /renovate/34.72.1:
+    resolution: {integrity: sha512-2RnD/rV6qpca65Z/LpQdiN13TdjkGrqyuYGDGRT1Vq/sFZGuyi/o2oEU9xTeuoIzB7C/iF4lJ+hnPa+3QEoaSA==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7242,7 +7236,7 @@ packages:
       js-yaml: 4.1.0
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
-      json5: 2.2.1
+      json5: 2.2.2
       luxon: 3.1.1
       markdown-it: 13.0.1
       markdown-table: 2.0.0
@@ -7269,6 +7263,7 @@ packages:
       shlex: 2.1.2
       simple-git: 3.15.1
       slugify: 1.6.5
+      source-map-support: 0.5.21
       traverse: 0.6.7
       tslib: 2.4.1
       upath: 2.0.1
@@ -7590,6 +7585,13 @@ packages:
 
   /source-map-support/0.5.13:
     resolution: {integrity: sha512-SHSKFHadjVA5oR4PPqhtAVdcBWwRYVd6g6cAXnIbRiIwc2EhPrTuKUBdSLvlEKyIP3GCf89fltvcZiP9MMFA1w==}
+    dependencies:
+      buffer-from: 1.1.2
+      source-map: 0.6.1
+    dev: true
+
+  /source-map-support/0.5.21:
+    resolution: {integrity: sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==}
     dependencies:
       buffer-from: 1.1.2
       source-map: 0.6.1
