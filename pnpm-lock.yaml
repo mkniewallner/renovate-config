@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.1.0
   prettier: 2.8.1
   re2: 1.18.0
-  renovate: 34.82.0
+  renovate: 34.83.1
   ts-jest: 29.0.3
   typescript: 4.9.4
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.1.0
   prettier: 2.8.1
   re2: 1.18.0
-  renovate: 34.82.0
+  renovate: 34.83.1
   ts-jest: 29.0.3_lpdtk6tcorkuyzgotacsdxtnxm
   typescript: 4.9.4
 
@@ -5008,8 +5008,8 @@ packages:
       slash: 3.0.0
     dev: true
 
-  /good-enough-parser/1.1.21:
-    resolution: {integrity: sha512-XkTm6NC2z0AGkaTI3dgmNMgPoKC51Mu+TIXUyAWmp8xk5iC+6+JKBaQRwfr3/UNsU09VdPFdjMnjks/FWpU+Gw==}
+  /good-enough-parser/1.1.22:
+    resolution: {integrity: sha512-fI4qWIeyqjleGazMcXnqgtvG8qBJGUoj5CtraqaUpZmk94ztMab6irx3Yz+EsJKKgIrwkSBM69WHLngfhAe7hg==}
     dependencies:
       '@thi.ng/zipper': 1.0.3
       '@types/moo': 0.5.5
@@ -7165,8 +7165,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.82.0:
-    resolution: {integrity: sha512-WRecd/mnsa0f/kbXrA9qbmfJSYCm+k+K2tpvqKfPcewklVQ1zIxNQms+BovzDqipssnbCmZefLmvucW2toRZNg==}
+  /renovate/34.83.1:
+    resolution: {integrity: sha512-do5oxsX4Nbio0mXGjbzDD0cUEFZXCZELukyqEsdNV8C+SjnHhiXqglNGQJpETmMsS9yNl0hxEHFqeXolgM7qRw==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7226,7 +7226,7 @@ packages:
       git-url-parse: 13.1.0
       github-url-from-git: 1.5.0
       global-agent: 3.0.0
-      good-enough-parser: 1.1.21
+      good-enough-parser: 1.1.22
       got: 11.8.6
       graph-data-structure: 2.0.0
       handlebars: 4.7.7
@@ -7256,7 +7256,7 @@ packages:
       redis: 4.5.1
       remark: 13.0.0
       remark-github: 10.1.0
-      safe-stable-stringify: 2.4.1
+      safe-stable-stringify: 2.4.2
       semver: 7.3.8
       semver-stable: 3.0.0
       semver-utils: 1.1.4
@@ -7413,8 +7413,8 @@ packages:
     dev: true
     optional: true
 
-  /safe-stable-stringify/2.4.1:
-    resolution: {integrity: sha512-dVHE6bMtS/bnL2mwualjc6IxEv1F+OCUpA46pKUj6F8uDbUM0jCCulPqRNPSnWwGNKx5etqMjZYdXtrm5KJZGA==}
+  /safe-stable-stringify/2.4.2:
+    resolution: {integrity: sha512-gMxvPJYhP0O9n2pvcfYfIuYgbledAOJFcqRThtPRmjscaipiwcwPPKLytpVzMkG2HAN87Qmo2d4PtGiri1dSLA==}
     engines: {node: '>=10'}
     dev: true
 
