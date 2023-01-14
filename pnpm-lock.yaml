@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.1.0
   prettier: 2.8.3
   re2: 1.18.0
-  renovate: 34.102.0
+  renovate: 34.102.2
   ts-jest: 29.0.5
   typescript: 4.9.4
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.1.0
   prettier: 2.8.3
   re2: 1.18.0
-  renovate: 34.102.0
+  renovate: 34.102.2
   ts-jest: 29.0.5_lpdtk6tcorkuyzgotacsdxtnxm
   typescript: 4.9.4
 
@@ -4292,6 +4292,11 @@ packages:
     engines: {node: ^12.20.0 || >=14}
     dev: true
 
+  /commander/9.5.0:
+    resolution: {integrity: sha512-KRs7WVDKg86PWiuAqhDrAQnTXZKraVcCc6vFdL14qrZ/DcWwuRo7VoiYXalXO7S5GKpqYiVEwCbgFDfxNHKJBQ==}
+    engines: {node: ^12.20.0 || >=14}
+    dev: true
+
   /concat-map/0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
@@ -4531,7 +4536,7 @@ packages:
     hasBin: true
     dependencies:
       '@one-ini/wasm': 0.1.1
-      commander: 9.4.1
+      commander: 9.5.0
       minimatch: 5.1.0
       semver: 7.3.8
     dev: true
@@ -7175,8 +7180,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.102.0:
-    resolution: {integrity: sha512-PLjIjzaazTwi6FvjM9aY4mCMvBO3T16+Hn21LxYY7j66TXH4jY/m9saD4sikWClabmVG7lltykaVhD3w70kpGA==}
+  /renovate/34.102.2:
+    resolution: {integrity: sha512-+asxxuxCLdnYOXvtn0oueeAFgCphOsyLGKQpBk1j4X+S2JbGdEo4liOVe8PnSdkC+gRVspcHxSpx/vkq4yv9OQ==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7217,7 +7222,7 @@ packages:
       chalk: 4.1.2
       changelog-filename-regex: 2.0.1
       clean-git-ref: 2.0.1
-      commander: 9.4.1
+      commander: 9.5.0
       conventional-commits-detector: 1.0.3
       crypto-random-string: 3.3.1
       deepmerge: 4.2.2
