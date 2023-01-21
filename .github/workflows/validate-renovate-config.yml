@@ -10,6 +10,10 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref || github.head_ref }}
   cancel-in-progress: true
 
+env:
+  # renovate: datasource=node depName=node versioning=node
+  NODE_VERSION: "18.13.0"
+
 jobs:
   validate-renovate-config:
     runs-on: ubuntu-22.04
@@ -17,7 +21,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: "18.13.0" # renovate: datasource=node depName=node versioning=node
+          node-version: ${{ env.NODE_VERSION }}
       - env:
           # Despite only passing `default.json5`, `renovate.json5` is also auto-detected and validated.
           RENOVATE_CONFIG_FILE: default.json5
