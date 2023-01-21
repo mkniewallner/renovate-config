@@ -9,6 +9,7 @@
     ":semanticCommitScope(deps)",
     ":semanticCommits",
     "regexManagers:dockerfileVersions",
+    "regexManagers:githubActionsVersions",
   ],
   labels: ["dependencies"],
   packageRules: [
@@ -39,18 +40,10 @@
   ],
   regexManagers: [
     {
-      description: "Update YAML files",
-      fileMatch: ["^.+\\.ya?ml$"],
-      matchStrings: [
-        '\\s*: "?(?<currentValue>.+?)"?[[:blank:]]+#[[:blank:]]*renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: packageName=(?<packageName>.+?))?(?: versioning=(?<versioning>[a-z\\d-]+?))?\\s',
-      ],
-      versioningTemplate: "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
-    },
-    {
       description: "Update PEP 440 Python dependencies",
       fileMatch: ["^(\\.pre-commit-config\\.yaml|pyproject\\.toml)$"],
       matchStrings: [
-        '"(?<depName>[\\w-]+)(?<currentValue>.+?)",?[[:blank:]]+#[[:blank:]]*renovate: pep440-python-dependency\\s',
+        '"(?<depName>[\\w-]+)(?<currentValue>.+?)",? +# renovate: pep440-python-dependency\\s',
       ],
       datasourceTemplate: "pypi",
     },

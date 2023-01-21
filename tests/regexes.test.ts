@@ -8,35 +8,8 @@ function regexMatches(target: string, patterns: string[]): boolean {
   });
 }
 
-describe("Update YAML files", () => {
-  const regexManager = loadRenovateConfiguration()["regexManagers"][0];
-
-  it("find dependencies in `ci.yml`", () => {
-    const fileName = "ci.yml";
-    const res = extractPackageFile(loadFixture(fileName), fileName, regexManager);
-
-    expect(res).toMatchSnapshot();
-  });
-
-  describe("matches regexes patterns", () => {
-    test.each([
-      ["ci.yml", true],
-      ["ci.yaml", true],
-      ["ci.yaaml", false],
-      ["ciyml", false],
-      ["ciyaml", false],
-      ["ciayml", false],
-      ["foo/ci.yaml", true],
-      ["foo/bar/ci.yaml", true],
-      ["foo/bar/foo_bar_3000.yaml", true],
-    ])('regexMatches("%s") === %s', (path, expected) => {
-      expect(regexMatches(path, regexManager.fileMatch)).toBe(expected);
-    });
-  });
-});
-
 describe("Update PEP 440 Python dependencies", () => {
-  const regexManager = loadRenovateConfiguration()["regexManagers"][1];
+  const regexManager = loadRenovateConfiguration()["regexManagers"][0];
 
   test.each([".pre-commit-config.yaml", "pyproject.toml"])(
     "find dependencies in `%s`",

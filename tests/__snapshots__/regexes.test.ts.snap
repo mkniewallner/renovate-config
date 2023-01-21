@@ -15,12 +15,12 @@ exports[`Update PEP 440 Python dependencies find dependencies in \`.pre-commit-c
       "currentValue": "==0.14.1",
       "datasource": "pypi",
       "depName": "flake8-simplify",
-      "replaceString": ""flake8-simplify==0.14.1" #renovate: pep440-python-dependency
+      "replaceString": ""flake8-simplify==0.14.1" # renovate: pep440-python-dependency
 ",
     },
   ],
   "matchStrings": [
-    ""(?<depName>[\\w-]+)(?<currentValue>.+?)",?[[:blank:]]+#[[:blank:]]*renovate: pep440-python-dependency\\s",
+    ""(?<depName>[\\w-]+)(?<currentValue>.+?)",? +# renovate: pep440-python-dependency\\s",
   ],
 }
 `;
@@ -40,54 +40,19 @@ exports[`Update PEP 440 Python dependencies find dependencies in \`pyproject.tom
       "currentValue": " == 1.2.1",
       "datasource": "pypi",
       "depName": "arrow",
-      "replaceString": ""arrow == 1.2.1", #renovate: pep440-python-dependency
+      "replaceString": ""arrow == 1.2.1", # renovate: pep440-python-dependency
 ",
     },
     {
       "currentValue": " >= 0.16.0",
       "datasource": "pypi",
       "depName": "uvloop",
-      "replaceString": ""uvloop >= 0.16.0", #renovate: pep440-python-dependency
+      "replaceString": ""uvloop >= 0.16.0" # renovate: pep440-python-dependency
 ",
     },
   ],
   "matchStrings": [
-    ""(?<depName>[\\w-]+)(?<currentValue>.+?)",?[[:blank:]]+#[[:blank:]]*renovate: pep440-python-dependency\\s",
+    ""(?<depName>[\\w-]+)(?<currentValue>.+?)",? +# renovate: pep440-python-dependency\\s",
   ],
-}
-`;
-
-exports[`Update YAML files find dependencies in \`ci.yml\` 1`] = `
-{
-  "deps": [
-    {
-      "currentValue": "3.10.0",
-      "datasource": "docker",
-      "depName": "python",
-      "replaceString": ": "3.10.0" # renovate: datasource=docker depName=python versioning=docker
-",
-      "versioning": "docker",
-    },
-    {
-      "currentValue": "3.10.0",
-      "datasource": "docker",
-      "depName": "python",
-      "replaceString": ": "3.10.0"  #renovate: datasource=docker depName=python versioning=docker
-",
-      "versioning": "docker",
-    },
-    {
-      "currentValue": "1.1.11",
-      "datasource": "pypi",
-      "depName": "poetry",
-      "replaceString": ": "1.1.11"   #   renovate: datasource=pypi depName=poetry
-",
-      "versioning": "semver",
-    },
-  ],
-  "matchStrings": [
-    "\\s*: "?(?<currentValue>.+?)"?[[:blank:]]+#[[:blank:]]*renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: packageName=(?<packageName>.+?))?(?: versioning=(?<versioning>[a-z\\d-]+?))?\\s",
-  ],
-  "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
 }
 `;
