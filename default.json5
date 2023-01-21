@@ -9,6 +9,7 @@
     ":semanticCommitScope(deps)",
     ":semanticCommits",
     "regexManagers:dockerfileVersions",
+    "regexManagers:githubActionsVersions",
   ],
   labels: ["dependencies"],
   packageRules: [
