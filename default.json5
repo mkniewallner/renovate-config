@@ -40,14 +40,6 @@
   ],
   regexManagers: [
     {
-      description: "Update YAML files",
-      fileMatch: ["^.+\\.ya?ml$"],
-      matchStrings: [
-        '\\s*: "?(?<currentValue>.+?)"?[[:blank:]]+#[[:blank:]]*renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: packageName=(?<packageName>.+?))?(?: versioning=(?<versioning>[a-z\\d-]+?))?\\s',
-      ],
-      versioningTemplate: "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
-    },
-    {
       description: "Update PEP 440 Python dependencies",
       fileMatch: ["^(\\.pre-commit-config\\.yaml|pyproject\\.toml)$"],
       matchStrings: [

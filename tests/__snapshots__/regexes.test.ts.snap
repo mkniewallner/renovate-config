@@ -56,38 +56,3 @@ exports[`Update PEP 440 Python dependencies find dependencies in \`pyproject.tom
   ],
 }
 `;
-
-exports[`Update YAML files find dependencies in \`ci.yml\` 1`] = `
-{
-  "deps": [
-    {
-      "currentValue": "3.10.0",
-      "datasource": "docker",
-      "depName": "python",
-      "replaceString": ": "3.10.0" # renovate: datasource=docker depName=python versioning=docker
-",
-      "versioning": "docker",
-    },
-    {
-      "currentValue": "3.10.0",
-      "datasource": "docker",
-      "depName": "python",
-      "replaceString": ": "3.10.0"  #renovate: datasource=docker depName=python versioning=docker
-",
-      "versioning": "docker",
-    },
-    {
-      "currentValue": "1.1.11",
-      "datasource": "pypi",
-      "depName": "poetry",
-      "replaceString": ": "1.1.11"   #   renovate: datasource=pypi depName=poetry
-",
-      "versioning": "semver",
-    },
-  ],
-  "matchStrings": [
-    "\\s*: "?(?<currentValue>.+?)"?[[:blank:]]+#[[:blank:]]*renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: packageName=(?<packageName>.+?))?(?: versioning=(?<versioning>[a-z\\d-]+?))?\\s",
-  ],
-  "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
-}
-`;
