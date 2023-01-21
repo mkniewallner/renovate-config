@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.1.0
   prettier: 2.8.3
   re2: 1.18.0
-  renovate: 34.108.1
+  renovate: 34.108.2
   ts-jest: 29.0.5
   typescript: 4.9.4
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.1.0
   prettier: 2.8.3
   re2: 1.18.0
-  renovate: 34.108.1
+  renovate: 34.108.2
   ts-jest: 29.0.5_lpdtk6tcorkuyzgotacsdxtnxm
   typescript: 4.9.4
 
@@ -6923,12 +6923,6 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier/2.8.2:
-    resolution: {integrity: sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==}
-    engines: {node: '>=10.13.0'}
-    hasBin: true
-    dev: true
-
   /prettier/2.8.3:
     resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
     engines: {node: '>=10.13.0'}
@@ -7194,8 +7188,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.108.1:
-    resolution: {integrity: sha512-sxSPPXeDR8ah5sA9uElXeL9PYVx91nLK6sZ6CeSUwtgix6NiotX9eLFETIOsHXKoNE0DN3UAH4u0NRpoaF+QUA==}
+  /renovate/34.108.2:
+    resolution: {integrity: sha512-oqhSvyRETi4/tuylpWdRG2YcaluQkoeHCwCTJ34x0SNjmwSMB6ihPDZr0c2sGWZ6Zsao9HEVEdIbOT7rXDZj5w==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7281,7 +7275,7 @@ packages:
       p-queue: 6.6.2
       p-throttle: 4.1.1
       parse-link-header: 2.0.0
-      prettier: 2.8.2
+      prettier: 2.8.3
       quick-lru: 5.1.1
       redis: 4.5.1
       remark: 13.0.0
