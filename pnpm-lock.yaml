@@ -11,7 +11,7 @@ specifiers:
   jest: 29.4.2
   json5: 2.2.3
   lint-staged: 13.1.1
-  prettier: 2.8.3
+  prettier: 2.8.4
   re2: 1.18.0
   renovate: 34.128.0
   ts-jest: 29.0.5
@@ -28,7 +28,7 @@ devDependencies:
   jest: 29.4.2
   json5: 2.2.3
   lint-staged: 13.1.1
-  prettier: 2.8.3
+  prettier: 2.8.4
   re2: 1.18.0
   renovate: 34.128.0
   ts-jest: 29.0.5_dcqwcz2c4zy7b5mj5mjr6uey64
@@ -7055,6 +7055,12 @@ packages:
 
   /prettier/2.8.3:
     resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
+
+  /prettier/2.8.4:
+    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
