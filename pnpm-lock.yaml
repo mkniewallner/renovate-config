@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.1.1
   prettier: 2.8.4
   re2: 1.18.0
-  renovate: 34.128.1
+  renovate: 34.128.2
   ts-jest: 29.0.5
   typescript: 4.9.5
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.1.1
   prettier: 2.8.4
   re2: 1.18.0
-  renovate: 34.128.1
+  renovate: 34.128.2
   ts-jest: 29.0.5_dcqwcz2c4zy7b5mj5mjr6uey64
   typescript: 4.9.5
 
@@ -7342,8 +7342,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.128.1:
-    resolution: {integrity: sha512-3Pu2Z3VU9vuSK2CV99ijcZpcAuSdGHjA49wTfsncfifoWkJq606IU5PiiZTX8viyj3NMCk7vN9gjMhKBg/nH5A==}
+  /renovate/34.128.2:
+    resolution: {integrity: sha512-ZE3Cg9yJT6RiQiTlE4xPteerd4jEBvNyWXEFkaGHWB5AL0xbWpgk7mXhGnP5QkjbmCpKBH/a4OMhkUmM4vW3QA==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
