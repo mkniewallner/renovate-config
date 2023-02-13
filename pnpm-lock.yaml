@@ -10,7 +10,7 @@ specifiers:
   husky: 8.0.3
   jest: 29.4.2
   json5: 2.2.3
-  lint-staged: 13.1.1
+  lint-staged: 13.1.2
   prettier: 2.8.4
   re2: 1.18.0
   renovate: 34.133.0
@@ -27,7 +27,7 @@ devDependencies:
   husky: 8.0.3
   jest: 29.4.2
   json5: 2.2.3
-  lint-staged: 13.1.1
+  lint-staged: 13.1.2
   prettier: 2.8.4
   re2: 1.18.0
   renovate: 34.133.0
@@ -6189,8 +6189,8 @@ packages:
       uc.micro: 1.0.6
     dev: true
 
-  /lint-staged/13.1.1:
-    resolution: {integrity: sha512-LLJLO0Kdbcv2a+CvSF4p1M7jBZOajKSMpBUvyR8+bXccsqPER0/NxTFQSpNHjqwV9kM3tkHczYerTB5wI+bksQ==}
+  /lint-staged/13.1.2:
+    resolution: {integrity: sha512-K9b4FPbWkpnupvK3WXZLbgu9pchUJ6N7TtVZjbaPsoizkqFUDkUReUL25xdrCljJs7uLUF3tZ7nVPeo/6lp+6w==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
