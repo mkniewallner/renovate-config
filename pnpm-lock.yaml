@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.1.2
   prettier: 2.8.4
   re2: 1.18.0
-  renovate: 34.138.1
+  renovate: 34.141.0
   ts-jest: 29.0.5
   typescript: 4.9.5
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.1.2
   prettier: 2.8.4
   re2: 1.18.0
-  renovate: 34.138.1
+  renovate: 34.141.0
   ts-jest: 29.0.5_nzu2yxgzfscwilozzizjpzzz7a
   typescript: 4.9.5
 
@@ -3077,14 +3077,14 @@ packages:
       '@opentelemetry/sdk-trace-base': 1.9.1_@opentelemetry+api@1.4.0
     dev: true
 
-  /@opentelemetry/instrumentation-bunyan/0.31.0_@opentelemetry+api@1.4.0:
-    resolution: {integrity: sha512-yehA39p7olnrfBp4VDmOrK/vvMIvmT/8euimRRpQNa/bAPE7vQnbHokfOxsIXIKYqJdhEc9Rxc5pJ7StTrS7wA==}
+  /@opentelemetry/instrumentation-bunyan/0.31.1_@opentelemetry+api@1.4.0:
+    resolution: {integrity: sha512-y81y0L50ocziES+jVcsCM684R+1p3M64bfGwVumZI/cH3LNSlnvOd4xgQom4Ug+UzcYcP9RxjFURDQAvh8tnDw==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.0
-      '@opentelemetry/instrumentation': 0.34.0_@opentelemetry+api@1.4.0
+      '@opentelemetry/instrumentation': 0.35.1_@opentelemetry+api@1.4.0
       '@types/bunyan': 1.8.7
     transitivePeerDependencies:
       - supports-color
@@ -3101,20 +3101,6 @@ packages:
       '@opentelemetry/instrumentation': 0.35.1_@opentelemetry+api@1.4.0
       '@opentelemetry/semantic-conventions': 1.9.1
       semver: 7.3.8
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@opentelemetry/instrumentation/0.34.0_@opentelemetry+api@1.4.0:
-    resolution: {integrity: sha512-VET/bOh4StOQV4vf1sAvn2JD67BhW2vPZ/ynl2gHXyafme2yB8Hs9+tr1TLzFwNGo7jwMFviFQkZjCYxMuK0AA==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      '@opentelemetry/api': ^1.3.0
-    dependencies:
-      '@opentelemetry/api': 1.4.0
-      require-in-the-middle: 5.2.0
-      semver: 7.3.8
-      shimmer: 1.2.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3358,8 +3344,8 @@ packages:
       '@seald-io/nedb': 4.0.0
     dev: true
 
-  /@renovatebot/osv-offline/1.1.5:
-    resolution: {integrity: sha512-puVnDwYHYz9ou3wB/0FMf+Sc4nbhTXHUDj4cv6vNIXxxwPLp21oZfVrHOCMua0r2WFhZONS17hB2FPIjeKgYCQ==}
+  /@renovatebot/osv-offline/1.2.0:
+    resolution: {integrity: sha512-EQjn++uKasPZrVcUUkW3UP7hgQZrM99Fm2B+a4f3K+CWKRN8T5BIeqsSkgWBdDLPxxkDxQRqAm6ICetkmMFYGw==}
     dependencies:
       '@octokit/rest': 19.0.7
       '@renovatebot/osv-offline-db': 1.3.1
@@ -7059,12 +7045,6 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier/2.8.3:
-    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
-    engines: {node: '>=10.13.0'}
-    hasBin: true
-    dev: true
-
   /prettier/2.8.4:
     resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
     engines: {node: '>=10.13.0'}
@@ -7348,8 +7328,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.138.1:
-    resolution: {integrity: sha512-7rj9Z4yvOtTUvUGx7DmGudwU9Orn4D8Ijp4rBqP3cS2C5JarDvGjNcP79DKAmFnEFOy3F9FknT2wmjiXXZRQVg==}
+  /renovate/34.141.0:
+    resolution: {integrity: sha512-4DiDSfbeDHJprgv8DBoJp1SWPrKNPU3IPDoPvydLb1cWFFNLpNDX2HQ0WitSy+iwgR3joFE0/ZetNL/SIXDElQ==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7366,14 +7346,14 @@ packages:
       '@opentelemetry/context-async-hooks': 1.9.1_@opentelemetry+api@1.4.0
       '@opentelemetry/exporter-trace-otlp-http': 0.35.1_@opentelemetry+api@1.4.0
       '@opentelemetry/instrumentation': 0.35.1_@opentelemetry+api@1.4.0
-      '@opentelemetry/instrumentation-bunyan': 0.31.0_@opentelemetry+api@1.4.0
+      '@opentelemetry/instrumentation-bunyan': 0.31.1_@opentelemetry+api@1.4.0
       '@opentelemetry/instrumentation-http': 0.35.1_@opentelemetry+api@1.4.0
       '@opentelemetry/resources': 1.9.1_@opentelemetry+api@1.4.0
       '@opentelemetry/sdk-trace-base': 1.9.1_@opentelemetry+api@1.4.0
       '@opentelemetry/sdk-trace-node': 1.9.1_@opentelemetry+api@1.4.0
       '@opentelemetry/semantic-conventions': 1.9.1
       '@qnighy/marshal': 0.1.3
-      '@renovatebot/osv-offline': 1.1.5
+      '@renovatebot/osv-offline': 1.2.0
       '@renovatebot/pep440': 2.1.13
       '@renovatebot/ruby-semver': 2.1.8
       '@sindresorhus/is': 4.6.0
@@ -7437,7 +7417,7 @@ packages:
       p-queue: 6.6.2
       p-throttle: 4.1.1
       parse-link-header: 2.0.0
-      prettier: 2.8.3
+      prettier: 2.8.4
       quick-lru: 5.1.1
       redis: 4.6.4
       remark: 13.0.0
