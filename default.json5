@@ -38,6 +38,10 @@
       matchManagers: ["circleci"],
       addLabels: ["circleci"],
     },
+    {
+      matchPackageNames: ["charliermarsh/ruff-pre-commit"],
+      customChangelogUrl: "https://github.com/charliermarsh/ruff",
+    },
   ],
   regexManagers: [
     {
