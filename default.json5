@@ -2,6 +2,7 @@
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
   extends: [
     "config:base",
+    ":automergeBranch",
     ":enablePreCommit",
     ":maintainLockFilesWeekly",
     ":prHourlyLimitNone",
@@ -36,6 +37,10 @@
     {
       matchManagers: ["circleci"],
       addLabels: ["circleci"],
+    },
+    {
+      matchPackageNames: ["charliermarsh/ruff-pre-commit"],
+      customChangelogUrl: "https://github.com/charliermarsh/ruff",
     },
   ],
   regexManagers: [
