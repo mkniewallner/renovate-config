@@ -12,7 +12,7 @@ concurrency:
 
 env:
   # renovate: datasource=node depName=node versioning=node
-  NODE_VERSION: "18.14.1"
+  NODE_VERSION: "18.14.2"
 
 jobs:
   validate-renovate-config:
