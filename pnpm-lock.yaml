@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.1.2
   prettier: 2.8.4
   re2: 1.18.0
-  renovate: 34.149.0
+  renovate: 34.152.0
   ts-jest: 29.0.5
   typescript: 4.9.5
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.1.2
   prettier: 2.8.4
   re2: 1.18.0
-  renovate: 34.149.0
+  renovate: 34.152.0
   ts-jest: 29.0.5_uvh2lfmfmkxl7pemqrjflcid5y
   typescript: 4.9.5
 
@@ -7336,8 +7336,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.149.0:
-    resolution: {integrity: sha512-aD86l016XN/zXQ9ZxOnXmKI7e+8TCE0a1vcVbd+WuYa/xlnZFDu0e/f9t1PDR71w9ynq0hVN6hDaqYh2SzTMIQ==}
+  /renovate/34.152.0:
+    resolution: {integrity: sha512-HFoBu+ajdcoat15bfxxOyvd5ZJF0QWqgYKmhZnpjzXgt63C0Y1+49Gi8zx+AQjnqz53zo7JMIYN+8b6aKs1M/Q==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7435,7 +7435,7 @@ packages:
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 2.1.2
-      simple-git: 3.16.0
+      simple-git: 3.16.1
       slugify: 1.6.5
       source-map-support: 0.5.21
       traverse: 0.6.7
@@ -7677,8 +7677,8 @@ packages:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
 
-  /simple-git/3.16.0:
-    resolution: {integrity: sha512-zuWYsOLEhbJRWVxpjdiXl6eyAyGo/KzVW+KFhhw9MqEEJttcq+32jTWSGyxTdf9e/YCohxRE+9xpWFj9FdiJNw==}
+  /simple-git/3.16.1:
+    resolution: {integrity: sha512-xzRxMKiy1zEYeHGXgAzvuXffDS0xgsq07Oi4LWEEcVH29vLpcZ2tyQRWyK0NLLlCVaKysZeem5tC1qHEOxsKwA==}
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
