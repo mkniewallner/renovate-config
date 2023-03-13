@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.2.0
   prettier: 2.8.4
   re2: 1.18.0
-  renovate: 35.2.0
+  renovate: 35.2.3
   ts-jest: 29.0.5
   typescript: 4.9.5
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.2.0
   prettier: 2.8.4
   re2: 1.18.0
-  renovate: 35.2.0
+  renovate: 35.2.3
   ts-jest: 29.0.5_hfvrvzapabvimrswujm4fl2hj4
   typescript: 4.9.5
 
@@ -3684,17 +3684,6 @@ packages:
       - supports-color
     dev: true
 
-  /agentkeepalive/4.2.1:
-    resolution: {integrity: sha512-Zn4cw2NEqd+9fiSVWMscnjyQ1a8Yfoc5oBajLeo5w+YBHgDUcEBY2hS4YpTz6iN5f/2zQiktcuM6tS8x1p9dpA==}
-    engines: {node: '>= 8.0.0'}
-    dependencies:
-      debug: 4.3.4
-      depd: 1.1.2
-      humanize-ms: 1.2.1
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /agentkeepalive/4.3.0:
     resolution: {integrity: sha512-7Epl1Blf4Sy37j4v9f9FjICCh4+KAQOyXgHEwlyBiAQLbhKdq/i2QQU3amQalS/wPhdPzDXPL5DMR5bkn+YeWg==}
     engines: {node: '>= 8.0.0'}
@@ -4460,11 +4449,6 @@ packages:
 
   /delegates/1.0.0:
     resolution: {integrity: sha512-bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==}
-    dev: true
-
-  /depd/1.1.2:
-    resolution: {integrity: sha512-7emPTl6Dpo6JRXOXjLRxck+FlLRX5847cLKEn00PLAgc3g2hTZZgr+e4c2v6QpSmLeFP3n5yUo7ft6avBK/5jQ==}
-    engines: {node: '>= 0.6'}
     dev: true
 
   /depd/2.0.0:
@@ -7176,8 +7160,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.2.0:
-    resolution: {integrity: sha512-WPPjaGbQP1ffR49lMAemA/ROD1puK2EnaQUaVo/jcRaR9OeAAakCxyl2+Cof7wx0xczQmC3i5qcVDbyOlfSKHw==}
+  /renovate/35.2.3:
+    resolution: {integrity: sha512-Ae48Bl6S8nNhrCpjhExhnTlyUt1cvIe+n+E25UHydaeULI6H6GW41l89Kv4oC8rS5Fyk6mnqDGmGfRu7ZJpXSg==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7209,7 +7193,7 @@ packages:
       '@types/tmp': 0.2.3
       '@yarnpkg/core': 3.4.0
       '@yarnpkg/parsers': 2.5.1
-      agentkeepalive: 4.2.1
+      agentkeepalive: 4.3.0
       aggregate-error: 3.1.0
       auth-header: 1.0.0
       aws4: 1.12.0
@@ -7285,7 +7269,7 @@ packages:
       validate-npm-package-name: 5.0.0
       vuln-vects: 1.1.0
       xmldoc: 1.2.0
-      zod: 3.21.0
+      zod: 3.21.2
     optionalDependencies:
       re2: 1.18.0
     transitivePeerDependencies:
@@ -8370,8 +8354,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zod/3.21.0:
-    resolution: {integrity: sha512-UYdykTcVxB6lfdyLzAqLyyYAlOcpoluECvjsdoaqfQmz9p+3LRaIqYcNiL/J2kFYp66fBM8wwBvIGVEjq7KtZw==}
+  /zod/3.21.2:
+    resolution: {integrity: sha512-0Ygy2/IZNIxHterZdHjE5Vb8hp1fUHJD/BGvSHj8QJx+UipEVNvo9WLchoyBpz5JIaN6KmdGDGYdloGzpFK98g==}
     dev: true
 
   /zwitch/1.0.5:
