@@ -5,7 +5,7 @@ specifiers:
   '@babel/preset-env': 7.20.2
   '@babel/preset-typescript': 7.21.0
   '@types/bunyan': 1.8.8
-  '@types/jest': 29.4.0
+  '@types/jest': 29.4.1
   babel-jest: 29.5.0
   husky: 8.0.3
   jest: 29.5.0
@@ -22,7 +22,7 @@ devDependencies:
   '@babel/preset-env': 7.20.2_@babel+core@7.21.0
   '@babel/preset-typescript': 7.21.0_@babel+core@7.21.0
   '@types/bunyan': 1.8.8
-  '@types/jest': 29.4.0
+  '@types/jest': 29.4.1
   babel-jest: 29.5.0_@babel+core@7.21.0
   husky: 8.0.3
   jest: 29.5.0
@@ -3481,8 +3481,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/29.4.0:
-    resolution: {integrity: sha512-VaywcGQ9tPorCX/Jkkni7RWGFfI11whqzs8dvxF41P17Z+z872thvEvlIbznjPJ02kl1HMX3LmLOonsj2n7HeQ==}
+  /@types/jest/29.4.1:
+    resolution: {integrity: sha512-zDQSWXG+ZkEvs2zFFMszePhx4euKz+Yt3Gg1P+RHjfJBinTTr6L2DEyovO4V/WrKXuF0Dgn56GWGZPDa6TW9eQ==}
     dependencies:
       expect: 29.5.0
       pretty-format: 29.5.0
