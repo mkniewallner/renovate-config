@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.2.0
   prettier: 2.8.4
   re2: 1.18.0
-  renovate: 35.2.3
+  renovate: 35.6.0
   ts-jest: 29.0.5
   typescript: 4.9.5
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.2.0
   prettier: 2.8.4
   re2: 1.18.0
-  renovate: 35.2.3
+  renovate: 35.6.0
   ts-jest: 29.0.5_gpn3p7ciwiqu2bahghwriq5pqe
   typescript: 4.9.5
 
@@ -7169,8 +7169,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.2.3:
-    resolution: {integrity: sha512-Ae48Bl6S8nNhrCpjhExhnTlyUt1cvIe+n+E25UHydaeULI6H6GW41l89Kv4oC8rS5Fyk6mnqDGmGfRu7ZJpXSg==}
+  /renovate/35.6.0:
+    resolution: {integrity: sha512-3SZY91HNVUWZQPoIdsXkFXZJi543Ch3H+BR3CMAmvqsnxq7n2uQVqnqt3arRDfPoltJqwiS9/6Kt/Im1V7QKFg==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7278,7 +7278,7 @@ packages:
       validate-npm-package-name: 5.0.0
       vuln-vects: 1.1.0
       xmldoc: 1.2.0
-      zod: 3.21.2
+      zod: 3.21.4
     optionalDependencies:
       re2: 1.18.0
     transitivePeerDependencies:
@@ -8363,8 +8363,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zod/3.21.2:
-    resolution: {integrity: sha512-0Ygy2/IZNIxHterZdHjE5Vb8hp1fUHJD/BGvSHj8QJx+UipEVNvo9WLchoyBpz5JIaN6KmdGDGYdloGzpFK98g==}
+  /zod/3.21.4:
+    resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
     dev: true
 
   /zwitch/1.0.5:
