@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.2.0
   prettier: 2.8.6
   re2: 1.18.0
-  renovate: 35.19.0
+  renovate: 35.19.1
   ts-jest: 29.0.5
   typescript: 5.0.2
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.2.0
   prettier: 2.8.6
   re2: 1.18.0
-  renovate: 35.19.0
+  renovate: 35.19.1
   ts-jest: 29.0.5_kqlgjogqum2lu7fnbgkxhqnnzi
   typescript: 5.0.2
 
@@ -4439,11 +4439,6 @@ packages:
     resolution: {integrity: sha512-Q6fKUPqnAHAyhiUgFU7BUzLiv0kd8saH9al7tnu5Q/okj6dnupxyTgFIBjVzJATdfIAm9NAsvXNzjaKa+bxVyA==}
     dev: true
 
-  /deepmerge/4.3.0:
-    resolution: {integrity: sha512-z2wJZXrmeHdvYJp/Ux55wIjqo81G5Bp4c+oELTW+7ar6SogWHajt5a9gO3s3IDaGSAXjDk0vlQKN3rms8ab3og==}
-    engines: {node: '>=0.10.0'}
-    dev: true
-
   /deepmerge/4.3.1:
     resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
     engines: {node: '>=0.10.0'}
@@ -7186,8 +7181,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.19.0:
-    resolution: {integrity: sha512-rqruZPg3ayuwOJesI+zuufgHspGgHeYTj/7qlaQCzof/41oqTWY4QaR5CzwoxOXkEcX7px88gPE0zCusafvLgg==}
+  /renovate/35.19.1:
+    resolution: {integrity: sha512-fntTplIwSt11T4OMY0nJajNUvAfiAZayWFxAu2iYTgWHXBz0JY0YQOHu5mrfwj9ys68fOrDrPXOS4BtyHLay4g==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7233,7 +7228,7 @@ packages:
       commander: 10.0.0
       conventional-commits-detector: 1.0.3
       crypto-random-string: 3.3.1
-      deepmerge: 4.3.0
+      deepmerge: 4.3.1
       delay: 5.0.0
       dequal: 2.0.3
       detect-indent: 6.1.0
