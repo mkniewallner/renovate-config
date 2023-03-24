@@ -21,7 +21,7 @@
     "jest": "29.5.0",
     "json5": "2.2.3",
     "lint-staged": "13.2.0",
-    "prettier": "2.8.6",
+    "prettier": "2.8.7",
     "re2": "1.18.0",
     "renovate": "35.19.2",
     "ts-jest": "29.0.5",
