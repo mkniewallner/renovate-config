@@ -13,7 +13,7 @@ specifiers:
   lint-staged: 13.2.0
   prettier: 2.8.7
   re2: 1.18.0
-  renovate: 35.23.3
+  renovate: 35.23.4
   ts-jest: 29.0.5
   typescript: 5.0.2
 
@@ -30,7 +30,7 @@ devDependencies:
   lint-staged: 13.2.0
   prettier: 2.8.7
   re2: 1.18.0
-  renovate: 35.23.3
+  renovate: 35.23.4
   ts-jest: 29.0.5_kqlgjogqum2lu7fnbgkxhqnnzi
   typescript: 5.0.2
 
@@ -3309,8 +3309,8 @@ packages:
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     dev: true
 
-  /@renovatebot/ruby-semver/2.1.9:
-    resolution: {integrity: sha512-44udvdctC5SCjlPYIcyf7vDARlXE3tVRTfZ6/OHcSNBt5WCfMljP5T7QLekCslHZjXgPoep33TURuOfeLrV3Ag==}
+  /@renovatebot/ruby-semver/2.1.10:
+    resolution: {integrity: sha512-k9GE1cYAYWH5zJpePf4m6GEOZaT/5dh6ETTnV4TQthqufaKpIg9m6ZoxzKhKfuwPo5PlprWh8gyYXjYpN2TkhA==}
     engines: {node: ^14.15.0 || ^16.13.0 || >= 18.12.0, yarn: ^1.22.0}
     dependencies:
       tslib: 2.5.0
@@ -7181,8 +7181,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.23.3:
-    resolution: {integrity: sha512-K1olygkQjokT7uIfL7FcjM/NmFLwSn/lEyCuCbkIav9YsUbdnuM1JKn7QQ+Lo+H/rxZ66bItNG1scvXDXq0cCw==}
+  /renovate/35.23.4:
+    resolution: {integrity: sha512-RMsW6YHqpy8NrYYgE/BAXPKzdALhtueBLlYNyUW2wsrbHBgAgL2bXrbGTgGbDQ67G0ObP8kf7+9NfHshdX4dgA==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7208,7 +7208,7 @@ packages:
       '@qnighy/marshal': 0.1.3
       '@renovatebot/osv-offline': 1.2.2
       '@renovatebot/pep440': 2.1.13
-      '@renovatebot/ruby-semver': 2.1.9
+      '@renovatebot/ruby-semver': 2.1.10
       '@sindresorhus/is': 4.6.0
       '@types/ms': 0.7.31
       '@types/tmp': 0.2.3
