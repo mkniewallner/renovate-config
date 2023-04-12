@@ -11,6 +11,7 @@
     ":semanticCommitScope(deps)",
     ":semanticCommits",
     "docker:pinDigests",
+    "helpers:pinGitHubActionDigests",
     "regexManagers:dockerfileVersions",
     "regexManagers:githubActionsVersions",
   ],
