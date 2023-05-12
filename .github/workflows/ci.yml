@@ -3,7 +3,7 @@ name: CI
 on:
   pull_request:
   push:
-    branches: [main, renovate/**]
+    branches: [main]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref || github.head_ref }}
