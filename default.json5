@@ -14,6 +14,7 @@
     "regexManagers:dockerfileVersions",
     "regexManagers:githubActionsVersions",
   ],
+  reviewers: ["mkniewallner"],
   labels: ["dependencies"],
   packageRules: [
     {
