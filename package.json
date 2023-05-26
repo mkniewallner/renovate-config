@@ -22,7 +22,7 @@
     "json5": "2.2.3",
     "lint-staged": "13.2.2",
     "prettier": "2.8.8",
-    "re2": "1.18.2",
+    "re2": "1.18.3",
     "renovate": "35.102.0",
     "ts-jest": "29.1.0",
     "typescript": "5.0.4"
