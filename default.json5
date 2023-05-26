@@ -42,7 +42,7 @@
       addLabels: ["circleci"],
     },
     {
-      matchPackageNames: ["charliermarsh/ruff-pre-commit"],
+      matchPackageNames: ["astral-sh/ruff-pre-commit"],
       customChangelogUrl: "https://github.com/charliermarsh/ruff",
     },
   ],
