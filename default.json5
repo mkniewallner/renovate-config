@@ -1,7 +1,7 @@
 {
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
   extends: [
-    "config:base",
+    "config:recommended",
     ":automergeDigest",
     ":enablePreCommit",
     ":maintainLockFilesWeekly",
@@ -22,11 +22,11 @@
       labels: ["dev-dependencies"],
     },
     {
-      matchLanguages: ["python"],
+      matchCategories: ["python"],
       addLabels: ["python"],
     },
     {
-      matchLanguages: ["javascript"],
+      matchCategories: ["javascript"],
       addLabels: ["javascript"],
     },
     {
