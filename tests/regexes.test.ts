@@ -15,7 +15,7 @@ describe("Update PEP 440 Python dependencies", () => {
     "find dependencies in `%s`",
     (fileName) => {
       expect(extractPackageFile(loadFixture(fileName), fileName, regexManager)).toMatchSnapshot();
-    }
+    },
   );
 
   describe("matches regexes patterns", () => {
