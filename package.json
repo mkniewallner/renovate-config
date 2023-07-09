@@ -23,7 +23,7 @@
     "lint-staged": "13.2.3",
     "prettier": "3.0.0",
     "re2": "1.19.1",
-    "renovate": "36.5.3",
+    "renovate": "36.6.0",
     "ts-jest": "29.1.1",
     "typescript": "5.1.6"
   },
