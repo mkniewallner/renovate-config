@@ -42,8 +42,8 @@ devDependencies:
     specifier: 1.19.1
     version: 1.19.1
   renovate:
-    specifier: 36.6.1
-    version: 36.6.1(typanion@3.13.0)
+    specifier: 36.7.0
+    version: 36.7.0(typanion@3.13.0)
   ts-jest:
     specifier: 29.1.1
     version: 29.1.1(@babel/core@7.22.8)(babel-jest@29.6.1)(jest@29.6.1)(typescript@5.1.6)
@@ -6048,6 +6048,11 @@ packages:
     hasBin: true
     dev: true
 
+  /jsonata@2.0.3:
+    resolution: {integrity: sha512-Up2H81MUtjqI/dWwWX7p4+bUMfMrQJVMN/jW6clFMTiYP528fBOBNtRu944QhKTs3+IsVWbgMeUTny5fw2VMUA==}
+    engines: {node: '>= 8'}
+    dev: true
+
   /jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
     dependencies:
@@ -7235,8 +7240,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.6.1(typanion@3.13.0):
-    resolution: {integrity: sha512-SkC+JZwvk8xT9i8IMOXEEbzBMoP6WrQakaNgat13JpJ8yhLhJB/3ERmPNATPjkFQY4MpsDWA6F7kkmhBi1Fqlw==}
+  /renovate@36.7.0(typanion@3.13.0):
+    resolution: {integrity: sha512-SYe9TQxY5pfB0X99UV9e55BknP6LR5vQ2h8dEXO4dJI5TU9lqm4u4Gy1q6vAzHbWbKlSjOT4MLBdgUJVvrWZQQ==}
     engines: {node: ^18.12.0 || >=20.0.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7308,6 +7313,7 @@ packages:
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
       json5: 2.2.3
+      jsonata: 2.0.3
       klona: 2.0.6
       luxon: 3.3.0
       markdown-it: 13.0.1
