@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "license": "UNLICENSED",
+  "type": "module",
   "scripts": {
     "prepare": "husky install",
     "lint": "prettier -c",
@@ -28,7 +29,7 @@
     "typescript": "5.1.6"
   },
   "engines": {
-    "node": ">=13.0"
+    "node": ">=20.0"
   },
   "lint-staged": {
     "*": "prettier --write --ignore-unknown"
