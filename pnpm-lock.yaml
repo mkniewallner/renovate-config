@@ -42,8 +42,8 @@ devDependencies:
     specifier: 1.19.1
     version: 1.19.1
   renovate:
-    specifier: 36.20.1
-    version: 36.20.1(typanion@3.13.0)
+    specifier: 36.21.0
+    version: 36.21.0(typanion@3.13.0)
   ts-jest:
     specifier: 29.1.1
     version: 29.1.1(@babel/core@7.22.9)(babel-jest@29.6.1)(jest@29.6.1)(typescript@5.1.6)
@@ -4063,6 +4063,7 @@ packages:
 
   /brace-expansion@1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
+    requiresBuild: true
     dependencies:
       balanced-match: 1.0.2
       concat-map: 0.0.1
@@ -4385,6 +4386,7 @@ packages:
 
   /concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
+    requiresBuild: true
     dev: true
 
   /console-control-strings@1.1.0:
@@ -7235,8 +7237,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.20.1(typanion@3.13.0):
-    resolution: {integrity: sha512-W3kh1r4wUu3aa3+THezb0YwRjA9dEc/1b2o/NSRJSDEThnj9PY/XLsHwOH4KpiCTS/LgHDkzwe40wmDvNqfC0g==}
+  /renovate@36.21.0(typanion@3.13.0):
+    resolution: {integrity: sha512-wDFzy7fwnfi00yxV4s4aTAg7cbe6wL5l3i9zkGdnosw3BU4AeKpSCUvUlaQZ0HHJFfb2dm8jtQQ/l9PJ+V9cMw==}
     engines: {node: ^18.12.0 || >=20.0.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
