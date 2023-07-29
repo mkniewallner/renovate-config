@@ -39,8 +39,8 @@ devDependencies:
     specifier: 3.0.0
     version: 3.0.0
   re2:
-    specifier: 1.19.2
-    version: 1.19.2
+    specifier: 1.20.1
+    version: 1.20.1
   renovate:
     specifier: 36.25.3
     version: 36.25.3(typanion@3.13.0)
@@ -7171,8 +7171,8 @@ packages:
     dev: true
     optional: true
 
-  /re2@1.19.2:
-    resolution: {integrity: sha512-xspjcoQEb3DwIaV/fbhgOeI9dJNlDtaOPzxXC2Pgign9F1kb01oWVSYF6qUJwlc4qtBheMslPdu0RLPVDn307g==}
+  /re2@1.20.1:
+    resolution: {integrity: sha512-JbzIoI5adNCqGUK8wHG1dMSyggvPyA4kx2hewt1lma5sP7/iWCfM15XKbCZlX2yvu5k80jSKAOQqJF7KC+2n8Q==}
     requiresBuild: true
     dependencies:
       install-artifact-from-github: 1.3.3
