@@ -42,8 +42,8 @@ devDependencies:
     specifier: 1.20.1
     version: 1.20.1
   renovate:
-    specifier: 36.26.1
-    version: 36.26.1(typanion@3.13.0)
+    specifier: 36.27.1
+    version: 36.27.1(typanion@3.13.0)
   ts-jest:
     specifier: 29.1.1
     version: 29.1.1(@babel/core@7.22.9)(babel-jest@29.6.2)(jest@29.6.2)(typescript@5.1.6)
@@ -7237,8 +7237,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.26.1(typanion@3.13.0):
-    resolution: {integrity: sha512-WbY4Q5GY3FWiSonFslCWqh1wJh1LHRdpALbcGli8+aLhgby5KQ6repG68OoqNi/lln6Ha0dmgQLvUd6NiD7ltQ==}
+  /renovate@36.27.1(typanion@3.13.0):
+    resolution: {integrity: sha512-9V/AdLer8MoODRlXJbSMRziOoEEBIgIjaqqGcPz0KPr8f4ITozbKGMnDSALwetby5qi2CpdIbTFwGY0kQL6pZA==}
     engines: {node: ^18.12.0 || >=20.0.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -7340,7 +7340,7 @@ packages:
       slugify: 1.6.6
       source-map-support: 0.5.21
       traverse: 0.6.7
-      tslib: 2.6.0
+      tslib: 2.6.1
       upath: 2.0.1
       url-join: 4.0.1
       validate-npm-package-name: 5.0.0
@@ -7996,10 +7996,6 @@ packages:
 
   /tslib@1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
-    dev: true
-
-  /tslib@2.6.0:
-    resolution: {integrity: sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==}
     dev: true
 
   /tslib@2.6.1:
