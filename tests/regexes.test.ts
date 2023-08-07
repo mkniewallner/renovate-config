@@ -1,4 +1,4 @@
-import { extractPackageFile } from "renovate/dist/modules/manager/regex";
+import { extractPackageFile } from "renovate/dist/modules/manager/custom/regex";
 import { regEx } from "renovate/dist/util/regex";
 import { loadFixture, loadRenovateConfiguration } from "./utils";
 
