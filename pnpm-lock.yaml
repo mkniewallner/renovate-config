@@ -42,8 +42,8 @@ devDependencies:
     specifier: 1.20.1
     version: 1.20.1
   renovate:
-    specifier: 36.36.0
-    version: 36.36.0(typanion@3.14.0)
+    specifier: 36.37.0
+    version: 36.37.0(typanion@3.14.0)
   ts-jest:
     specifier: 29.1.1
     version: 29.1.1(@babel/core@7.22.10)(babel-jest@29.6.2)(jest@29.6.2)(typescript@5.1.6)
@@ -4062,6 +4062,7 @@ packages:
 
   /brace-expansion@1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
+    requiresBuild: true
     dependencies:
       balanced-match: 1.0.2
       concat-map: 0.0.1
@@ -4384,6 +4385,7 @@ packages:
 
   /concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
+    requiresBuild: true
     dev: true
 
   /console-control-strings@1.1.0:
@@ -7242,9 +7244,9 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.36.0(typanion@3.14.0):
-    resolution: {integrity: sha512-juBq6TggRnPpFmPDuFN9CwG7ZFoaM6mbeUQjiBmJpeAIQ+0P3l44jYXnUqEvfu5v/8Fyj7gw/Z/YAMADzlU6pw==}
-    engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.6.11}
+  /renovate@36.37.0(typanion@3.14.0):
+    resolution: {integrity: sha512-dessS1nGCgGAWDfVDixJ57RM1ZrHvbbDtqMqmS9g+WPl2DoG29ti15RwtWpsvzbXzhgP2rfbnMAHFyIp+i0ZRQ==}
+    engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
       '@aws-sdk/client-codecommit': 3.363.0
