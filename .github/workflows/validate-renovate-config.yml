@@ -2,7 +2,10 @@ name: Validate Renovate configuration
 
 on:
   pull_request:
-    paths: [default.json5, renovate.json5]
+    paths:
+      - .github/workflows/validate-renovate-config.yml
+      - default.json5
+      - renovate.json5
   push:
     branches: [main]
 
@@ -13,6 +16,8 @@ concurrency:
 env:
   # renovate: datasource=node depName=node versioning=node
   NODE_VERSION: "20.5.1"
+  # renovate: datasource=npm depName=renovate
+  RENOVATE_VERSION: "36.42.4"
 
 jobs:
   validate-renovate-config:
@@ -22,7 +27,7 @@ jobs:
       - uses: actions/setup-node@e33196f7422957bea03ed53f6fbb155025ffc7b8 # v3
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - env:
-          # Despite only passing `default.json5`, `renovate.json5` is also auto-detected and validated.
-          RENOVATE_CONFIG_FILE: default.json5
-        run: npx -p renovate renovate-config-validator
+      - run: >
+          npx -p renovate@${RENOVATE_VERSION} renovate-config-validator
+          default.json5 renovate.json5
+          --strict
