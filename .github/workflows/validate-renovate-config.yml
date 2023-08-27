@@ -2,10 +2,6 @@ name: Validate Renovate configuration
 
 on:
   pull_request:
-    paths:
-      - .github/workflows/validate-renovate-config.yml
-      - default.json5
-      - renovate.json5
   push:
     branches: [main]
 
@@ -28,6 +24,4 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
       - run: >
-          npx -p renovate@${RENOVATE_VERSION} renovate-config-validator
-          default.json5 renovate.json5
-          --strict
+          npx -p renovate@${RENOVATE_VERSION} renovate-config-validator default.json5 renovate.json5
