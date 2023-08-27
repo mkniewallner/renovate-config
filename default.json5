@@ -48,6 +48,7 @@
   ],
   regexManagers: [
     {
+      customType: "regex",
       description: "Update PEP 440 Python dependencies",
       fileMatch: ["^(\\.pre-commit-config\\.yaml|pyproject\\.toml)$"],
       matchStrings: [
