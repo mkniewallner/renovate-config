@@ -15,8 +15,8 @@ devDependencies:
     specifier: 7.22.15
     version: 7.22.15(@babel/core@7.22.19)
   '@types/bunyan':
-    specifier: 1.8.8
-    version: 1.8.8
+    specifier: 1.8.9
+    version: 1.8.9
   '@types/jest':
     specifier: 29.5.4
     version: 29.5.4
@@ -3584,6 +3584,12 @@ packages:
 
   /@types/bunyan@1.8.8:
     resolution: {integrity: sha512-Cblq+Yydg3u+sGiz2mjHjC5MPmdjY+No4qvHrF+BUhblsmSfMvsHLbOG62tPbonsqBj6sbWv1LHcsoe5Jw+/Ow==}
+    dependencies:
+      '@types/node': 20.6.0
+    dev: true
+
+  /@types/bunyan@1.8.9:
+    resolution: {integrity: sha512-ZqS9JGpBxVOvsawzmVt30sP++gSQMTejCkIAQ3VdadOcRE8izTyW66hufvwLeH+YEGP6Js2AW7Gz+RMyvrEbmw==}
     dependencies:
       '@types/node': 20.6.0
     dev: true
