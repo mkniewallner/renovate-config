@@ -42,8 +42,8 @@ devDependencies:
     specifier: 1.20.3
     version: 1.20.3
   renovate:
-    specifier: 36.100.0
-    version: 36.100.0(typanion@3.14.0)
+    specifier: 36.101.0
+    version: 36.101.0(typanion@3.14.0)
   ts-jest:
     specifier: 29.1.1
     version: 29.1.1(@babel/core@7.22.20)(babel-jest@29.7.0)(jest@29.7.0)(typescript@5.2.2)
@@ -7340,8 +7340,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.100.0(typanion@3.14.0):
-    resolution: {integrity: sha512-z1aizN3+aIK6wsOIsrDluIp1Ldlrxg8mkcGtSXFOiaP/DW5kfR2qwRWuKRnXQjR7SjQBZ5mAfEpLgF08Ez+sNg==}
+  /renovate@36.101.0(typanion@3.14.0):
+    resolution: {integrity: sha512-oCBfWNcloqfMMCxEf/8nRmKMqKun23p577XXQOUtfUeaK2+GFTvy6NCNK3xb1P00DbCYup+4h1tmLePdjHzysA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -7416,6 +7416,7 @@ packages:
       json5: 2.2.3
       jsonata: 2.0.3
       klona: 2.0.6
+      lru-cache: 10.0.1
       luxon: 3.4.3
       markdown-it: 13.0.1
       markdown-table: 2.0.0
@@ -7431,7 +7432,6 @@ packages:
       p-throttle: 4.1.1
       parse-link-header: 2.0.0
       prettier: 2.8.8
-      quick-lru: 5.1.1
       redis: 4.6.8
       remark: 13.0.0
       remark-github: 10.1.0
