@@ -4,6 +4,16 @@
     "isolatedModules": true,
     "noEmit": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "composite": true,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["bun-types"],
+    "lib": ["esnext"],
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "moduleDetection": "force"
   }
 }

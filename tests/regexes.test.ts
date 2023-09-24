@@ -1,6 +1,7 @@
 import { extractPackageFile } from "renovate/dist/modules/manager/custom/regex";
 import { regEx } from "renovate/dist/util/regex";
 import { loadFixture, loadRenovateConfiguration } from "./utils";
+import { describe, expect, test } from "bun:test";
 
 function regexMatches(target: string, patterns: string[]): boolean {
   return patterns.some((pattern: string) => {
@@ -11,7 +12,7 @@ function regexMatches(target: string, patterns: string[]): boolean {
 describe("Update PEP 440 Python dependencies", () => {
   const regexManager = loadRenovateConfiguration()["customManagers"][0];
 
-  test.each([".pre-commit-config.yaml", "pyproject.toml"])(
+  test.each([[".pre-commit-config.yaml"], ["pyproject.toml"]])(
     "find dependencies in `%s`",
     (fileName) => {
       expect(extractPackageFile(loadFixture(fileName), fileName, regexManager)).toMatchSnapshot();
