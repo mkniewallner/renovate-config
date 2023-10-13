@@ -11,7 +11,7 @@ concurrency:
 
 env:
   # renovate: datasource=node depName=node versioning=node
-  NODE_VERSION: "20.8.0"
+  NODE_VERSION: "20.8.1"
   # renovate: datasource=npm depName=renovate
   RENOVATE_VERSION: "37.19.0"
 
