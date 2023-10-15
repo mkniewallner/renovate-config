@@ -33,8 +33,8 @@ devDependencies:
     specifier: 2.2.3
     version: 2.2.3
   lint-staged:
-    specifier: 15.0.0
-    version: 15.0.0
+    specifier: 15.0.1
+    version: 15.0.1
   prettier:
     specifier: 3.0.3
     version: 3.0.3
@@ -4732,7 +4732,7 @@ packages:
     hasBin: true
     dependencies:
       '@one-ini/wasm': 0.1.1
-      commander: 11.0.0
+      commander: 11.1.0
       minimatch: 9.0.2
       semver: 7.5.4
     dev: true
@@ -6323,8 +6323,8 @@ packages:
       uc.micro: 1.0.6
     dev: true
 
-  /lint-staged@15.0.0:
-    resolution: {integrity: sha512-OdrAd/qZhO4MnPyNRehI1Fh6j8kcfQoGpjQ1Vw8dSkDkNONdqe/HpKXqtKpFIPCAYeF4/tfnE11MnjLYuLKjqA==}
+  /lint-staged@15.0.1:
+    resolution: {integrity: sha512-2IU5OWmCaxch0X0+IBF4/v7sutpB+F3qoXbro43pYjQTOo5wumckjxoxn47pQBqqBsCWrD5HnI2uG/zJA7isew==}
     engines: {node: '>=18.12.0'}
     hasBin: true
     dependencies:
