@@ -9,7 +9,7 @@
     "lint": "prettier -c",
     "lint:fix": "prettier --write -c",
     "test": "jest",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc"
   },
   "devDependencies": {
     "@babel/core": "7.23.2",
