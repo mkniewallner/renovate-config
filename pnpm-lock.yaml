@@ -42,8 +42,8 @@ devDependencies:
     specifier: 1.20.7
     version: 1.20.7
   renovate:
-    specifier: 37.59.4
-    version: 37.59.4(typanion@3.14.0)
+    specifier: 37.59.6
+    version: 37.59.6(typanion@3.14.0)
   ts-jest:
     specifier: 29.1.1
     version: 29.1.1(@babel/core@7.23.3)(babel-jest@29.7.0)(jest@29.7.0)(typescript@5.2.2)
@@ -7504,8 +7504,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.59.4(typanion@3.14.0):
-    resolution: {integrity: sha512-HnIm0ffC5UURdqxXkFh3tB9aSgVeq64mxokihvdabUrAcGm22KQiTF4M8Zj7x7N3cw0Lp0liL/ox1qDh9gkCuQ==}
+  /renovate@37.59.6(typanion@3.14.0):
+    resolution: {integrity: sha512-8gKwdUOAEUtLFT0YgmkuqWDrjr2uiHQxaxtCldwHOPWK0E5V77hgtSINoUuMVLv0G6OaGTQwfuOe2WSCIE/SlA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -7606,7 +7606,7 @@ packages:
       simple-git: 3.20.0
       slugify: 1.6.6
       source-map-support: 0.5.21
-      toml-eslint-parser: 0.6.1
+      toml-eslint-parser: 0.9.3
       traverse: 0.6.7
       tslib: 2.6.2
       upath: 2.0.1
@@ -8195,8 +8195,8 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /toml-eslint-parser@0.6.1:
-    resolution: {integrity: sha512-7xjjVOdu0c6GpaP2AmA48ZcjesBL7KB2qeMNz93gMG76yV/lHVzQiSlD6HqwAdMJiL9hM44fung0NzhjTfihtw==}
+  /toml-eslint-parser@0.9.3:
+    resolution: {integrity: sha512-moYoCvkNUAPCxSW9jmHmRElhm4tVJpHL8ItC/+uYD0EpPSFXbck7yREz9tNdJVTSpHVod8+HoipcpbQ0oE6gsw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
       eslint-visitor-keys: 3.4.3
