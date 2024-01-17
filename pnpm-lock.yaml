@@ -42,8 +42,8 @@ devDependencies:
     specifier: 1.20.9
     version: 1.20.9
   renovate:
-    specifier: 37.139.1
-    version: 37.139.1(typanion@3.14.0)
+    specifier: 37.139.2
+    version: 37.139.2(typanion@3.14.0)
   ts-jest:
     specifier: 29.1.1
     version: 29.1.1(@babel/core@7.23.7)(babel-jest@29.7.0)(jest@29.7.0)(typescript@5.3.3)
@@ -2227,8 +2227,8 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@cdktf/hcl2json@0.20.0:
-    resolution: {integrity: sha512-de5GaNsJqKX934EJG5xnsbpvyVf99f36/7ScK53znsbamnTJvl791fCR/tgkF+zrmZYAw0QSSEX1bHY4IPluzw==}
+  /@cdktf/hcl2json@0.20.1:
+    resolution: {integrity: sha512-pFSs2QfCS0I5qRhO9SI0VK87Zz8ZJK4MO8GlYprEO2s1aXo1VH6WWJw5tFFqMgntbzeci+Xj0kx7VaLgr21cTQ==}
     dependencies:
       fs-extra: 11.2.0
     dev: true
@@ -7186,8 +7186,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.139.1(typanion@3.14.0):
-    resolution: {integrity: sha512-M8gtzd7o+Of3xzLzn8OmlolLgCDKqRlNq9MV1pDMjxGi9qz6yIcmYF2pZXR9EYJOSDygcadfPQj519NiCXHQpA==}
+  /renovate@37.139.2(typanion@3.14.0):
+    resolution: {integrity: sha512-KtpNE2tYXzA3hKIBFi2CV44HtGVy7sDE2/qpS3HOqwhUKp72MbAuIwoJlCKLtQAmUYi0LAlcdBMffGiDdBFoGw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -7198,7 +7198,7 @@ packages:
       '@aws-sdk/client-s3': 3.363.0
       '@aws-sdk/credential-providers': 3.363.0
       '@breejs/later': 4.2.0
-      '@cdktf/hcl2json': 0.20.0
+      '@cdktf/hcl2json': 0.20.1
       '@opentelemetry/api': 1.7.0
       '@opentelemetry/context-async-hooks': 1.19.0(@opentelemetry/api@1.7.0)
       '@opentelemetry/exporter-trace-otlp-http': 0.46.0(@opentelemetry/api@1.7.0)
