@@ -42,8 +42,8 @@ devDependencies:
     specifier: 1.20.9
     version: 1.20.9
   renovate:
-    specifier: 37.140.6
-    version: 37.140.6(typanion@3.14.0)
+    specifier: 37.140.9
+    version: 37.140.9(typanion@3.14.0)
   ts-jest:
     specifier: 29.1.1
     version: 29.1.1(@babel/core@7.23.7)(babel-jest@29.7.0)(jest@29.7.0)(typescript@5.3.3)
@@ -7186,8 +7186,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.140.6(typanion@3.14.0):
-    resolution: {integrity: sha512-Iw1+j57fA5wKIuBairmzjMPGPimLDGivrsFVWIz60Iaw/fpD/HRvhC/bu0ZOjKGVc0+VN2jBHRC9F06/Owaj5Q==}
+  /renovate@37.140.9(typanion@3.14.0):
+    resolution: {integrity: sha512-xKjjPnTUAGqmKL1PuTch26O4b3nDAWjBYWIErtXhum8TqpyMQgIbp5hmAbSzikwPyBvlo2yGIsAWUPikaWCLKw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
