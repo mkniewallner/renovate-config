@@ -5,7 +5,7 @@
   "license": "UNLICENSED",
   "type": "module",
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "lint": "prettier -c",
     "lint:fix": "prettier --write -c",
     "test": "jest",
@@ -18,7 +18,7 @@
     "@types/bunyan": "1.8.11",
     "@types/jest": "29.5.11",
     "babel-jest": "29.7.0",
-    "husky": "8.0.3",
+    "husky": "9.0.1",
     "jest": "29.7.0",
     "json5": "2.2.3",
     "lint-staged": "15.2.0",
