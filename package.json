@@ -5,7 +5,7 @@
   "license": "UNLICENSED",
   "type": "module",
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "lint": "prettier -c",
     "lint:fix": "prettier --write -c",
     "test": "jest",
