@@ -9,7 +9,7 @@ function regexMatches(target: string, patterns: string[]): boolean {
 }
 
 describe("Update PEP 440 Python dependencies", () => {
-  const regexManager = loadRenovateConfiguration()["regexManagers"][0];
+  const regexManager = loadRenovateConfiguration()["customManagers"][0];
 
   test.each([".pre-commit-config.yaml", "pyproject.toml"])(
     "find dependencies in `%s`",
