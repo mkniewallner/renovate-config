@@ -46,7 +46,7 @@
       customChangelogUrl: "https://github.com/charliermarsh/ruff",
     },
   ],
-  regexManagers: [
+  customManagers: [
     {
       customType: "regex",
       description: "Update PEP 440 Python dependencies",
