@@ -12,8 +12,8 @@
     "type-check": "tsc"
   },
   "devDependencies": {
-    "@babel/core": "7.24.3",
-    "@babel/preset-env": "7.24.3",
+    "@babel/core": "7.24.4",
+    "@babel/preset-env": "7.24.4",
     "@babel/preset-typescript": "7.24.1",
     "@types/bunyan": "1.8.11",
     "@types/jest": "29.5.12",
