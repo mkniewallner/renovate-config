@@ -13,7 +13,7 @@ env:
   # renovate: datasource=node depName=node versioning=node
   NODE_VERSION: "20.12.1"
   # renovate: datasource=npm depName=renovate
-  RENOVATE_VERSION: "37.281.2"
+  RENOVATE_VERSION: "37.282.0"
 
 jobs:
   validate-renovate-config:
