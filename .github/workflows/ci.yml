@@ -11,7 +11,7 @@ concurrency:
 
 env:
   # renovate: datasource=node depName=node versioning=node
-  NODE_VERSION: "20.12.2"
+  NODE_VERSION: "22.0.0"
   # renovate: datasource=npm depName=pnpm
   PNPM_VERSION: "9.0.6"
 
@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v3
         with:
           version: ${{ env.PNPM_VERSION }}
       - uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4
@@ -28,14 +28,14 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
-      - run: pnpm lint .
-      - run: pnpm type-check
+      - run: node --run lint .
+      - run: node --run type-check
 
   tests:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v3
         with:
           version: ${{ env.PNPM_VERSION }}
       - uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4
@@ -43,4 +43,4 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
-      - run: pnpm test
+      - run: node --run test
