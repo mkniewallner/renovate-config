@@ -45,8 +45,8 @@ importers:
         specifier: 1.20.11
         version: 1.20.11
       renovate:
-        specifier: 37.350.1
-        version: 37.350.1(@aws-sdk/client-sso-oidc@3.569.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.569.0))(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 37.351.1
+        version: 37.351.1(@aws-sdk/client-sso-oidc@3.569.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.569.0))(encoding@0.1.13)(typanion@3.14.0)
       ts-jest:
         specifier: 29.1.2
         version: 29.1.2(@babel/core@7.24.5)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.24.5))(jest@29.7.0(@types/node@20.12.8))(typescript@5.4.5)
@@ -3800,8 +3800,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.350.1:
-    resolution: {integrity: sha512-9IBUF8KsjdEhps8OaZc08O/lExABjs7S/djpmSSLneK+VXyVGxIIUGqb9+VDrZZlqXf4Yrwd03ErZazeEUJd6A==}
+  renovate@37.351.1:
+    resolution: {integrity: sha512-35GnpiVEJS8VCw5GogRhx09J6FIgJK26G61DIKxk1Uws+LwJD4EpwoGOJBUKP/kK+vvU+0QiucO8QCmKhmhC6g==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -10009,7 +10009,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.350.1(@aws-sdk/client-sso-oidc@3.569.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.569.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.351.1(@aws-sdk/client-sso-oidc@3.569.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.569.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.565.0(@aws-sdk/client-sso-oidc@3.569.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.569.0))
       '@aws-sdk/client-ec2': 3.565.0(@aws-sdk/client-sso-oidc@3.569.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.569.0))
