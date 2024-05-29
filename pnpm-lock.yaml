@@ -45,8 +45,8 @@ importers:
         specifier: 1.20.12
         version: 1.20.12
       renovate:
-        specifier: 37.381.3
-        version: 37.381.3(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 37.381.4
+        version: 37.381.4(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))(encoding@0.1.13)(typanion@3.14.0)
       ts-jest:
         specifier: 29.1.4
         version: 29.1.4(@babel/core@7.24.6)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.24.6))(jest@29.7.0(@types/node@20.12.12))(typescript@5.4.5)
@@ -2684,8 +2684,8 @@ packages:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
     engines: {node: '>= 6'}
 
-  glob@10.3.15:
-    resolution: {integrity: sha512-0c6RlJt1TICLyvJYIApxb8GsXoai0KUP7AxKKAtsYXdgJR1mGEUa7DgwShbdk1nly0PYoZj01xd4hzbq3fsjpw==}
+  glob@10.3.16:
+    resolution: {integrity: sha512-JDKXl1DiuuHJ6fVS2FXjownaavciiHNUU4mOvV/B793RLh05vZL1rcPnCSaOgv1hDT6RDlY7AB7ZUvFYAtPgAw==}
     engines: {node: '>=16 || 14 >=14.18'}
     hasBin: true
 
@@ -3090,10 +3090,6 @@ packages:
   istanbul-reports@3.1.7:
     resolution: {integrity: sha512-BewmUXImeuRk2YY0PVbxgKAysvhRPUQE0h5QRM++nVWyubKGV0l8qQ5op8+B2DOmwSe63Jivj0BjkPQVf8fP5g==}
     engines: {node: '>=8'}
-
-  jackspeak@2.3.6:
-    resolution: {integrity: sha512-N3yCS/NegsOBokc8GAdM8UcmfsKiSS8cipheD/nivzr700H+nsMOxJjQnvwOcRYVuFkdH0wGUvW2WbXGmrZGbQ==}
-    engines: {node: '>=14'}
 
   jackspeak@3.1.2:
     resolution: {integrity: sha512-kWmLKn2tRtfYMF/BakihVVRzBKOxz4gJMiL2Rj91WnAB5TPZumSH99R/Yf1qE1u4uRimvCSJfm6hnxohXeEXjQ==}
@@ -3953,8 +3949,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.381.3:
-    resolution: {integrity: sha512-FzC0K+g54LMWCQb0/i6xKbqu3qgGR+E6D5xp+A21wKkOXFT3AhImkH2YeNjO1439H7CxiH92bGE8/tDwOBMnuA==}
+  renovate@37.381.4:
+    resolution: {integrity: sha512-57yo5WwIxO5atEDbh1rVfeSHyIyXruO5jImiMAUjDBuXAhJOQHdRhSlzJUExTikdNpQBIN188XHR405CFRUtNw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -8751,10 +8747,10 @@ snapshots:
     dependencies:
       is-glob: 4.0.3
 
-  glob@10.3.15:
+  glob@10.3.16:
     dependencies:
       foreground-child: 3.1.1
-      jackspeak: 2.3.6
+      jackspeak: 3.1.2
       minimatch: 9.0.4
       minipass: 7.1.2
       path-scurry: 1.11.1
@@ -9171,12 +9167,6 @@ snapshots:
     dependencies:
       html-escaper: 2.0.2
       istanbul-lib-report: 3.0.1
-
-  jackspeak@2.3.6:
-    dependencies:
-      '@isaacs/cliui': 8.0.2
-    optionalDependencies:
-      '@pkgjs/parseargs': 0.11.0
 
   jackspeak@3.1.2:
     dependencies:
@@ -10300,7 +10290,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.381.3(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.381.4(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.565.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))
       '@aws-sdk/client-ec2': 3.565.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))
@@ -10357,7 +10347,7 @@ snapshots:
       fs-extra: 11.2.0
       git-url-parse: 14.0.0
       github-url-from-git: 1.5.0
-      glob: 10.3.15
+      glob: 10.3.16
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
       google-auth-library: 9.10.0(encoding@0.1.13)
