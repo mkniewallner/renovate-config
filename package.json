@@ -12,9 +12,9 @@
     "type-check": "tsc"
   },
   "devDependencies": {
-    "@babel/core": "7.24.6",
-    "@babel/preset-env": "7.24.6",
-    "@babel/preset-typescript": "7.24.6",
+    "@babel/core": "7.24.7",
+    "@babel/preset-env": "7.24.7",
+    "@babel/preset-typescript": "7.24.7",
     "@types/bunyan": "1.8.11",
     "@types/jest": "29.5.12",
     "babel-jest": "29.7.0",
