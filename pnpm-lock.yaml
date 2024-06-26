@@ -45,8 +45,8 @@ importers:
         specifier: 1.21.3
         version: 1.21.3
       renovate:
-        specifier: 37.417.1
-        version: 37.417.1(@aws-sdk/client-sso-oidc@3.588.0)(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 37.418.2
+        version: 37.418.2(@aws-sdk/client-sso-oidc@3.588.0)(encoding@0.1.13)(typanion@3.14.0)
       ts-jest:
         specifier: 29.1.5
         version: 29.1.5(@babel/core@7.24.7)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.24.7))(jest@29.7.0(@types/node@20.14.8))(typescript@5.5.2)
@@ -2494,11 +2494,6 @@ packages:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
     engines: {node: '>= 6'}
 
-  glob@10.4.1:
-    resolution: {integrity: sha512-2jelhlq3E4ho74ZyVLN03oKdAZVUa6UDZzFLVH1H7dnoax+y9qyaq8zBkfDIggjniU19z0wU18y16jMB2eyVIw==}
-    engines: {node: '>=16 || 14 >=14.18'}
-    hasBin: true
-
   glob@10.4.2:
     resolution: {integrity: sha512-GwMlUF6PkPo3Gk21UxkCohOv0PLcIXVtKyLlpEI28R/cO/4eNOdmLk3CMW1wROV/WR/EsZOWAfBbBOqYvs88/w==}
     engines: {node: '>=16 || 14 >=14.18'}
@@ -3490,8 +3485,8 @@ packages:
     resolution: {integrity: sha512-1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ==}
     engines: {node: '>=12'}
 
-  openpgp@5.11.1:
-    resolution: {integrity: sha512-TynUBPuaSI7dN0gP+A38CjNRLxkOkkptefNanalDQ71BFAKKm+dLbksymSW5bUrB7RcAneMySL/Y+r/TbLpOnQ==}
+  openpgp@5.11.2:
+    resolution: {integrity: sha512-f8dJFVLwdkvPvW3VPFs6q9Vs2+HNhdvwls7a/MIFcQUB+XiQzRe7alfa3RtwfGJU7oUDDMAWPZ0nYsHa23Az+A==}
     engines: {node: '>= 8.0.0'}
 
   p-all@3.0.0:
@@ -3768,8 +3763,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.417.1:
-    resolution: {integrity: sha512-/fPwyT55JhtNHEJkKLDGTABciqNnZn7aKKhk/znP+GpOzWmge9MG7OgALilMVqGtICyEhF8RZtUo9QgPYysTTQ==}
+  renovate@37.418.2:
+    resolution: {integrity: sha512-fHRONoEeL29T8vsA8W+I7ojwZ60cDFWQz3ShGO4UIsl3lCdNYhcDH8TCAmhFb9eBOd3+22xbKA7Xe8H1MLoDEg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -8183,14 +8178,6 @@ snapshots:
     dependencies:
       is-glob: 4.0.3
 
-  glob@10.4.1:
-    dependencies:
-      foreground-child: 3.2.1
-      jackspeak: 3.4.0
-      minimatch: 9.0.4
-      minipass: 7.1.2
-      path-scurry: 1.11.1
-
   glob@10.4.2:
     dependencies:
       foreground-child: 3.2.1
@@ -9417,7 +9404,7 @@ snapshots:
     dependencies:
       mimic-fn: 4.0.0
 
-  openpgp@5.11.1:
+  openpgp@5.11.2:
     dependencies:
       asn1.js: 5.4.1
     optional: true
@@ -9737,7 +9724,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.417.1(@aws-sdk/client-sso-oidc@3.588.0)(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.418.2(@aws-sdk/client-sso-oidc@3.588.0)(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.588.0
       '@aws-sdk/client-ec2': 3.588.0
@@ -9794,7 +9781,7 @@ snapshots:
       fs-extra: 11.2.0
       git-url-parse: 14.0.0
       github-url-from-git: 1.5.0
-      glob: 10.4.1
+      glob: 10.4.2
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
       google-auth-library: 9.11.0(encoding@0.1.13)
@@ -9847,7 +9834,7 @@ snapshots:
       zod: 3.23.8
     optionalDependencies:
       better-sqlite3: 9.6.0
-      openpgp: 5.11.1
+      openpgp: 5.11.2
       re2: 1.21.3
     transitivePeerDependencies:
       - '@aws-sdk/client-sso-oidc'
