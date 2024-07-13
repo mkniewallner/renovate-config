@@ -45,8 +45,8 @@ importers:
         specifier: 1.21.3
         version: 1.21.3
       renovate:
-        specifier: 37.431.0
-        version: 37.431.0(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 37.431.2
+        version: 37.431.2(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.14.0)
       ts-jest:
         specifier: 29.2.2
         version: 29.2.2(@babel/core@7.24.8)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.24.8))(jest@29.7.0(@types/node@20.14.9))(typescript@5.5.3)
@@ -2542,6 +2542,11 @@ packages:
     engines: {node: '>=16 || 14 >=14.18'}
     hasBin: true
 
+  glob@10.4.3:
+    resolution: {integrity: sha512-Q38SGlYRpVtDBPSWEylRyctn7uDeTp4NQERTLiCT1FqA9JXPYWqAVmQU6qh4r/zMM5ehxTcbaO8EjhWnvEhmyg==}
+    engines: {node: '>=18'}
+    hasBin: true
+
   glob@6.0.4:
     resolution: {integrity: sha512-MKZeRNyYZAVVVG1oZeLaWie1uweH40m9AZwIwxyPbTSX4hHrVYSzLg0Ro5Z5R7XKkIX+Cc6oD1rqeDJnwsB8/A==}
     deprecated: Glob versions prior to v9 are no longer supported
@@ -3231,6 +3236,10 @@ packages:
     resolution: {integrity: sha512-CQl19J/g+Hbjbv4Y3mFNNXFEL/5t/KCg8POCuUqd4rMKjGG+j1ybER83hxV58zL+dFI1PTkt3GNFSHRt+d8qEQ==}
     engines: {node: 14 || >=16.14}
 
+  lru-cache@10.3.1:
+    resolution: {integrity: sha512-9/8QXrtbGeMB6LxwQd4x1tIMnsmUxMvIH/qWGsccz6bt9Uln3S+sgAaqfQNhbGA8ufzs2fHuP/yqapGgP9Hh2g==}
+    engines: {node: '>=18'}
+
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
@@ -3818,8 +3827,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.431.0:
-    resolution: {integrity: sha512-anP4sByBnKMrxnYafN/16Ivq/t+xuPGA6GtnliOyi+3x2HFPwYq3qmp8msmXbRnYz312LxZQYTVKRhCnouNeRA==}
+  renovate@37.431.2:
+    resolution: {integrity: sha512-yRZ/l3vdpBtBqj+DnS/0758ByxEPcjvhhbbRfB9/qX9iH+RXP8GWVJNxmyml7pZNoS7QSs4rtU/g+OMUGWaV2Q==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -7588,8 +7597,8 @@ snapshots:
     dependencies:
       '@npmcli/fs': 3.1.1
       fs-minipass: 3.0.3
-      glob: 10.4.2
-      lru-cache: 10.3.0
+      glob: 10.4.3
+      lru-cache: 10.3.1
       minipass: 7.1.2
       minipass-collect: 2.0.1
       minipass-flush: 1.0.5
@@ -8282,6 +8291,15 @@ snapshots:
       is-glob: 4.0.3
 
   glob@10.4.2:
+    dependencies:
+      foreground-child: 3.2.1
+      jackspeak: 3.4.0
+      minimatch: 9.0.5
+      minipass: 7.1.2
+      package-json-from-dist: 1.0.0
+      path-scurry: 1.11.1
+
+  glob@10.4.3:
     dependencies:
       foreground-child: 3.2.1
       jackspeak: 3.4.0
@@ -9168,6 +9186,8 @@ snapshots:
 
   lru-cache@10.3.0: {}
 
+  lru-cache@10.3.1: {}
+
   lru-cache@5.1.1:
     dependencies:
       yallist: 3.1.1
@@ -9613,7 +9633,7 @@ snapshots:
 
   path-scurry@1.11.1:
     dependencies:
-      lru-cache: 10.3.0
+      lru-cache: 10.3.1
       minipass: 7.1.2
 
   pend@1.2.0: {}
@@ -9839,7 +9859,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.431.0(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.431.2(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.606.0
       '@aws-sdk/client-ec2': 3.606.0
@@ -9896,7 +9916,7 @@ snapshots:
       fs-extra: 11.2.0
       git-url-parse: 14.0.0
       github-url-from-git: 1.5.0
-      glob: 10.4.2
+      glob: 10.4.3
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
       google-auth-library: 9.11.0(encoding@0.1.13)
@@ -9912,7 +9932,7 @@ snapshots:
       jsonata: 2.0.5
       jsonc-parser: 3.3.1
       klona: 2.0.6
-      lru-cache: 10.3.0
+      lru-cache: 10.3.1
       luxon: 3.4.4
       markdown-it: 14.1.0
       markdown-table: 2.0.0
