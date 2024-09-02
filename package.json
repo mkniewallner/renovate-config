@@ -24,7 +24,7 @@
     "lint-staged": "15.2.10",
     "prettier": "3.3.3",
     "re2": "1.21.4",
-    "renovate": "38.60.0",
+    "renovate": "38.61.0",
     "ts-jest": "29.2.5",
     "typescript": "5.5.4"
   },
