@@ -43,7 +43,11 @@
     },
     {
       matchPackageNames: ["astral-sh/ruff-pre-commit"],
-      customChangelogUrl: "https://github.com/charliermarsh/ruff",
+      customChangelogUrl: "https://github.com/astral-sh/ruff",
+    },
+    {
+      matchPackageNames: ["astral-sh/uv-pre-commit"],
+      customChangelogUrl: "https://github.com/astral-sh/uv",
     },
   ],
   customManagers: [
