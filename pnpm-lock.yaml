@@ -45,8 +45,8 @@ importers:
         specifier: 1.21.4
         version: 1.21.4
       renovate:
-        specifier: 39.161.5
-        version: 39.161.5(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 39.164.0
+        version: 39.164.0(encoding@0.1.13)(typanion@3.14.0)
       ts-jest:
         specifier: 29.2.5
         version: 29.2.5(@babel/core@7.26.8)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.26.8))(jest@29.7.0(@types/node@22.13.0))(typescript@5.7.3)
@@ -2093,8 +2093,8 @@ packages:
     resolution: {integrity: sha512-onMB0OkDjkXunhdW9htFjEhqrD54+M94i6ackoUkjHKbRnXdyEyKRelp4nJ1kAz32+s27jP1FsebpJCVl0BsvA==}
     engines: {node: '>=18.0'}
 
-  cronstrue@2.53.0:
-    resolution: {integrity: sha512-CkAcaI94xL8h6N7cGxgXfR5D7oV2yVtDzB9vMZP8tIgPyEv/oc/7nq9rlk7LMxvc3N+q6LKZmNLCVxJRpyEg8A==}
+  cronstrue@2.54.0:
+    resolution: {integrity: sha512-vyp5NklDxA5MjPfQgkn0bA+0vRQe7Q9keX7RPdV6rMgd7LtDvbuKgnT+3T5ZAX16anSP5HmahcRp8mziXsLfaw==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -3479,8 +3479,8 @@ packages:
     resolution: {integrity: sha512-VXJjc87FScF88uafS3JllDgvAm+c/Slfz06lorj2uAY34rlUu0Nt+v8wreiImcrgAjjIHp1rXpTDlLOGw29WwQ==}
     engines: {node: '>=18'}
 
-  openpgp@6.0.1:
-    resolution: {integrity: sha512-3lReDKjgWsKFArZT4Y/yj7/Q0q6/VhXarn4WqKEkyiBWckNjrThSGoB1t0IKo3Ke0ClvBpyQfTwumkGUkxOwww==}
+  openpgp@6.1.0:
+    resolution: {integrity: sha512-fRTeitP+hoGJD3kbdUlAI++wE6MvfvXw1rBqHwmBMxIpLjowatJ2zb5ThkORpIkSz5F12wO+xCYRSTbT7M4qKA==}
     engines: {node: '>= 18.0.0'}
 
   p-all@3.0.0:
@@ -3765,8 +3765,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.161.5:
-    resolution: {integrity: sha512-jE1lEVAElmyig5wtVT6CJ1wng9smimrNapiViNq6Ty4nJeETNkJ4CJ9B6nTWKT5lg2Y/Ne8de9jMdkz/6Z8CEw==}
+  renovate@39.164.0:
+    resolution: {integrity: sha512-jTXci5NVra7UCJO+5xKl9eUGFuBzgQcdAZc71Z1C27rTXR4ab7AWwaSt5I5VeTY2T68W8pKuVnU1Bf29IGNm/g==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -7592,7 +7592,7 @@ snapshots:
 
   croner@9.0.0: {}
 
-  cronstrue@2.53.0: {}
+  cronstrue@2.54.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -9208,7 +9208,7 @@ snapshots:
     dependencies:
       mimic-function: 5.0.1
 
-  openpgp@6.0.1:
+  openpgp@6.1.0:
     optional: true
 
   p-all@3.0.0:
@@ -9529,7 +9529,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.161.5(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.164.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.738.0
       '@aws-sdk/client-ec2': 3.738.0
@@ -9573,7 +9573,7 @@ snapshots:
       commander: 13.1.0
       conventional-commits-detector: 1.0.3
       croner: 9.0.0
-      cronstrue: 2.53.0
+      cronstrue: 2.54.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 6.1.0
@@ -9643,7 +9643,7 @@ snapshots:
       zod: 3.24.1
     optionalDependencies:
       better-sqlite3: 11.8.1
-      openpgp: 6.0.1
+      openpgp: 6.1.0
       re2: 1.21.4
     transitivePeerDependencies:
       - aws-crt
