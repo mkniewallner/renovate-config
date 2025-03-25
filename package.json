@@ -25,7 +25,7 @@
     "prettier": "3.5.3",
     "re2": "1.21.4",
     "renovate": "39.214.0",
-    "ts-jest": "29.2.6",
+    "ts-jest": "29.3.0",
     "typescript": "5.8.2"
   },
   "engines": {
