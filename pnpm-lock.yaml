@@ -45,8 +45,8 @@ importers:
         specifier: 1.21.4
         version: 1.21.4
       renovate:
-        specifier: 39.220.0
-        version: 39.220.0(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 39.220.1
+        version: 39.220.1(encoding@0.1.13)(typanion@3.14.0)
       ts-jest:
         specifier: 29.3.0
         version: 29.3.0(@babel/core@7.26.10)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.26.10))(jest@29.7.0(@types/node@22.13.11))(typescript@5.8.2)
@@ -3753,8 +3753,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.220.0:
-    resolution: {integrity: sha512-PLPPcD0NxTtFCJE55U1aifT0WN1xZYAS9bWSOnkuRx3YziNn8qGcYQLpm1zfeFyaGO+GID1Pmhot3YM12DDELA==}
+  renovate@39.220.1:
+    resolution: {integrity: sha512-/cE9BGah+aF1Fsi0Gic6xkHPb1axFHM2v5n/oeYcFBmWmTntRXiD4oAldNxjhjwLYVu7x6U2zgjuHsScFnaF8Q==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -9704,7 +9704,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.220.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.220.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.738.0
       '@aws-sdk/client-ec2': 3.738.0
