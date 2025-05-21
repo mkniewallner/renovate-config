@@ -1,5 +1,6 @@
 import { extractPackageFile } from "renovate/dist/modules/manager/custom/regex";
 import { regEx } from "renovate/dist/util/regex";
+import { describe, expect, test } from "vitest";
 import { loadFixture, loadRenovateConfiguration } from "./utils";
 
 function regexMatches(target: string, patterns: string[]): boolean {
