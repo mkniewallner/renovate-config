@@ -30,8 +30,8 @@ importers:
         specifier: 16.1.2
         version: 16.1.2
       prettier:
-        specifier: 3.6.0
-        version: 3.6.0
+        specifier: 3.6.1
+        version: 3.6.1
       re2:
         specifier: 1.22.1
         version: 1.22.1
@@ -3345,8 +3345,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  prettier@3.6.0:
-    resolution: {integrity: sha512-ujSB9uXHJKzM/2GBuE0hBOUgC77CN3Bnpqa+g80bkv3T3A93wL/xlzDATHhnhkzifz/UE2SNOvmbTz5hSkDlHw==}
+  prettier@3.6.1:
+    resolution: {integrity: sha512-5xGWRa90Sp2+x1dQtNpIpeOQpTDBs9cZDmA/qs2vDNN2i18PdapqY7CmBeyLlMuGqXJRIOPaCaVZTLNQRWUH/A==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -8439,7 +8439,7 @@ snapshots:
 
   prettier@3.5.3: {}
 
-  prettier@3.6.0: {}
+  prettier@3.6.1: {}
 
   proc-log@5.0.0: {}
 
