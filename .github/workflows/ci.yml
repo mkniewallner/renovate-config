@@ -13,7 +13,7 @@ env:
   # renovate: datasource=node depName=node versioning=node
   NODE_VERSION: "22.17.0"
   # renovate: datasource=npm depName=pnpm
-  PNPM_VERSION: "10.12.4"
+  PNPM_VERSION: "10.13.1"
 
 jobs:
   lint:
