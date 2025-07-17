@@ -36,8 +36,8 @@ importers:
         specifier: 1.22.1
         version: 1.22.1
       renovate:
-        specifier: 41.37.6
-        version: 41.37.6(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 41.37.7
+        version: 41.37.7(encoding@0.1.13)(typanion@3.14.0)
       typescript:
         specifier: 5.8.3
         version: 5.8.3
@@ -2883,8 +2883,8 @@ packages:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
 
-  luxon@3.7.0:
-    resolution: {integrity: sha512-FWOR5aRqol+wq5WqqCj/zQ4sHIq48T0RdeNHH0oYRRY+Ds11SOSZQ89y11TyhiQ5BLZGJorlcxi4FxgBx0LNtw==}
+  luxon@3.7.1:
+    resolution: {integrity: sha512-RkRWjA926cTvz5rAb1BqyWkKbbjzCGchDUIKMCUvNi17j6f6j8uHGDV82Aqcqtzd+icoYpELmG3ksgGiFNNcNg==}
     engines: {node: '>=12'}
 
   magic-string@0.30.17:
@@ -3499,8 +3499,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.37.6:
-    resolution: {integrity: sha512-YnEplggNPhXtPSB+NeOyZO7tFab8c1tssvdNiyW4cKPn2NmijAe+NP+UPdBx7cCJbVGgvr13/aHxVDzvA33Y8A==}
+  renovate@41.37.7:
+    resolution: {integrity: sha512-P9UVDmi61ZkqrTlNNEQZmqZTBTXHNShX2yed6tJxVy7Yuxcq+CLW8ghLIgXDb+m2LysCzyVIL//uY1eUQQrNGA==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -6140,7 +6140,7 @@ snapshots:
       adm-zip: 0.5.16
       fs-extra: 11.3.0
       got: 11.8.6
-      luxon: 3.7.0
+      luxon: 3.7.1
 
   '@renovatebot/pep440@4.1.0': {}
 
@@ -7941,7 +7941,7 @@ snapshots:
     dependencies:
       yallist: 4.0.0
 
-  luxon@3.7.0: {}
+  luxon@3.7.1: {}
 
   magic-string@0.30.17:
     dependencies:
@@ -8705,7 +8705,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.37.6(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.37.7(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.840.0
       '@aws-sdk/client-ec2': 3.840.0
@@ -8785,7 +8785,7 @@ snapshots:
       jsonata: 2.0.6
       jsonc-parser: 3.3.1
       klona: 2.0.6
-      luxon: 3.7.0
+      luxon: 3.7.1
       markdown-it: 14.1.0
       markdown-table: 3.0.4
       minimatch: 10.0.3
