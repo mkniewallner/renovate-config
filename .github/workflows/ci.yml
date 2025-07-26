@@ -28,8 +28,8 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
-      - run: node --run lint .
-      - run: node --run type-check
+      - run: pnpm run lint .
+      - run: pnpm run type-check
 
   tests:
     runs-on: ubuntu-24.04
@@ -43,4 +43,4 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
-      - run: node --run test
+      - run: pnpm run test
