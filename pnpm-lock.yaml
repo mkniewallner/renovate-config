@@ -36,8 +36,8 @@ importers:
         specifier: 1.22.1
         version: 1.22.1
       renovate:
-        specifier: 41.118.0
-        version: 41.118.0(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 41.118.1
+        version: 41.118.1(encoding@0.1.13)(typanion@3.14.0)
       typescript:
         specifier: 5.9.2
         version: 5.9.2
@@ -2033,10 +2033,6 @@ packages:
   colorette@2.0.20:
     resolution: {integrity: sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==}
 
-  commander@14.0.0:
-    resolution: {integrity: sha512-2uM9rYjPvyq39NwLRqaiLtWHyDC1FvryJDa2ATTVims5YAS4PupsEQsDvP14FqhFr0P49CYDugi59xaxJlTXRA==}
-    engines: {node: '>=20'}
-
   commander@14.0.1:
     resolution: {integrity: sha512-2JkV3gUZUVrbNA+1sjBOYLsMZ5cEEl8GTFP2a4AVz5hvasAMCQ1D2l2le/cX+pV4N6ZU17zjUahLpIXRrnWL8A==}
     engines: {node: '>=20'}
@@ -3562,8 +3558,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.118.0:
-    resolution: {integrity: sha512-geufHyxHqQFHOysUgEKnOLU0EcjiDjB2HbBssyYSMLvi8QJaS7Y1vav14mz6IyK0pHDNOTfuWPYDm3wnWks0Hw==}
+  renovate@41.118.1:
+    resolution: {integrity: sha512-M9aPHkvYnK0nRxhDlLFP1msUA2KYNCwXyRg5Ifb/Esj9EaCLrYSW6JT9ingk+yvGKl+MUQGs9pEo9LNZ/G8LYQ==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -7129,8 +7125,6 @@ snapshots:
 
   colorette@2.0.20: {}
 
-  commander@14.0.0: {}
-
   commander@14.0.1: {}
 
   concat-map@0.0.1:
@@ -8922,7 +8916,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.118.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.118.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.879.0
       '@aws-sdk/client-ec2': 3.879.0
@@ -8969,7 +8963,7 @@ snapshots:
       chalk: 5.6.2
       changelog-filename-regex: 2.0.1
       clean-git-ref: 2.0.1
-      commander: 14.0.0
+      commander: 14.0.1
       conventional-commits-detector: 1.0.3
       croner: 9.1.0
       cronstrue: 3.3.0
