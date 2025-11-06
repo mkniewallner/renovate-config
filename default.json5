@@ -11,8 +11,8 @@
     ":semanticCommits",
     "docker:pinDigests",
     "helpers:pinGitHubActionDigests",
-    "regexManagers:dockerfileVersions",
-    "regexManagers:githubActionsVersions",
+    "customManagers:dockerfileVersions",
+    "customManagers:githubActionsVersions",
   ],
   reviewers: ["mkniewallner"],
   labels: ["dependencies"],
@@ -43,21 +43,21 @@
     },
     {
       matchPackageNames: ["astral-sh/ruff-pre-commit"],
-      customChangelogUrl: "https://github.com/astral-sh/ruff",
+      changelogUrl: "https://github.com/astral-sh/ruff",
     },
     {
       matchPackageNames: ["astral-sh/uv-pre-commit"],
-      customChangelogUrl: "https://github.com/astral-sh/uv",
+      changelogUrl: "https://github.com/astral-sh/uv",
     },
   ],
   customManagers: [
     {
       customType: "regex",
       description: "Update PEP 440 Python dependencies",
-      fileMatch: ["^(\\.pre-commit-config\\.yaml|pyproject\\.toml)$"],
       matchStrings: [
         '"(?<depName>[\\w-]+)(?<currentValue>.+?)",? +# renovate: pep440-python-dependency\\s',
       ],
+      managerFilePatterns: ["/^(\\.pre-commit-config\\.yaml|pyproject\\.toml)$/"],
       datasourceTemplate: "pypi",
     },
   ],
