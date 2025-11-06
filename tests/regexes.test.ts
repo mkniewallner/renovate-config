@@ -1,11 +1,11 @@
 import { extractPackageFile } from "renovate/dist/modules/manager/custom/regex";
-import { regEx } from "renovate/dist/util/regex";
+import { matchRegexOrGlob } from "renovate/dist/util/string-match";
 import { describe, expect, test } from "vitest";
 import { loadFixture, loadRenovateConfiguration } from "./utils";
 
-function regexMatches(target: string, patterns: string[]): boolean {
+function regexOrGlobMatches(target: string, patterns: string[]): boolean {
   return patterns.some((pattern: string) => {
-    return regEx(pattern).test(target);
+    return matchRegexOrGlob(target, pattern);
   });
 }
 
@@ -29,8 +29,8 @@ describe("Update PEP 440 Python dependencies", () => {
       ["pyprojectatoml", false],
       ["pyproject.tomlfoobar", false],
       ["foo/pyproject.toml", false],
-    ])('regexMatches("%s") === %s', (path, expected) => {
-      expect(regexMatches(path, regexManager.fileMatch)).toBe(expected);
+    ])('regexOrGlobMatches("%s") === %s', (path, expected) => {
+      expect(regexOrGlobMatches(path, regexManager.managerFilePatterns)).toBe(expected);
     });
   });
 });
