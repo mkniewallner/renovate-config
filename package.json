@@ -23,7 +23,7 @@
     "re2": "1.22.3",
     "renovate": "42.19.9",
     "typescript": "5.9.3",
-    "vitest": "4.0.13"
+    "vitest": "4.0.14"
   },
   "engines": {
     "node": ">=24.0"
