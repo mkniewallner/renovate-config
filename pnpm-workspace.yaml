@@ -1,0 +1,2 @@
+# Avoid installing packages that are newer than 1 week old to reduce supply chain attacks probability.
+minimumReleaseAge: 10080
