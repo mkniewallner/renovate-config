@@ -15,7 +15,7 @@ env:
   # renovate: datasource=npm depName=pnpm
   PNPM_VERSION: "10.25.0"
   # renovate: datasource=npm depName=renovate
-  RENOVATE_VERSION: "42.42.2"
+  RENOVATE_VERSION: "42.42.3"
 
 jobs:
   validate-renovate-config:
