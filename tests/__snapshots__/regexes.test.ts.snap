@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Update PEP 440 Python dependencies > find dependencies in \`.pre-commit-config.yaml\` 1`] = `
+exports[`Update PEP 440 Python dependencies > finds dependencies 1`] = `
 {
   "datasourceTemplate": "pypi",
   "deps": [
@@ -16,38 +16,6 @@ exports[`Update PEP 440 Python dependencies > find dependencies in \`.pre-commit
       "datasource": "pypi",
       "depName": "flake8-simplify",
       "replaceString": ""flake8-simplify==0.14.1" # renovate: pep440-python-dependency
-",
-    },
-  ],
-  "matchStrings": [
-    ""(?<depName>[\\w-]+)(?<currentValue>.+?)",? +# renovate: pep440-python-dependency\\s",
-  ],
-}
-`;
-
-exports[`Update PEP 440 Python dependencies > find dependencies in \`pyproject.toml\` 1`] = `
-{
-  "datasourceTemplate": "pypi",
-  "deps": [
-    {
-      "currentValue": "==21.3.0",
-      "datasource": "pypi",
-      "depName": "argon2-cffi",
-      "replaceString": ""argon2-cffi==21.3.0",  # renovate: pep440-python-dependency
-",
-    },
-    {
-      "currentValue": " == 1.2.1",
-      "datasource": "pypi",
-      "depName": "arrow",
-      "replaceString": ""arrow == 1.2.1", # renovate: pep440-python-dependency
-",
-    },
-    {
-      "currentValue": " >= 0.16.0",
-      "datasource": "pypi",
-      "depName": "uvloop",
-      "replaceString": ""uvloop >= 0.16.0" # renovate: pep440-python-dependency
 ",
     },
   ],

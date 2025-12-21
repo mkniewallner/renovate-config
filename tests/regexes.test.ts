@@ -1,6 +1,6 @@
 import { extractPackageFile } from "renovate/dist/modules/manager/custom/regex";
 import { matchRegexOrGlob } from "renovate/dist/util/string-match";
-import { describe, expect, test } from "vitest";
+import { describe, expect, it, test } from "vitest";
 import { loadFixture, loadRenovateConfiguration } from "./utils";
 
 function regexOrGlobMatches(target: string, patterns: string[]): boolean {
@@ -12,23 +12,18 @@ function regexOrGlobMatches(target: string, patterns: string[]): boolean {
 describe("Update PEP 440 Python dependencies", () => {
   const regexManager = loadRenovateConfiguration()["customManagers"][0];
 
-  test.each([".pre-commit-config.yaml", "pyproject.toml"])(
-    "find dependencies in `%s`",
-    (fileName) => {
-      expect(extractPackageFile(loadFixture(fileName), fileName, regexManager)).toMatchSnapshot();
-    },
-  );
+  it("finds dependencies", () => {
+    const fileName = ".pre-commit-config.yaml";
+    expect(extractPackageFile(loadFixture(fileName), fileName, regexManager)).toMatchSnapshot();
+  });
 
-  describe("matches regexes patterns", () => {
+  describe("matches patterns", () => {
     test.each([
       [".pre-commit-config.yaml", true],
+      ["foo/.pre-commit-config.yaml", true],
+      ["foo/bar/.pre-commit-config.yaml", true],
       ["apre-commit-configayaml", false],
       [".pre-commit-config.yamlfoobar", false],
-      ["foo/.pre-commit-config.yaml", false],
-      ["pyproject.toml", true],
-      ["pyprojectatoml", false],
-      ["pyproject.tomlfoobar", false],
-      ["foo/pyproject.toml", false],
     ])('regexOrGlobMatches("%s") === %s', (path, expected) => {
       expect(regexOrGlobMatches(path, regexManager.managerFilePatterns)).toBe(expected);
     });
