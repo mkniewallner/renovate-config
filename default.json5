@@ -58,7 +58,7 @@
       matchStrings: [
         '"(?<depName>[\\w-]+)(?<currentValue>.+?)",? +# renovate: pep440-python-dependency\\s',
       ],
-      managerFilePatterns: ["/^(\\.pre-commit-config\\.yaml|pyproject\\.toml)$/"],
+      managerFilePatterns: ["**/.pre-commit-config.yaml"],
       datasourceTemplate: "pypi",
     },
   ],
