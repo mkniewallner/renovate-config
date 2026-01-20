@@ -36,8 +36,8 @@ importers:
         specifier: 1.23.0
         version: 1.23.0
       renovate:
-        specifier: 42.80.3
-        version: 42.80.3(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 42.81.1
+        version: 42.81.1(encoding@0.1.13)(typanion@3.14.0)
       typescript:
         specifier: 5.9.3
         version: 5.9.3
@@ -3646,8 +3646,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.80.3:
-    resolution: {integrity: sha512-Bb9An0rzggiq7IJ6gTD4aeff2+QmwkAy2hdkStFYL9wm3+9kawbvAr96IeoaOcyr/FiIk7z10SwSD/d1efj3og==}
+  renovate@42.81.1:
+    resolution: {integrity: sha512-TlPWmG3pOKaeOU+jlUW/A736OqKAyJjE5ynwTLdKciJFfC1YtBGUxMvVubedCm9pV4lDn2Fa/iQmiaS23wWXrg==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4143,8 +4143,8 @@ packages:
     resolution: {integrity: sha512-YuKoXDAhBYxY7SfOKxHBDoSyENFeW5VvIIQp2TGQuit8gpK6MnWaQelBKxso72DoxTZfZdcP3W90LqpSkgPzLQ==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
 
-  validate-npm-package-name@7.0.1:
-    resolution: {integrity: sha512-BM0Upcemlce8/9+HE+/VpWqn3u3mYh6Om/FEC8yPMnEHwf710fW5Q6fhjT1SQyRlZD1G9CJbgfH+rWgAcIvjlQ==}
+  validate-npm-package-name@7.0.2:
+    resolution: {integrity: sha512-hVDIBwsRruT73PbK7uP5ebUt+ezEtCmzZz3F59BSr2F6OVFnJ/6h8liuvdLrQ88Xmnk6/+xGGuq+pG9WwTuy3A==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
   vfile-message@4.0.3:
@@ -9070,7 +9070,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.80.3(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.81.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.958.0
       '@aws-sdk/client-ec2': 3.958.0
@@ -9188,7 +9188,7 @@ snapshots:
       tslib: 2.8.1
       upath: 2.0.1
       url-join: 5.0.0
-      validate-npm-package-name: 7.0.1
+      validate-npm-package-name: 7.0.2
       xmldoc: 2.0.3
       yaml: 2.8.2
       zod: 3.25.76
@@ -9728,7 +9728,7 @@ snapshots:
     dependencies:
       builtins: 5.1.0
 
-  validate-npm-package-name@7.0.1: {}
+  validate-npm-package-name@7.0.2: {}
 
   vfile-message@4.0.3:
     dependencies:
