@@ -20,7 +20,7 @@
     "json5": "2.2.3",
     "lint-staged": "16.2.7",
     "prettier": "3.8.1",
-    "re2": "1.23.0",
+    "re2": "1.23.1",
     "renovate": "42.92.4",
     "typescript": "5.9.3",
     "vitest": "4.0.18"
