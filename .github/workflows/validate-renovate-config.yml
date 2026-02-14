@@ -13,7 +13,7 @@ env:
   # renovate: datasource=node depName=node versioning=node
   NODE_VERSION: "24.13.0"
   # renovate: datasource=npm depName=pnpm
-  PNPM_VERSION: "10.28.2"
+  PNPM_VERSION: "10.29.1"
   # renovate: datasource=npm depName=renovate
   RENOVATE_VERSION: "42.92.4"
 
