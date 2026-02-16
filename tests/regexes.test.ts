@@ -1,4 +1,4 @@
-import { extractPackageFile } from "renovate/dist/modules/manager/custom/regex";
+import { extractPackageFile } from "renovate/dist/modules/manager/index";
 import { matchRegexOrGlob } from "renovate/dist/util/string-match";
 import { describe, expect, it, test } from "vitest";
 import { loadFixture, loadRenovateConfiguration } from "./utils";
@@ -14,7 +14,9 @@ describe("Update PEP 440 Python dependencies", () => {
 
   it("finds dependencies", () => {
     const fileName = ".pre-commit-config.yaml";
-    expect(extractPackageFile(loadFixture(fileName), fileName, regexManager)).toMatchSnapshot();
+    expect(
+      extractPackageFile("regex", loadFixture(fileName), fileName, regexManager),
+    ).toMatchSnapshot();
   });
 
   describe("matches patterns", () => {
