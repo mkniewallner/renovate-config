@@ -11,7 +11,7 @@ concurrency:
 
 env:
   # renovate: datasource=npm depName=renovate
-  RENOVATE_VERSION: "43.109.3"
+  RENOVATE_VERSION: "43.109.4"
 
 jobs:
   validate-renovate-config:
