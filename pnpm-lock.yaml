@@ -36,8 +36,8 @@ importers:
         specifier: 1.24.1
         version: 1.24.1
       renovate:
-        specifier: 43.209.4
-        version: 43.209.4(typanion@3.14.0)
+        specifier: 43.210.1
+        version: 43.210.1(typanion@3.14.0)
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -2335,6 +2335,10 @@ packages:
     resolution: {integrity: sha512-5YgH9UJd7wVb9hIouI2adWpgqrrICkt070Dnj8EUY1+B4B2P9eRLPAkAAo6NICA7CEhOIeBHl46u9zSNpNu7zA==}
     engines: {node: 20 || >=22}
 
+  lru-cache@11.5.1:
+    resolution: {integrity: sha512-RPimw/7aMdv2oqRrxKwvZXcPfwBrn/JZ2xYcY9Hus/6LaS3VOAKVWKWgNLCFSiOm1ESXinjsDlidVU7JlnCN2A==}
+    engines: {node: 20 || >=22}
+
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
@@ -2849,8 +2853,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.209.4:
-    resolution: {integrity: sha512-QT4CaSshRkJoKg4W1MSbpu0sttCNxwFwQsY+JDQEd3opbLYw4cmiwR7kJ1oh3VMLrd/pt3q02eyUIOpyz3WVzg==}
+  renovate@43.210.1:
+    resolution: {integrity: sha512-bLVZ9131+TkSrI4fg9uzTwQhiENjj1Y0hd1LPQHG0Y23zTRPO/3QD4u7TE0uSBel3raAA/iQQZdY+nMJ1DwInw==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -6110,6 +6114,8 @@ snapshots:
 
   lru-cache@11.5.0: {}
 
+  lru-cache@11.5.1: {}
+
   lru-cache@5.1.1:
     dependencies:
       yallist: 3.1.1
@@ -6779,7 +6785,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.209.4(typanion@3.14.0):
+  renovate@43.210.1(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1053.0
       '@aws-sdk/client-ec2': 3.1053.0
@@ -6860,7 +6866,7 @@ snapshots:
       jsonata: 2.2.1
       jsonc-weaver: 0.2.4
       klona: 2.0.6
-      lru-cache: 11.5.0
+      lru-cache: 11.5.1
       luxon: 3.7.2
       markdown-it: 14.2.0
       markdown-table: 3.0.4
