@@ -36,8 +36,8 @@ importers:
         specifier: 1.24.1
         version: 1.24.1
       renovate:
-        specifier: 43.222.1
-        version: 43.222.1(typanion@3.14.0)
+        specifier: 43.224.0
+        version: 43.224.0(typanion@3.14.0)
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -2922,8 +2922,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.222.1:
-    resolution: {integrity: sha512-rNYfr0wyvPcb2klwdgxfvAc4ocz6dWDVcPUkq7UxsAWU3i8q2Azl326hUs6sEYPLsCl7lMYLd/CV9rNYBwep+Q==}
+  renovate@43.224.0:
+    resolution: {integrity: sha512-j+0GF7v7jyFp+ywap9jZJXTVpeuhiVM1ArMgwT01pwi9UIsRnVQTuho5bLyxtBzdaRiniMNVkLetv/eVvtyTlw==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -4667,7 +4667,7 @@ snapshots:
 
   '@npmcli/fs@5.0.0':
     dependencies:
-      semver: 7.8.2
+      semver: 7.8.4
 
   '@one-ini/wasm@0.2.1': {}
 
@@ -5221,7 +5221,7 @@ snapshots:
       hpagent: 1.2.0
       micromatch: 4.0.8
       p-limit: 2.3.0
-      semver: 7.8.2
+      semver: 7.8.4
       strip-ansi: 6.0.1
       tar: 7.5.16
       tinylogic: 2.0.0
@@ -5387,7 +5387,7 @@ snapshots:
 
   builtins@5.1.0:
     dependencies:
-      semver: 7.8.2
+      semver: 7.8.4
 
   bunyan@1.8.15:
     optionalDependencies:
@@ -5629,7 +5629,7 @@ snapshots:
       '@one-ini/wasm': 0.2.1
       commander: 14.0.3
       minimatch: 10.2.5
-      semver: 7.8.2
+      semver: 7.8.4
 
   electron-to-chromium@1.5.372: {}
 
@@ -5906,7 +5906,7 @@ snapshots:
       es6-error: 4.1.1
       matcher: 3.0.0
       roarr: 2.15.4
-      semver: 7.8.2
+      semver: 7.8.4
       serialize-error: 7.0.1
 
   globalthis@1.0.4:
@@ -6949,7 +6949,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.222.1(typanion@3.14.0):
+  renovate@43.224.0(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1053.0
       '@aws-sdk/client-ec2': 3.1053.0
