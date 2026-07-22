@@ -22,7 +22,7 @@
     "prettier": "3.9.5",
     "re2": "1.26.0",
     "renovate": "43.264.2",
-    "typescript": "6.0.3",
+    "typescript": "7.0.2",
     "vitest": "4.1.10"
   },
   "engines": {
