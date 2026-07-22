@@ -36,8 +36,8 @@ importers:
         specifier: 1.26.0
         version: 1.26.0
       renovate:
-        specifier: 43.263.6
-        version: 43.263.6(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 43.263.8
+        version: 43.263.8(supports-color@7.2.0)(typanion@3.14.0)
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -2355,10 +2355,6 @@ packages:
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
-  lru-cache@11.5.1:
-    resolution: {integrity: sha512-RPimw/7aMdv2oqRrxKwvZXcPfwBrn/JZ2xYcY9Hus/6LaS3VOAKVWKWgNLCFSiOm1ESXinjsDlidVU7JlnCN2A==}
-    engines: {node: 20 || >=22}
-
   lru-cache@11.5.2:
     resolution: {integrity: sha512-4pfM1Ff0x50o0tQwb5ucw/RzNyD0/YJME6IVcStalZuMWxdt3sR3huStTtxz4PUmvZfRguvDejasvQ2kifR11g==}
     engines: {node: 20 || >=22}
@@ -2894,8 +2890,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.263.6:
-    resolution: {integrity: sha512-K8JXOnSvYX61/eR7W4cCe77qw9tR3LUsLgdjA0SVCiCK67Xax98yj2D710COvaLCuM4o/T1y1mcJimkHIzzW/g==}
+  renovate@43.263.8:
+    resolution: {integrity: sha512-qVXQD4TVx4D+uak424X8oku4V4SCqF8OKP/s2jhMHYq0TUBEC212gink/phxLdzzxijZ6xJ8co3zSjhWWSAHhw==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -5342,7 +5338,7 @@ snapshots:
       '@npmcli/fs': 5.0.0
       fs-minipass: 3.0.3
       glob: 13.0.6
-      lru-cache: 11.5.1
+      lru-cache: 11.5.2
       minipass: 7.1.3
       minipass-collect: 2.0.1
       minipass-flush: 1.0.7
@@ -6193,8 +6189,6 @@ snapshots:
 
   lru-cache@10.4.3: {}
 
-  lru-cache@11.5.1: {}
-
   lru-cache@11.5.2: {}
 
   lru-cache@5.1.1:
@@ -6753,7 +6747,7 @@ snapshots:
 
   path-scurry@2.0.2:
     dependencies:
-      lru-cache: 11.5.1
+      lru-cache: 11.5.2
       minipass: 7.1.3
 
   pathe@2.0.3: {}
@@ -6883,7 +6877,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.263.6(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@43.263.8(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
