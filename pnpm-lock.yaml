@@ -36,8 +36,8 @@ importers:
         specifier: 1.26.1
         version: 1.26.1
       renovate:
-        specifier: 43.285.6
-        version: 43.285.6(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 43.285.7
+        version: 43.285.7(supports-color@7.2.0)(typanion@3.14.0)
       typescript:
         specifier: 7.0.2
         version: 7.0.2
@@ -101,6 +101,9 @@ packages:
   '@aws-sdk/core@3.977.1':
     resolution: {integrity: sha512-KVtQRtc00ES/y+Sc3vYXeP6pCIcNlBJCZOwvqSy8ZpVGmbM5+IG+AfhuTKQ2oXmIVqZJewaGMMpzPkywC6xg0w==}
     engines: {node: '>=20.0.0'}
+    deprecated: |-
+      Deprecated due to Document number parsing bug in JSON, see
+        https://github.com/aws/aws-sdk-js-v3/issues/8246. Newer version available.
 
   '@aws-sdk/credential-provider-cognito-identity@3.972.60':
     resolution: {integrity: sha512-16Fxa3veKIO6nHJr+vN76z3BkSU7725lzruc5S2SQSTUTbK4TXtmi8033WQljZj4k1+383UsMaNOHN6B76fK5A==}
@@ -2930,8 +2933,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.285.6:
-    resolution: {integrity: sha512-FnzocUCLcTVU2BfbWqM5uipp/9DXkxdRe8TE9JHZmQsG8VJBZgdf4bDNi7XGSDeFIhSqsZ/VXB0Mrkx7SC/0BA==}
+  renovate@43.285.7:
+    resolution: {integrity: sha512-mEmV3ZICRx94k/ntjxS1TSWl30Ab23pn/ycP00cTpFSUjman6Mc9St02r4OnHaBTT5vIug6HmdTUpXyzwPD15g==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -6738,7 +6741,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.285.6(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@43.285.7(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
