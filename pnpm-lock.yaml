@@ -36,8 +36,8 @@ importers:
         specifier: 1.26.1
         version: 1.26.1
       renovate:
-        specifier: 44.5.1
-        version: 44.5.1(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 44.5.2
+        version: 44.5.2(supports-color@7.2.0)(typanion@3.14.0)
       typescript:
         specifier: 7.0.2
         version: 7.0.2
@@ -2931,8 +2931,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.5.1:
-    resolution: {integrity: sha512-i01uo20wQ3kJIFwRhvU3Zh7Z5B/bRUqCjFbEqIkN/c400kALoCfOrkvQhZ3X4Mon/bgVB1ZtpTX4g7yP9DP+Gw==}
+  renovate@44.5.2:
+    resolution: {integrity: sha512-lzo57rP5CiYUdezR5tpX/9/4gYx2AoZAi4aqPOfaHSdbUObmrda14/J9k3pklik87AoWNOWehQ2x95PPoh3nnA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -2984,10 +2984,6 @@ packages:
   safe-stable-stringify@2.5.0:
     resolution: {integrity: sha512-b3rppTKm9T+PsVCBEOUR46GWI7fdOs00VKZ1+9c1EWDaDMvjQc6tUwuFyIprgGgTcWoVHSKrU8H31ZHA2e0RHA==}
     engines: {node: '>=10'}
-
-  sax@1.6.0:
-    resolution: {integrity: sha512-6R3J5M4AcbtLUdZmRv2SygeVaM7IhrLXu9BmnOGmmACak8fiUtOsYNWUS4uK7upbmHIBbLBeFeI//477BKLBzA==}
-    engines: {node: '>=11.0.0'}
 
   sax@1.6.1:
     resolution: {integrity: sha512-42tBVwLWnaQvW5zc4HbZrTuWccECCZfBi92FDuwtqxasH+JbPB3/FOKb1m222K42R4WxuxzzMsTswfzgtSu64Q==}
@@ -6742,7 +6738,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.5.1(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.5.2(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
@@ -6939,8 +6935,6 @@ snapshots:
     optional: true
 
   safe-stable-stringify@2.5.0: {}
-
-  sax@1.6.0: {}
 
   sax@1.6.1: {}
 
@@ -7334,7 +7328,7 @@ snapshots:
 
   xmldoc@2.0.3:
     dependencies:
-      sax: 1.6.0
+      sax: 1.6.1
 
   xtend@4.0.2: {}
 
