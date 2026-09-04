@@ -36,8 +36,8 @@ importers:
         specifier: 1.26.1
         version: 1.26.1
       renovate:
-        specifier: 44.46.5
-        version: 44.46.5(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 44.48.3
+        version: 44.48.3(supports-color@7.2.0)(typanion@3.14.0)
       typescript:
         specifier: 7.0.2
         version: 7.0.2
@@ -2863,8 +2863,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.46.5:
-    resolution: {integrity: sha512-3Gko2v2BFAgWV3WZGwOO8XbkA0LXOZMb7hIw4bUtZbNlPs1LLWu2WmbUgYiwaPycfSAFR/wb8r8Xw48Vj2iJGw==}
+  renovate@44.48.3:
+    resolution: {integrity: sha512-VklyDrSoc/Lz8bAy0PtLSaGbNz778lxhgA/QG1MoW0yxjMKgjaAxYGWYrilfpOU8xLYGHod1sTtVHeHOUpeXQA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -5366,9 +5366,9 @@ snapshots:
     dependencies:
       reusify: 1.1.0
 
-  fdir@6.5.0(picomatch@4.0.5):
+  fdir@6.5.0(picomatch@4.0.7):
     optionalDependencies:
-      picomatch: 4.0.5
+      picomatch: 4.0.7
 
   fetch-blob@3.2.0:
     dependencies:
@@ -6541,7 +6541,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.46.5(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.48.3(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1095.0
       '@aws-sdk/client-ec2': 3.1095.0
@@ -6885,8 +6885,8 @@ snapshots:
 
   tinyglobby@0.2.17:
     dependencies:
-      fdir: 6.5.0(picomatch@4.0.5)
-      picomatch: 4.0.5
+      fdir: 6.5.0(picomatch@4.0.7)
+      picomatch: 4.0.7
 
   tinylogic@2.0.0: {}
 
@@ -7043,7 +7043,7 @@ snapshots:
   vite@8.2.2(@types/node@26.2.0)(yaml@2.9.0):
     dependencies:
       lightningcss: 1.33.0
-      picomatch: 4.0.5
+      picomatch: 4.0.7
       postcss: 8.5.26
       rolldown: 1.2.5
       tinyglobby: 0.2.17
