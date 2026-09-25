@@ -19,7 +19,7 @@
     "husky": "9.1.7",
     "json5": "2.2.3",
     "lint-staged": "17.5.1",
-    "prettier": "3.9.7",
+    "prettier": "3.9.8",
     "re2": "1.26.1",
     "renovate": "44.49.1",
     "typescript": "7.0.2",
