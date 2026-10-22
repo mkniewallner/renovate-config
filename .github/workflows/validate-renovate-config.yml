@@ -23,7 +23,7 @@ jobs:
           version: "11.28.5"
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
-          node-version: "24.21.0"
+          node-version: "24.22.0"
       # Avoid installing packages that are newer than 1 week old to reduce supply chain attacks probability.
       - run: pnpm config set minimumReleaseAge 10080
       - run: pnpm --package renovate@${{ env.RENOVATE_VERSION }} dlx renovate-config-validator default.json5 renovate.json5
